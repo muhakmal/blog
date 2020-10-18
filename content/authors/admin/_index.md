@@ -18,7 +18,7 @@ interests:
 social:
   - icon: envelope-square
     icon_pack: fas
-    link: "mailto:thisisakmal@me.com" # For a direct email link, use "mailto:test@example.org".
+    link: "#contact" # For a direct email link, use "mailto:test@example.org".
   - icon: twitter-square
     icon_pack: fab
     link: https://twitter.com/ayeakmal
