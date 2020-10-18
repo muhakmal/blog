@@ -8,7 +8,9 @@ authors:
   - Muhamad Akmal
 tags:
   - AstraPay
-external_link: astrapay.atlassian.net
+external_link: https://astrapay.atlassian.net
+links:
+  - url: https://astrapay.atlassian.net
 image:
   filename: featured
   focal_point: Smart
