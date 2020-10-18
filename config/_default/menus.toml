@@ -10,8 +10,8 @@
 
 [[main]]
   name = "Blog"
-  url = "/blog"
-  weight = 70
+  url = "#posts"
+  weight = 20
 
 [[main]]
   name = "Projects"
