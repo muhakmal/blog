@@ -6,12 +6,7 @@ subtitle: Menjadi tidak egois, *considerate*/memikirkan kepentingan dan perasaan
   Karenanya, kita semua bisa menjadi manusia yang tidak terlalu menyebalkan.
   -hlm.201
 date: 2020-05-20T13:44:12.076Z
-summary: Baca judul buku ini ngingetin buku legendaris Stephen Covey yang
-  berjudul \[7 Habits of Highly Effective
-  People](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People).
-  Kabarnya memang Henry Manampiring sendiri memang terinspirasi dari buku
-  tersebut, hanya saja untuk dibuku ini di balut lebih ringan dan menyenangkan
-  untuk dibaca.
+summary: Baca judul buku ini ngingetin buku legendaris Stephen Covey yang berjudul [7 Habits of Highly Effective People](https://www.goodreads.com/book/show/36072 The_7_Habits_of_Highly_Effective_People). Kabarnya memang Henry Manampiring sendiri memang terinspirasi dari buku tersebut, hanya saja untuk dibuku ini di balut lebih ringan dan menyenangkan untuk dibaca.
 draft: false
 featured: false
 authors:
