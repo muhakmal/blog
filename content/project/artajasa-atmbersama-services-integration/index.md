@@ -4,9 +4,9 @@ date: 2020-10-18T15:56:59.755Z
 draft: false
 featured: false
 authors:
-  - muhamad akmal
+  - Muhamad Akmal
 tags:
-  - astrapay
+  - AstraPay
 external_link: https://play.google.com/store/apps/details?id=com.ada.astrapay
 image:
   filename: featured
