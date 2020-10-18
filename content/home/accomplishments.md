@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
-subtitle = ""
+title = "Licenses & Certifications"
+subtitle = "Professional Certifications"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,33 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "Telkom Indonesia"
+  organization_url = "https://www.telkom.co.id"
+  title = "UX Design Bootcamp"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = "https://akmal.page.link/uxd-certif"
+  date_start = "2018-09-10"
   date_end = ""
-  description = ""
+  description = "1 Week User Experience Design Bootcamp - Certificate of Completion"
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  organization = "Telkom Professional Certification Center"
+  organization_url = "https://www.telecompdc.id/"
+  title = "Telkom Certified User Experience"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
-
+  certificate_url = "https://www.dropbox.com/s/ghrz3qa1an4n7an/SERTIFIKAT%20TCUX%20MUHAMAD%20AKMAL-rotated.pdf?dl=0"
+  date_start = "2018-09-28"
+  date_end = "2021-09-28"
+  description = "TCUX18012 - Information Architecture & Navigation, Customer Journey, Persona, Principle & Heuristic Evaluation, Usability Testing."
 +++
