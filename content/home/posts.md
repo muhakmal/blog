@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Blog"
-subtitle = "Penjelajahan, narasi, literasi, dan komputerisasi"
+title = "Posts"
+subtitle = "Exploration, narration, literation, and computerization"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
