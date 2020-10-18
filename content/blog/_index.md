@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Blog
 
 # View.
 #   1 = List
@@ -9,6 +9,8 @@ view: 2
 
 # Optional header image (relative to `static/media/` folder).
 header:
-  caption: ""
+  caption: "Akmal Blog"
   image: ""
+
+aliases: "/post/"
 ---
