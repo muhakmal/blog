@@ -1,32 +1,29 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Sendiri Ke Kalimantan"
-subtitle: ""
-summary: "Jakarta-Kalimantan sendirian, dengan ngabisin waktu 3 hari 2 malam yang penuh tantangan disetiap langkahnya. semoga bisa bermanfaat untuk netizen yang baca ini. **Tuhan Bersama Orang Berani!**"
-authors: [Muhamad Akmal]
-tags: [perjalanan, kalimantan, solo travel]
-categories: [Perjalanan, Jurnal]
-date: 2014-10-20T18:49:44+07:00
+summary: Jakarta-Kalimantan sendirian, dengan ngabisin waktu 3 hari 2 malam yang
+  penuh tantangan disetiap langkahnya. semoga bisa bermanfaat untuk netizen yang
+  baca ini. **Tuhan Bersama Orang Berani!**
+draft: true
+authors:
+  - Muhamad Akmal
 lastmod: 2014-10-21T18:49:44+07:00
+title: Sendiri Ke Kalimantan
+subtitle: ""
+date: 2014-10-20T18:49:44+07:00
 featured: false
-draft: false
-aliases: "/post/"
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+tags:
+  - perjalanan
+  - kalimantan
+  - solo travel
+categories:
+  - Perjalanan
+  - Jurnal
+projects: []
 image:
   caption: ""
   focal_point: ""
   preview_only: true
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+  filename: featured.png
+aliases: /post/
 ---
 
 **Perjalanan dimulai**
