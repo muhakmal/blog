@@ -1,5 +1,5 @@
 ---
-title: New Post from Wowchemy
+title: New Post from Wowchemy Content Manager
 date: 2020-10-18T10:29:27.957Z
 draft: false
 featured: false
