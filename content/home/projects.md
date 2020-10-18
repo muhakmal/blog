@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Epic projects that that i've handled."
 
 [content]
   # Page type to display. E.g. project.
@@ -21,17 +21,26 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "AstraPay"
+    tag = "AstraPay"
   
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+    name = "BLANJA"
+    tag = "BLANJA"
+  
+  [[content.filter_button]]
+    name = "Baskom"
+    tag = "Baskom"
+
+  [[content.filter_button]]
+    name = "Research"
+    tag = "Research"
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

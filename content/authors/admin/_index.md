@@ -16,21 +16,21 @@ interests:
   - Product Discovery
   - Knowledge Dicsovery
 social:
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/muhakmal
-  - icon: twitter
+  - icon: envelope-square
+    icon_pack: fas
+    link: "mailto:thisisakmal@me.com" # For a direct email link, use "mailto:test@example.org".
+  - icon: twitter-square
     icon_pack: fab
     link: https://twitter.com/ayeakmal
-  - icon: envelope
-    icon_pack: fas
-    link: "#contact"
-  - link: https://www.behance.net/muhamadakmal
-    icon_pack: fas
-    icon: behance
-  - link: https://linkedin.com/in/muhakmal
-    icon_pack: far
-    icon: linkedin
+  - icon: github-square
+    icon_pack: fab
+    link: https://github.com/muhakmal
+  - icon: linkedin
+    icon_pack: fab
+    link: https://linkedin.com/in/muhakmal
+  - icon: behance-square
+    icon_pack: fab
+    link: https://www.behance.net/muhamadakmal
 education:
   courses:
     - course: S.Kom in Computer Science
@@ -44,6 +44,6 @@ user_groups:
   - Visitors
 highlight_name: false
 title: Muhamad Akmal
-email: ""
+email: "muhamadakmal@outlook.co.id"
 ---
 Akmal here. I'm a longlife learner. while exploring knowledge and traveling the universe is my hobbies I love reading Romans and Self Management books. Besides, I'm familiar with SDLC especially product management. So, next time you meet me lets do a coffee and talk about stuff.
