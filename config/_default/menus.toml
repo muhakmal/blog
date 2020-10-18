@@ -14,19 +14,56 @@
   weight = 20
 
 [[main]]
+  name = "Categories"
+  url = "category"
+  weight = 21
+  hasChildren = true
+  identifier = "kategoriDropdown"
+
+[[main]]
+  name = "Resensi Buku"
+  url = "/category/buku/"
+  weight = 7
+  parent = "kategoriDropdown"
+
+[[main]]
+  name = "Jurnal"
+  url = "/category/jurnal/"
+  weight = 7
+  parent = "kategoriDropdown"
+
+[[main]]
+  name = "Catatan Product"
+  url = "/category/product-development/"
+  weight = 7
+  parent = "kategoriDropdown"
+
+[[main]]
+  name = "Catatan Perjalanan"
+  url = "/category/perjalanan/"
+  weight = 7
+  parent = "kategoriDropdown"
+
+[[main]]
+  name = "Programming"
+  url = "/category/programming/"
+  weight = 7
+  parent = "kategoriDropdown"
+
+[[main]]
   name = "Projects"
   url = "#projects"
   weight = 30
-
-# [[main]]
-#   name = "Publications"
-#   url = "#featured"
-#   weight = 40
 
 [[main]]
   name = "Contact"
   url = "#contact"
   weight = 60
+
+# [[main]]
+#   name = "Publications"
+#   url = "#featured"
+#   weight = 40
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
