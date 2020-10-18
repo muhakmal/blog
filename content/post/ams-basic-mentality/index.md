@@ -1,6 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
+aliases: "/blog/ams-basic-mentality"
+
 title: "AMS Basic Mentality"
 subtitle: "Melalu implementasi Basic Mentality, budaya perusahaan mulai ditanamkan."
 summary: "Mentalitas dasar yang baik, diyakini mampu membawa ke arah kemajuan dan bahkan mampu memperkuat perusahaan dikala memasuki masa-masa krisis. Astra, sebagai induk perusahaan besar terbukti mampu melewati masa-masa tersebut hingga bisa menjadi perusahaan yang disegani."

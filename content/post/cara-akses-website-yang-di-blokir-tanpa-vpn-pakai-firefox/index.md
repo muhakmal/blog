@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/cara-akses-website-yang-di-blokir-tanpa-vpn-pakai-firefox"
+
 title: "Cara Akses Website yang di Blokir Tanpa VPN Pakai Firefox"
 subtitle: ""
 summary: "DNS over HTTPS adalah fitur yang relatif baru yang dirancang untuk meningkatkan privasi, keamanan, dan keandalan koneksi."

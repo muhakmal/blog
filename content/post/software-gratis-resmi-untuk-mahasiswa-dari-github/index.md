@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/software-gratis-resmi-untuk-mahasiswa-dari-github"
 
 title: "Software dan Tools Gratis Resmi Untuk Mahasiswa dari GitHub"
 subtitle: ""

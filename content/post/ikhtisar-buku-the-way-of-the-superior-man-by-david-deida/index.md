@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/ikhtisar-buku-the-way-of-the-superior-man-by-david-deida"
 
 title: "Ikhtisar Buku The Way of The Superior Man by David Deida"
 subtitle: ""

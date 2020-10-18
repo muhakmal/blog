@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/sendiri-ke-kalimantan"
+
 summary: Jakarta-Kalimantan sendirian, dengan ngabisin waktu 3 hari 2 malam yang
   penuh tantangan disetiap langkahnya. semoga bisa bermanfaat untuk netizen yang
   baca ini. **Tuhan Bersama Orang Berani!**

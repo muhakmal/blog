@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/resensi-buku-investing-in-digital-startups-oleh-william-yang"
+
 title: "Resensi Buku Investing in Digital Startups oleh William Yang"
 subtitle: "Orang melihat 10 tahun ke depan. Saya melihat 300 tahun ke depan."
 summary: "Dalam buku Investing in Digital Startups yang ditulis oleh William Yang mencakup pembahasan praktis dan success story yang ada di dunia startups."

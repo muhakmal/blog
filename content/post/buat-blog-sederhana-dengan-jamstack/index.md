@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/buat-blog-sederhana-dengan-jamstack"
+
 title: "Buat Blog Sederhana Dengan JAMstack"
 subtitle: ""
 summary: "selayaknya wordpress based website, website yang dibangun diatas teknologi JAMstack bisa multipurpose"

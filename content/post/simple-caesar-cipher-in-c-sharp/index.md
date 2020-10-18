@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/simple-caesar-cipher-in-c-sharp"
 
 title: "Simple Caesar Cipher in C#"
 subtitle: ""

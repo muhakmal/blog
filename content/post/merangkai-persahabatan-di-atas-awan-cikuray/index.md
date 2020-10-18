@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/merangkai-persahabatan-di-atas-awan-cikuray"
 
 title: "Merangkai Persahabatan di Atas Awan Cikuray"
 subtitle: ""

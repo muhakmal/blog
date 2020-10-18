@@ -1,5 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/ringkasan-buku-start-with-why-dari-simon-sinek"
+
 
 title: "Ringkasan Buku Start With Why dari Simon Sinek"
 subtitle: ""

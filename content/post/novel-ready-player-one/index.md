@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/novel-ready-player-one"
+
 title: "Novel Ready Player One"
 subtitle: "Cline menggambarkan kenyataan dengan sangat menarik, bergerak dari keyataan kehidupan Wade yang suram, ke dunia virtual didalam OASIS yang begitu utopis. Cline melakukan pekerjaan yang oke dalam membedakan perbedaan antara keduanya."
 summary: "Pada tahun 2004, *reality is surely and ugly place to have* Krisi energi, *climate change* kemiskinan, kelaparan; semua hal tersebut berkeliaran disekitar kita."

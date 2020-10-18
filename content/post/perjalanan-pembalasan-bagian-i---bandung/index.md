@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/perjalanan-pembalasan-bagian-i---bandung"
 
 title: "Perjalanan Pembalasan Bagian I - Bandung"
 subtitle: ""

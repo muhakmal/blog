@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/resensi-konsep-network-security"
 
 title: "Resensi Konsep Network Security"
 subtitle: ""

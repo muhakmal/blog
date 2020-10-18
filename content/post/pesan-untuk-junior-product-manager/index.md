@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/pesan-untuk-junior-product-manager"
 
 title: "Pesan Untuk Junior Product Manager"
 subtitle: ""

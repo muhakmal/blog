@@ -1,4 +1,5 @@
 ---
+aliases: "/blog/typora-markdown-editor-simple"
 title: "Typora, Markdown Editor Simple Multifungsi"
 subtitle: ""
 summary: "Typora, editor markdown simple yang bisa upload image langsung ke hosting sm.ms. Untuk Windows dan Macintosh settingannya agak berbeda. Bisa di cek di halaman dokumentasi typora."

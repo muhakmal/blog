@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/the-five-dysfunction-of-a-team-by-patrick-lencioni---sebuah-ringkasan-buku"
 
 title: "The Five Dysfunction of a Team by Patrick Lencioni - Sebuah Ringkasan Buku"
 subtitle: ""

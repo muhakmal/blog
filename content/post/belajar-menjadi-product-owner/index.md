@@ -1,4 +1,6 @@
 ---
+aliases: "/blog/belajar-menjadi-product-owner"
+
 title: "Belajar Menjadi Product Owner"
 subtitle: "“When the situation gets too complex, it's impossible to follow the manual because there is no manual.” (Godin, 2010, p. 220)"
 summary: "Tugas seorang Product Owner dalam framework scrum sebagaimana [Scrum Guide](https://www.scrumguides.org) adalah memaksimalkan nilai dari product yang dikerjakan oleh Development Team. bagaimana hal ini bisa tersampaikan dapat sangat bergantung kepada bagaimana penerapan Scrum pada suatu organisasi perusahaan, Scrum Teams, dan masing-masing individual (Product Owner)."

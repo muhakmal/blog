@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/beberapa-teori-dasar-dalam-artificial-intelegence"
 
 title: "Beberapa Teori Dasar Dalam Artificial Intelegence"
 subtitle: "MiniMax, Alpha-Beta Prunning, Satisfaction Constrain Problem"
@@ -11,7 +12,7 @@ date: 2015-03-15T18:49:37+07:00
 lastmod: 2016-09-14T18:49:37+07:00
 featured: false
 draft: false
-aliases: "/post/beberapa-teori-dasar-dalam-artificial-intelegence/"
+aliases: "/blog/beberapa-teori-dasar-dalam-artificial-intelegence/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

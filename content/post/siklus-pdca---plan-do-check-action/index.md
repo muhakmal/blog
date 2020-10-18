@@ -1,5 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/siklus-pdca---plan-do-check-action"
+
 
 title: "Siklus PDCA (Plan Do Check Act), Repeat"
 subtitle: "Melalu implementasi Basic Mentality, budaya perusahaan mulai ditanamkan."

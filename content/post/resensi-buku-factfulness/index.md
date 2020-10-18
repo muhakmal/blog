@@ -1,6 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
+aliases: "/blog/resensi-buku-factfulness"
+
 title: "Resensi Buku Factfulness"
 subtitle: ""
 summary: ""

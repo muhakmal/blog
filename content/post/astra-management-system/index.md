@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/astra-management-system"
 
 title: "Astra Management System"
 subtitle: "Prinsip dasar korporat Astra melalui quality control astra management system"

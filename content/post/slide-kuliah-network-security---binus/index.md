@@ -1,5 +1,6 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
+aliases: "/blog/slide-kuliah-network-security---binus"
 
 title: "Slide Kuliah Network Security - BINUS"
 subtitle: ""
