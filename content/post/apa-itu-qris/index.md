@@ -9,3 +9,5 @@ image:
   preview_only: false
 ---
 Dibahas dari sudut pandang regulasi, bisnis dan teknis.
+
+Tambahan draft.
