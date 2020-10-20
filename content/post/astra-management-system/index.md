@@ -30,7 +30,7 @@ projects: []
 ---
 Sebagai bagian dari [Astra](https://astra.co.id), kita perlu terus memberdayakan AMS (astra management system) untuk menyelaraskan visi, strategi, dan seluruh aktivitas yang kita jalankan. Dengan menerapkan ams secara konsisten, akan membawa kita kepada kondisi excellet, strategic, maupun operasional, yang berujung pada semakin membaiknya nilai kita di mata pelanggan.
 
-![Image result for astra international](http://acehkerja.com/wp-content/uploads/2019/06/astra-international-jobs.jpg)
+![Image result for astra international](https://i.postimg.cc/W4BKByCR/astra-international-jobs.jpg)
 
 #### ASTRA MANAGEMENT SYSTEM
 
