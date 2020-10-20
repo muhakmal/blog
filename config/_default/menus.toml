@@ -16,7 +16,7 @@
 [[main]]
   name = "Categories"
   url = "category"
-  weight = 21
+  weight = 61
   hasChildren = true
   identifier = "kategoriDropdown"
 
