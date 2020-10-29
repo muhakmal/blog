@@ -1,6 +1,6 @@
 ---
-title: Teknis Terkait QRIS
-subtitle: QRIS, dibahas dari sudut pandang regulasi, bisnis dan teknis.
+title: Regulasi Terkait QRIS
+subtitle: QRIS, dibahas dari sudut pandang regulasi
 date: 2020-10-19T01:29:21.768Z
 draft: false
 featured: true
@@ -34,16 +34,6 @@ Di awal 2019 penggunaan uang elektronik mulai masif, Bank Indoneisa mencatat tra
 
 Di titik ini, analisa saya Bank Indonesia sebagai regulator melihat potensi inklusi keuangan, dan singkat cerita menerbitkan [PADG 2019 tentang QRIS](https://www.bi.go.id/id/peraturan/sistem-pembayaran/Pages/padg_211819.aspx)
 
-### Bisnis
-
-*\--- under construction*
-
-### Teknis
-
-*\--- under construction*
-
-
-
 
 
 #### Appendix
@@ -51,12 +41,6 @@ Di titik ini, analisa saya Bank Indonesia sebagai regulator melihat potensi inkl
 \- [File PADG-2019-QRIS](https://www.bi.go.id/id/peraturan/sistem-pembayaran/Documents/padg_211819.pdf)
 
 \- [File TanyaJawab-PADG-2019-QRIS](https://www.bi.go.id/id/peraturan/sistem-pembayaran/Documents/faq_padg_211819.pdf)
-
-
-
-
-
-
 
 *Referensi :*
 
