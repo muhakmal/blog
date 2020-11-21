@@ -18,7 +18,7 @@ subtitle = "Skillset"
   icon = "jira"
   icon_pack = "fab"
   name = "Atlassian JIRA"
-  description = "100%"
+  description = "95%"
   
 [[feature]]
   icon = "redo-alt"
