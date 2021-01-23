@@ -76,7 +76,7 @@ Untuk menghadapi tantangan diatas, Mark Cohn dalam Agile Estimation and Planning
 * **Team should have an "All in This Together" approach**
 * **Agile teams should not be larger than 9 people**
 
-## Agile Approach
+### Agile Approach
 
 ![agile manifesto](agile-manifesto.png "agile manifesto")
 
@@ -88,13 +88,9 @@ Untuk menghadapi tantangan diatas, Mark Cohn dalam Agile Estimation and Planning
 * Focus on business priorities
 * Inspect and Adapt
 
-
-
 ![planning onion](planning-onion.png "planning onion")
 
 Multiple Level of Planning, a **Planning Onion**
-
-
 
 ![Feedback -- **Conditions of Satisfactions**](conditions-of-satisfaction.png "Feedback -- **Conditions of Satisfactions**")
 
@@ -119,9 +115,7 @@ Agile teams menggunakan 3 level of planning;
 2. Iteration planning -> 2 to 4 weeks ahead of planning
 3. Daily planning -> each day at every standup meeting
 
-
-
-## **Estimation**
+### **Estimation**
 
 Yang paling pertama dan harus jelas sedari awal, sebuah estimase tidak bisa disamakan dengan sebuah komitmen. Target dari sebuah estimasi dalam sebuah project agar estimasi tersebut dapat sebisa mungkin berguna dan akurat. Dengan itu hal ini jika kita terlalu over-optimis terhadap sebuah estimasi, ini akan menjadi hal yang kontra produktif bagi sebuah tim.
 
@@ -133,8 +127,7 @@ Sebuah estimasi, tidak dapat berubah kecuali di dalam tim tersebut terdapat peru
 
 ![estimation example](intial-estimase-for-some-swim-stats-stories.png "estimation example")
 
-> In a good shoe, I wear a size six, but a seven feels so good, I buy a size eight. \
-> - Dolly Parton in Steel Magnolias
+> In a good shoe, I wear a size six, but a seven feels so good, I buy a size eight
 
 Story points adalah cara mengukur besaran dari sebuah fitur. Singkatnya, dari sebuah user stories, kita ambil satu dan kita diskusikan pada sebuah team berapa story points yang pas berdasrkan effort. Hal ini bisa berdasarkan eksplorasi dari sebuah fitur, development, testing, production pipeline, dan yang lainnya. Cara terbaik untuk melakukan story points sizing adalah menggunakan linear-scale. Story points murni hanya sebuah estimasi dari sebuah besaran sebuah fitur yang akan dikerjakan. Durasi dari sebuah project tidak dapat di estimasi dengan story points. Atau dalam hal ini, story points tidak dapat di konversikan dalam bentuk jam.
 
@@ -150,8 +143,7 @@ Velocity akan mengukur rate dari sebuah team progress per iterasi. Di akhir dari
 
 Setiap teknik diatas dapat dilakukan sendiri-sendiri, namun bisa juga dilakukan bersamaan untuk mencapai hasil terbaik dari sebuah estimasi
 
-> If you tell people where to go, but now to tell those people how to get there, you'll be amazed at the results\
-> - General George S. Patton
+> If you tell people where to go, but now to tell those people how to get there, you'll be amazed at the results
 
 Why We Should Use Story Points
 
@@ -161,21 +153,55 @@ Why We Should Use Story Points
 * Estimating in story points typically faster and more accurate
 * My ideal days are not your ideal days
 
-
-
-## **Planning**
+### **Planning**
 
 ![uncertainty waterfall and agile ](uncertainty-waterfall-and-agile.png "uncertainty waterfall and agile ")
 
 The difference of uncertainty between Waterfall and Agile. page 83
 
+**Splitting User Stories**
+
+> These days we do not progrm software module by module; we program software feature by feature
+
+Sebagaimana user stories merupakan sesuatu yang penting dan pertama kali dilihat dalam release plan, ini berarti user stories merupakan sesuatu yang akan di implementasikan segera, user stories seringkali harus di pecah bagiannya. Tugas memecah user stories butuh skill dan pengalaman yang cukup untuk melakukannya, namun seperti hal yang lainnya ketika kita sudah sering melakukannya dengan sering, kita akan terbiasa dengan tugas ini. Ada berbagai macam teknik untuk memecah user stories, diantaranya;
+
+1. Split large stories along the boundaries of the data supported by the story; example
+
+   * as a borrower, i wan to pay off my loan. Note : allow overpayments
+   * as a borrower, if I accidentally repay too much, I get a refund if it's over $2
+2. Split large stories based on the operations that are performed within the story
+
+   * as a coach, I can add new swimmers to my team
+   * as a coach, I can edit information about swimmers already on my team
+   * as a coach, I can delete swimmers who are no longer on my team
+3. Split large stories into separate CRUD operations
+
+   most likely the same with as a coach cases. CRUD is Create Read Update Delete.
+4. Consider removing cross-cutting concers (such as security, logging, error handling, and so on) and creating two versions of the story : one with and one without support for the cross-cutting concern.
+5. Consider splitting a large story by separating the functional and nonfunctional aspects into separate stories
+6. Separate a large story into smaller stories if the smaller stories have different priorities
+7. Do not split a story into tasks, instead try to find a way to fire a tracer bullet through the story.
+
+   example : code the user interface, write the middle tier, etc.
+8. Avoid making things worse by adding related changes to an appropiately sized feature unless the related changes are of equivalent priority.
+
+Memecah user stories akan sangat berguna apabila satu user story tidak muat dalam satu iterasi.
 
 
 
+### Release Plan
 
+Sebuah release plan merupakan high-level plan yang meliputi beberapa iterasi ke depan. Untuk beberapa agile teams, hal ini bisa dalam apa yang akan di release di setiap iterasi dalam 6 bulan kedepan, atau kurang dari itu.
 
+![planning a release](planning-a-release.png "planning a release")
 
+Sebuah release plan tidak harus menggambarkan apa yang akan dikerjakan pada setiap iterasi, level detail yang seperti itu tidak dibutuhkan pada release plan. Merencanakan release plan adalah proses iterasi yang dimulai dengan mengidentifikasi kondisi satisfikasi product owner terhadap project/feature yang dijalankan pada suatu development team. Hal ini biasanya meliputi goals, schedule, scope, dan resources. Ketika release plan sudah dibuat, bukan berarti hal ini akan digantung di dinding dan menjadi acuan dari project yang sedang berjalan, akan tetapi ini harus di update sesuai dengan kondisi team pada setiap iterasi.
 
+**Iteration Planning - Chapter 14**
+
+![iteration planning](iteration-planning.png "iteration planning")
+
+\--------------------------------------------
 
 
 
