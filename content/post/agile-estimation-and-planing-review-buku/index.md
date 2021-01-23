@@ -3,8 +3,8 @@ title: Agile Estimation and Planing Review Buku
 subtitle: Planning is Everything, Plans are Nothing
 date: 2021-01-23T08:38:56.613Z
 summary: ""
-draft: true
-featured: false
+draft: false
+featured: true
 authors:
   - Muhamad Akmal
 tags:
@@ -16,9 +16,10 @@ categories:
   - Jurnal
   - Buku
 image:
-  filename: featured
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
+  caption: agile estimation and planning book
 ---
 [Buku ](https://www.tokopedia.com/pustakabahtera/agile-estimating-and-planning-buku)Agile Estimation and Planning di tulis oleh [Mike Cohn](https://www.mountaingoatsoftware.com/blog)
 
@@ -33,7 +34,7 @@ Sebuah estimasi akan dikatakan berguna untuk sebuah project ketika an;
 * Estimasi yang bagus, dapat mengarahkan team untuk membangun kepercayaan yang lebih antar satu sama lain. Dalam hal ini developer dan management.
 * Proses estimasi akan mednukung *decision making* dengan menyediakan *insight-insight* kedalam perencaan sebuah project, dalam hal ini terkait biaya/*cost* dan jadwal dari sebuah project.
 
-## Cone of Uncertainty
+### Cone of Uncertainty
 
 ![cone of uncertainty](cone-of-uncertainty.png "cone of uncertainty")
 
@@ -43,7 +44,7 @@ Figure of Cone of Uncertainty : [Source](http://www.agilenutshell.com/cone_of_un
 
 Jadi, apa sebenarnya tantangan terbesar yang dihadapi dalam sebuah perencanaan project?
 
-Perbedaan antara estimasi dan komitmen seringkali kabur dan tidak jelas. Perbedaan dua konsep tersebut tentu harus dapat di artikan secara jelas pada perencanaan sebuah project. Seringkali juga yang biasa dilakukan **fitur yang dikerjakan tidak di prioritaskan**, dan hanya dikerjakan berdasarkan urutan acak dan suka-suka. Kalau sebuah project dikerjakan seperti ini, jika ada kemungkinan ketelatan dalam sebuah project, maka bisa saja fitur yang akan di buang dari sebuah project adalah fitur yang sudah selesai dikerjakan dan ini akan menjadi sebuah kerugian bagi stakeholder.
+**Perbedaan antara estimasi dan komitmen seringkali kabur dan tidak jelas**. Perbedaan dua konsep tersebut tentu harus dapat di artikan secara jelas pada perencanaan sebuah project. Seringkali juga yang biasa dilakukan **fitur yang dikerjakan tidak di prioritaskan**, dan hanya dikerjakan berdasarkan urutan acak dan suka-suka. Kalau sebuah project dikerjakan seperti ini, jika ada kemungkinan ketelatan dalam sebuah project, maka bisa saja fitur yang akan di buang dari sebuah project adalah fitur yang sudah selesai dikerjakan dan ini akan menjadi sebuah kerugian bagi stakeholder.
 
 Namun juga, ketika proses estimasi sudah hadir dan diterapkan pada sebuah perusahaan, terkadang **ketidakpastian juga seringkali di hiraukan**. Hal ini terjadi boleh jadi ketika estimasi awal pada sebuah project dilakukan dengan salah.
 
@@ -59,4 +60,14 @@ Alasan yang lain jika planning suatu fitur hanya berdasarkan penyelesaian dari s
 
 So, ketika sebuah aktifitas/*task* sudah terlihat tidak akan selesai lebih awal, itu berarti bisa dapat dipastikan fitur tersebut akan selesai terlambat.
 
-Dan yang terakhir adalah
+Dan tantangan yang berikutnya adalah asumsi bahwa **menempatkan banyak orang pada suatu project dan permasalahan dapat menyelesaikan project atau permasalahan tersebut lebih cepat**. Hal tersebut tentu saja tidak, terdapat 2 masalah dalam hal tersebut, yang pertama adalah ketidak mengertian bahwa software development adalah sebuah problem solving activity yang berarti jika kita menambahkan lebih banyak orang kedalam sebuah problem tersebut, hal ini malah menyebabkan permasalahan akan lebih bertambah, dan permasalahan tersebut tidak akan selesai lebih cepat. Kedua, menambah lebih banyak orang kedalam sebuah team, tentu akan berimbas kepada cara tim berkomunikasi, hal ini tentu dapat meningkatkan kompleksitas komunikasi, yang dapat menyebabkan justru sebuah project justru tidak akan bertambah cepat dalam menuju penyelesaianny.
+
+### Sorting Out The Challenges
+
+Untuk menghadapi tantangan diatas, Mark Cohn dalam Agile Estimation and Planning merangkum beberapa hal fundamental untuk sebuah *agile project* yaitu:
+
+* **Work is done in iterations**
+* **Prioritise the feature for a release**
+* **Continuesly update the plans**
+* **Team should have an "All in This Together" approach**
+* **Agile teams should not be larger than 9 people**
