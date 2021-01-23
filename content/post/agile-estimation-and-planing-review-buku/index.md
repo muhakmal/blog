@@ -161,11 +161,19 @@ Why We Should Use Story Points
 * Estimating in story points typically faster and more accurate
 * My ideal days are not your ideal days
 
-## Planning
+
+
+## **Planning**
 
 ![uncertainty waterfall and agile ](uncertainty-waterfall-and-agile.png "uncertainty waterfall and agile ")
 
 The difference of uncertainty between Waterfall and Agile. page 83
+
+
+
+
+
+
 
 
 
