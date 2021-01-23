@@ -36,9 +36,13 @@ Sebuah estimasi akan dikatakan berguna untuk sebuah project ketika an;
 
 ### Cone of Uncertainty
 
+![the cone of uncertainty narrows as the project progress](the-cone-of-uncertainty-narrows-as-the-project-progress.png "the cone of uncertainty narrows as the project progress")
+
+*Figure on the Book, Agile Estimation and Planning Page 4*
+
 ![cone of uncertainty](cone-of-uncertainty.png "cone of uncertainty")
 
-Figure of Cone of Uncertainty : [Source](http://www.agilenutshell.com/cone_of_uncertainty)
+*Figure of Cone of Uncertainty : [Source](http://www.agilenutshell.com/cone_of_uncertainty)*
 
 ### The Challenges
 
@@ -48,7 +52,7 @@ Jadi, apa sebenarnya tantangan terbesar yang dihadapi dalam sebuah perencanaan p
 
 Namun juga, ketika proses estimasi sudah hadir dan diterapkan pada sebuah perusahaan, terkadang **ketidakpastian juga seringkali di hiraukan**. Hal ini terjadi boleh jadi ketika estimasi awal pada sebuah project dilakukan dengan salah.
 
-***Planning is often based on co* *mpleting activites rather than features.*** Jika sebuah planning difokuskan hanya untuk menyelesaikan suatu aktifitas tertentu ini merupakan suatu bias yang dapat menjadi alasan utama dari ketelatan tim dalam menyelesaikan suatu fitur. Hal ini dikarenakan suatu aktifitas pasti memiliki dependensi satu sama lain dan pada akhirnya keterlambatan pun tidak dapat di hindarkan.
+***Planning is often based on completing activites rather than features.*** Jika sebuah planning difokuskan hanya untuk menyelesaikan suatu aktifitas tertentu ini merupakan suatu bias yang dapat menjadi alasan utama dari ketelatan tim dalam menyelesaikan suatu fitur. Hal ini dikarenakan suatu aktifitas pasti memiliki dependensi satu sama lain dan pada akhirnya keterlambatan pun tidak dapat di hindarkan.
 
 ![parkison law](parkinson-s_law_book.jpg "parkison law")
 
@@ -71,3 +75,106 @@ Untuk menghadapi tantangan diatas, Mark Cohn dalam Agile Estimation and Planning
 * **Continuesly update the plans**
 * **Team should have an "All in This Together" approach**
 * **Agile teams should not be larger than 9 people**
+
+## Agile Approach
+
+![agile manifesto](agile-manifesto.png "agile manifesto")
+
+**Pada buku ini di jelaskan bagaimana cara sebuah kerja tim agile, hal tersebut diantaranya**
+
+* Work as one team
+* Work in short iterations
+* Deliver something in every iteration
+* Focus on business priorities
+* Inspect and Adapt
+
+
+
+![planning onion](planning-onion.png "planning onion")
+
+Multiple Level of Planning, a **Planning Onion**
+
+
+
+![Feedback -- **Conditions of Satisfactions**](conditions-of-satisfaction.png "Feedback -- **Conditions of Satisfactions**")
+
+Feedback -- **Conditions of Satisfactions**
+
+**Ringkasan Agile Approach**
+
+Agile team bekerja bersama dalam sebuah team, dengan mengikut sertakan setiap peran yang akan di isi oleh setiap orang yang akan bekerja sama dalam setiap tim tersebut.
+
+Agile team bekerja dalam waktu yang singkat, dalam timeboxed iterations yang akan merelease product setiap kali iterasi. Feature yang dikerjakan dan yang akan dikerjakan dipilih berdasarkan prioritas dari bisnis yang berjalan. Hal ini harus dipastikan bahwa fitur yang paling penting harus dikerjakan lebih dulu. 
+
+Projects dan setiap iterasi dari sebuah agile teams, harus dilihat secara langsung untuk menambah kemampuan dan pengetahuan dari sebuah team, daripada hanya sekedar mengerjakan dan menyelesaikan sebuah project atau setiap fitur yang dikerjakan didalam iterasi tersebut. Project harus menghasilkan 2 jenis pengetahuan, 
+
+1. Pengetahuan tentang product 
+2. Pengetahuan tentang project
+
+Kedua hal diatas berguna untuk membuat rencana kedepannya untuk mencapai nilai untuk organisasi.
+
+Agile teams menggunakan 3 level of planning;
+
+1. Release planning -> 3 to 6 months ahead of planning
+2. Iteration planning -> 2 to 4 weeks ahead of planning
+3. Daily planning -> each day at every standup meeting
+
+
+
+## **Estimation**
+
+Yang paling pertama dan harus jelas sedari awal, sebuah estimase tidak bisa disamakan dengan sebuah komitmen. Target dari sebuah estimasi dalam sebuah project agar estimasi tersebut dapat sebisa mungkin berguna dan akurat. Dengan itu hal ini jika kita terlalu over-optimis terhadap sebuah estimasi, ini akan menjadi hal yang kontra produktif bagi sebuah tim.
+
+![estimation size](estimation-size.png "estimation size")
+
+Sebuah estimasi, tidak dapat berubah kecuali di dalam tim tersebut terdapat perubahan asumsi terkait fitur yang akan dikerjakan, requirement yang berubah, atau dependensi-dependensi yang baru terlihat. Hal ini di hitung harus tidak berdasarkan waktu ataupun sebuah tekanan dari management. Estimasi dalam software engineering akan dilakukan oleh sebuah development team, terimasuk programmer, tester, product owner, yang bertanggung jawab untuk melihat resiko dan sisi lain dari sebuah project atau fitur yang dikerjakan. 
+
+**Story Points**
+
+![estimation example](intial-estimase-for-some-swim-stats-stories.png "estimation example")
+
+> In a good shoe, I wear a size six, but a seven feels so good, I buy a size eight. \
+> - Dolly Parton in Steel Magnolias
+
+Story points adalah cara mengukur besaran dari sebuah fitur. Singkatnya, dari sebuah user stories, kita ambil satu dan kita diskusikan pada sebuah team berapa story points yang pas berdasrkan effort. Hal ini bisa berdasarkan eksplorasi dari sebuah fitur, development, testing, production pipeline, dan yang lainnya. Cara terbaik untuk melakukan story points sizing adalah menggunakan linear-scale. Story points murni hanya sebuah estimasi dari sebuah besaran sebuah fitur yang akan dikerjakan. Durasi dari sebuah project tidak dapat di estimasi dengan story points. Atau dalam hal ini, story points tidak dapat di konversikan dalam bentuk jam.
+
+**Velocity**
+
+Velocity akan mengukur rate dari sebuah team progress per iterasi. Di akhir dari setiap iterasi sebuah team dapat merefleksikan berapa story points yang dapat di selesaikan, dan dapat mengukur rata-rata story points yang dapat diselesaikan dalam setiap iterasi.
+
+**3 Common Estimation Technique on Estimation**
+
+* Expert Opinion
+* Analogy
+* Disaggregation
+
+Setiap teknik diatas dapat dilakukan sendiri-sendiri, namun bisa juga dilakukan bersamaan untuk mencapai hasil terbaik dari sebuah estimasi
+
+> If you tell people where to go, but now to tell those people how to get there, you'll be amazed at the results\
+> - General George S. Patton
+
+Why We Should Use Story Points
+
+* Story oints help drive cross-functional behaviour.
+* Story-point estimates do not decay
+* Story poitns are a pure measeure of size, not time
+* Estimating in story points typically faster and more accurate
+* My ideal days are not your ideal days
+
+## Planning
+
+![uncertainty waterfall and agile ](uncertainty-waterfall-and-agile.png "uncertainty waterfall and agile ")
+
+The difference of uncertainty between Waterfall and Agile. page 83
+
+
+
+
+
+### Buy The Book
+
+<https://akmal.page.link/buyAgileEnP> 
+
+### Read the Book
+
+<https://akmal.page.link/agileEnP>
