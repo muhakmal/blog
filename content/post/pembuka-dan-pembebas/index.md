@@ -1,6 +1,6 @@
 ---
 title: Pembuka dan Pembebas
-date: 2021-04-10T15:13:15.111Z
+date: 2021-02-03T02:38:37.518Z
 summary: ""
 draft: false
 featured: false
