@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = "https://astrapay.com"
   location = "South Jakarta"
   date_start = "2019-10-01"
-  date_end = ""
+  date_end = "2021-06-01"
   description = """Direct asistant to Director of Product, leading product development team, and establish product development spec & flow for new ASTRA Group E-Money Company
 - Creating product management workflow process for collaboration need with engineering team. Setting up JIRA Software, Slack, SOP, and others.
 - In charge of managing and prioritizing product features roadmap with stakeholder - Defining busines requirement document with segmented deliverables."""
