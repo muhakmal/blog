@@ -17,6 +17,18 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Product Manager - Merchant & Payment"
+  company = "PT. Flash Mobile"
+  company_url = "https://flashmobile.co.id"
+  location = "South Jakarta"
+  date_start = "2021-06-02"
+  date_end = ""
+  description = """Flash Mobile is a Payment Gateway and Biller Aggregator company from MNC Group.
+My current responsibilities are managing backlog, outcomes and outputs in Payment area from Product standpoint, and to help Flash Mobile management transforming its way of work to becoming more lean in agile.
+"""
+
 [[experience]]
   title = "Product Development"
   company = "PT. Astra Digital Arta, ASTRAPAY"

@@ -1,7 +1,7 @@
 ---
 organizations:
-  - name: PT Astra Digital Arta
-    url: https://astrapay.com
+  - name: PT Flash Mobile
+    url: https://flashmobile.co.id
 superuser: true
 authors:
   - admin
@@ -16,21 +16,24 @@ interests:
   - Product Discovery
   - Knowledge Dicsovery
 social:
-  - icon: envelope-square
-    icon_pack: fas
-    link: "#contact" # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter-square
-    icon_pack: fab
-    link: https://twitter.com/ayeakmal
-  - icon: github-square
-    icon_pack: fab
-    link: https://github.com/muhakmal
   - icon: linkedin
     icon_pack: fab
     link: https://linkedin.com/in/muhakmal
-  - icon: behance-square
+  - icon: envelope
+    icon_pack: fas
+    link: "#contact" # For a direct email link, use "mailto:test@example.org".
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/ayeakmal
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/muhakmal
+  - icon: behance
     icon_pack: fab
     link: https://www.behance.net/muhamadakmal
+  - icon: gitlab
+    icon_pack: fab
+    link: https://gitlab.com/muhakmal
 education:
   courses:
     - course: S.Kom in Computer Science
