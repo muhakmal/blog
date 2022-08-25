@@ -28,25 +28,25 @@
 
 [[main]]
   name = "Jurnal"
-  url = "/category/jurnal/"
+  url = "category/jurnal/"
   weight = 7
   parent = "kategoriDropdown"
 
 [[main]]
   name = "Catatan Product"
-  url = "/category/product-development/"
+  url = "category/product-development/"
   weight = 7
   parent = "kategoriDropdown"
 
 [[main]]
   name = "Catatan Perjalanan"
-  url = "/category/perjalanan/"
+  url = "category/perjalanan/"
   weight = 7
   parent = "kategoriDropdown"
 
 [[main]]
   name = "Programming"
-  url = "/category/programming/"
+  url = "category/programming/"
   weight = 7
   parent = "kategoriDropdown"
 
