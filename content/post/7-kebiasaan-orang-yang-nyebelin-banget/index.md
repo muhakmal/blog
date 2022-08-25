@@ -23,7 +23,7 @@ image:
   focal_point: Smart
   preview_only: false
 
-aliases: "/blog/7-kebiasaan-orang-yang-nyebelin-banget"
+aliases: "7-kebiasaan-orang-yang-nyebelin-banget"
 ---
 ![Resensi Buku 7 Kebiasaan Orang Yang Nyeblin Banget (7 Habits of Highly Annoying People)](https://i.loli.net/2020/05/26/5TgYOGisdCarRzv.jpg)
 
