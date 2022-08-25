@@ -22,7 +22,7 @@
 
 [[main]]
   name = "Resensi Buku"
-  url = "/category/buku/"
+  url = "category/buku/"
   weight = 7
   parent = "kategoriDropdown"
 
