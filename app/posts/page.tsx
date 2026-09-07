@@ -1,6 +1,12 @@
 import { getSortedPostsData } from "../../lib/posts";
 import Link from "next/link";
 import { ChevronRight, Search } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Notes & Writing",
+  description: "All blog posts...",
+};
 
 export default function PostsPage() {
   const allPostsData = getSortedPostsData();
@@ -24,6 +30,7 @@ export default function PostsPage() {
         <input
           type="text"
           placeholder="Search posts (coming soon)..."
+          aria-label="Search posts"
           disabled
           className="w-full pl-12 pr-4 py-4 rounded-neu-sm bg-neu-bg shadow-neu-inset-deep focus:outline-none focus:ring-2 focus:ring-neu-accent focus:ring-offset-2 focus:ring-offset-neu-bg text-neu-fg placeholder-neu-muted transition-all duration-300"
         />

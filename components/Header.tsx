@@ -12,9 +12,12 @@ export default function Header() {
         <Link href="/posts" className="font-medium hover:text-neu-accent transition-colors">Blog</Link>
       </nav>
       {/* Mobile Menu Icon */}
-      <div className="md:hidden flex items-center justify-center w-10 h-10 rounded-neu-inner shadow-neu-extruded cursor-pointer hover:shadow-neu-extruded-hover active:shadow-neu-inset-sm transition-all duration-300">
+      <button 
+        aria-label="Toggle menu"
+        className="md:hidden flex items-center justify-center w-10 h-10 rounded-neu-inner shadow-neu-extruded cursor-pointer hover:shadow-neu-extruded-hover active:shadow-neu-inset-sm focus:outline-none focus:ring-2 focus:ring-neu-accent transition-all duration-300"
+      >
         <Menu className="w-5 h-5 text-neu-fg" />
-      </div>
+      </button>
     </header>
   );
 }

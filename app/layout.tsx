@@ -17,8 +17,22 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   title: "muhamadakmal",
   description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
+  openGraph: {
+    title: "muhamadakmal",
+    description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
+    url: "/",
+    siteName: "muhamadakmal",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "muhamadakmal",
+    description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
+  },
 };
 
 export default function RootLayout({

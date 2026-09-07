@@ -9,6 +9,24 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata(
+  props: { params: Promise<{ slug: string }> }
+): Promise<import("next").Metadata> {
+  const params = await props.params;
+  const postData = await getPostData(params.slug);
+
+  if (!postData) {
+    return {
+      title: "Post Not Found",
+    };
+  }
+
+  return {
+    title: postData.title,
+    description: `Read ${postData.title} by Muhamad Akmal.`,
+  };
+}
+
 export default async function Post(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
   const postData = await getPostData(params.slug);

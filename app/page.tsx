@@ -3,7 +3,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import { Briefcase, GraduationCap, ChevronRight, BookOpen } from "lucide-react";
 
-export default function Home() {
+export default async function Home() {
   const allPostsData = getSortedPostsData().slice(0, 3); // Get top 3 posts
 
   return (
@@ -46,34 +46,34 @@ export default function Home() {
       {/* EXPERIENCE & EDUCATION GRID */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Experience */}
-        <div className="flex flex-col gap-8">
+        <section className="flex flex-col gap-8">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 flex items-center justify-center rounded-neu-inner shadow-neu-inset bg-neu-bg text-neu-accent">
               <Briefcase className="w-6 h-6" />
             </div>
             <h3 className="font-display font-bold text-3xl text-neu-fg">Experience</h3>
           </div>
-          <div className="flex flex-col gap-8">
+          <ul className="flex flex-col gap-8">
             {profileData.experience.map((exp, idx) => (
-              <div key={idx} className="p-8 rounded-neu bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover transition-all duration-300">
+              <li key={idx} className="p-8 rounded-neu bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover transition-all duration-300">
                 <div className="text-sm font-medium text-neu-accent mb-2">{exp.dateStart} — {exp.dateEnd}</div>
                 <h4 className="font-display font-bold text-xl text-neu-fg mb-1">{exp.title}</h4>
                 <a href={exp.companyUrl} target="_blank" rel="noopener noreferrer" className="text-neu-muted hover:text-neu-accent transition-colors font-medium text-sm mb-4 block">
                   {exp.company}
                 </a>
                 <p className="text-sm text-neu-muted leading-relaxed whitespace-pre-line">{exp.description}</p>
-              </div>
+              </li>
             ))}
-          </div>
-        </div>
+          </ul>
+        </section>
 
         {/* Education & Recent Posts */}
         <div className="flex flex-col gap-12">
           {/* Skills */}
-          <div className="flex flex-col gap-8">
+          <section className="flex flex-col gap-8">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-neu-inner shadow-neu-inset bg-neu-bg text-neu-accent">
-                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
               </div>
               <h3 className="font-display font-bold text-3xl text-neu-fg">Skills & Expertise</h3>
             </div>
@@ -87,26 +87,26 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-          </div>
+          </section>
 
           {/* Education */}
-          <div className="flex flex-col gap-8">
+          <section className="flex flex-col gap-8">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-neu-inner shadow-neu-inset bg-neu-bg text-neu-accent">
                 <GraduationCap className="w-6 h-6" />
               </div>
               <h3 className="font-display font-bold text-3xl text-neu-fg">Education</h3>
             </div>
-            <div className="flex flex-col gap-6">
+            <ul className="flex flex-col gap-6">
               {profileData.education.map((edu, idx) => (
-                <div key={idx} className="p-6 rounded-neu bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover transition-all duration-300">
+                <li key={idx} className="p-6 rounded-neu bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover transition-all duration-300">
                   <div className="text-sm font-medium text-neu-accent mb-1">{edu.year}</div>
                   <h4 className="font-display font-bold text-lg text-neu-fg mb-1">{edu.course}</h4>
                   <p className="text-sm text-neu-muted font-medium">{edu.institution}</p>
-                </div>
+                </li>
               ))}
-            </div>
-          </div>
+            </ul>
+          </section>
 
           {/* Recent Posts */}
           <div className="flex flex-col gap-8">
