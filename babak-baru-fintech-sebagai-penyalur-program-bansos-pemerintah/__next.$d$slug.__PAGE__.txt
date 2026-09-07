@@ -1,10 +1,7 @@
 1:"$Sreact.fragment"
-2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
-4:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
-9:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
-a:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
-3:T87a,<p><img src="aftech-seminar.png" alt="G2P Payment 4.0 Fintech &#x26; Optimalisasi Penyaluran Program Bantuan Sosial Pemerintah" title="G2P Payment 4.0 Fintech &#x26; Optimalisasi Penyaluran Program Bantuan Sosial Pemerintah"></p>
+2:I[22016,["/blog/_next/static/chunks/3nou3866c00k-.js"],""]
+3:I[5014,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+4:T87a,<p><img src="aftech-seminar.png" alt="G2P Payment 4.0 Fintech &#x26; Optimalisasi Penyaluran Program Bantuan Sosial Pemerintah" title="G2P Payment 4.0 Fintech &#x26; Optimalisasi Penyaluran Program Bantuan Sosial Pemerintah"></p>
 <p>Beberapa waktu lalu, saya sempat mengikuti webinar yang di insiasi oleh <a href="https://fintech.id/id">aftech</a>. Webinar ini berisi tentang peran Fintech Payment sebagai optimalisasi penyaluran program bantuan sosial pemerintah.<br>
 Acara ini dimoderatori oleh Vincent Iswara CEO <a href="dana.id">DANA</a>, sedangkan pembicara dalam acara ini</p>
 <p><strong>-</strong> <strong>Prof. Dr. Zudan Arif Fakrulloh</strong> (Dirjen Dukcapil Kementerian Dalam Negeri RI)</p>
@@ -17,24 +14,25 @@ Acara ini dimoderatori oleh Vincent Iswara CEO <a href="dana.id">DANA</a>, sedan
 <p><a href="https://drive.google.com/file/d/1IBCDZvt8LHOxHzzLOQWfimf9rJ1RnP6y/view?usp=sharing"></a><a href="https://drive.google.com/file/d/1-wY0yN9Z5KVuNBP-QC9l0MECT5jhu35Y/view?usp=sharing">TNP2K_Elan Satriawan - Pemanfaatan FINTECH Untuk LPG, Listrik &#x26; Bansos_AFTECHWebinar_May2020</a></p>
 <p><a href="https://drive.google.com/file/d/1dvscN5FeRi_BcKygFYGpxnVz_URq1Ycd/view?usp=sharing">LinkAja_Haryati Lawidjaja - Digitalisasi Bantuan Pemerintah Kepada Masyarakat G2P</a></p>
 <p><a href="https://drive.google.com/file/d/1OFs6zePH2B-RV8Dn8hqh3ftYmz4g4hnE/view?usp=sharing">Kementerian PPN-Bappenas_Muhammad Cholifihani - Arsitektur dan Perkembangannya_studi Bappenas, World Bank, dan Microsaves</a></p>
-8:X
-10:X
-10:C
-0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Babak Baru Fintech Sebagai Penyalur Program Bansos Pemerintah"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Thu Oct 29 2020 21:52:43 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],[["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],"$Lb"]}]}]}],"$Lc"]}],"isPartial":"$@d","staleTime":"$8","varyParams":null},{"rsc":"$Le","isPartial":"$@f","staleTime":"$8","varyParams":"$10"},{"rsc":"$L11","isPartial":"$@12","staleTime":"$8","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@13","rootVaryParams":null,"needsRuntimeRequest":"$@14"}
-15:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
-16:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
-17:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
-:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
-6:null
-b:["$","$L15","3",{}]
-c:["$","meta",null,{"name":"next-size-adjust","content":""}]
-e:["$","$1","c",{"children":[null,["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}]}]]}]
-11:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
-8:300
-14:true
-8:C
-13:0
-d:"$undefined"
-f:"$undefined"
-12:"$undefined"
-7:"$undefined"
+7:X
+c:X
+c:C
+0:{"buildId":"ibBGCpWkwXu1NaK9yfW84","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto px-6 py-16","children":[["$","$L2",null,{"href":"/posts","className":"inline-flex items-center gap-2 mb-12 px-6 py-3 rounded-neu-sm bg-neu-bg shadow-neu-extruded-sm hover:-translate-y-1 hover:shadow-neu-extruded hover:text-neu-accent active:translate-y-0.5 active:shadow-neu-inset-sm transition-all duration-300 font-medium text-neu-muted","children":[["$","$L3",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"w-4 h-4"}]," Back to Notes"]}],["$","header",null,{"className":"mb-12 p-8 md:p-12 rounded-neu bg-neu-bg shadow-neu-inset","children":[["$","h1",null,{"className":"font-display font-extrabold text-3xl md:text-5xl text-neu-fg mb-4 leading-tight","children":"Babak Baru Fintech Sebagai Penyalur Program Bansos Pemerintah"}],["$","div",null,{"className":"flex items-center gap-4 text-sm font-medium text-neu-muted","children":["$","time",null,{"dateTime":"Thu Oct 29 2020 21:52:43 GMT+0700 (Western Indonesia Time)","className":"text-neu-accent","children":"Thu Oct 29 2020 21:52:43 GMT+0700 (Western Indonesia Time)"}]}]]}],["$","div",null,{"className":"p-6 md:p-12 rounded-neu bg-neu-bg shadow-neu-extruded overflow-hidden","children":["$","div",null,{"className":"prose prose-lg max-w-none prose-p:text-neu-muted prose-headings:text-neu-fg prose-headings:font-display prose-headings:font-bold prose-a:text-neu-accent hover:prose-a:text-neu-accent-light prose-strong:text-neu-fg prose-blockquote:border-neu-accent prose-blockquote:bg-neu-bg prose-blockquote:shadow-neu-inset-sm prose-blockquote:rounded-r-xl prose-blockquote:py-2 prose-blockquote:px-6 prose-img:rounded-neu-sm prose-img:shadow-neu-extruded","dangerouslySetInnerHTML":{"__html":"$4"}}]}]]}],null,"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"}],"isUpgradeableISRFallback":false,"a":"$@d","rootVaryParams":null,"needsRuntimeRequest":"$@e"}
+f:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"ViewportBoundary"]
+13:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"MetadataBoundary"]
+14:I[27201,["/blog/_next/static/chunks/3nou3866c00k-.js"],"IconMark"]
+15:I[39756,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+16:I[37457,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+5:["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]
+8:["$","$1","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhamad Akmal | Product Manager"}],["$","meta","1",{"name":"description","content":"CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L14","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L15",null,{"parallelRouterKey":"children","template":["$","$L16",null,{}]}]]}]
+e:true
+11:null
+7:300
+7:C
+d:0
+9:"$undefined"
+b:"$undefined"
+6:"$undefined"

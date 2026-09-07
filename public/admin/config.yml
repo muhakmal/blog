@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: muhakmal/blog
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/media" # Media files will be stored in the repo under public/media
+public_folder: "/blog/media" # The src attribute for uploaded media will begin with /blog/media
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/posts
+    label: "Blog Posts" # Used in the UI
+    folder: "extracted_content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template
+    fields: # The fields for each document
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

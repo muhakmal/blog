@@ -1,6 +1,7 @@
 1:"$Sreact.fragment"
-2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
-3:T3c1b,<p><strong>Perjalanan dimulai</strong></p>
+2:I[22016,["/blog/_next/static/chunks/3nou3866c00k-.js"],""]
+3:I[5014,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+4:T3c1b,<p><strong>Perjalanan dimulai</strong></p>
 <p><strong>9 September 2014 (13.41)</strong> diantar keluarga ke stasiun Tj. Priok dimana KA Kertajaya yang akan membawa saya ke tujuan. Pukul 12.45 saya melakukan boarding ke area kereta dan menyemparkan diri untuk sholat Zuhur dan Ashar dan pada pukul 13.10 saya sudah duduk manis di KA Kertajaya gerbong 2 seat 17D. KA Kertajaya pada saat itu tergolong murah, dengan harga 50.000 relasi Tj. Priok - Surabaya Pasar Turi. Harga yang sangat ramah, tidak sebanding dengan keadaan kereta dan gerbongnya yang nyaman dan bersih sangat aneh. Terlebih kamar mandinya pun wangi, serta airnya lancar selalu tersedia, dan mendapat colokan listrik disetiap 4 seatnya.</p>
 <p><img src="https://muhakmal.files.wordpress.com/2014/10/img_2742.jpg?w=600" alt="IMG_2742"></p>
 <p>KA Kertajaya itu kereta ekonomi jadi formasi tempat duduknya 3-2 selayaknya bis ekonomi tapi bedanya duduknya saling berhadapan. Dari stasiun tj. Priok saya masih duduk sendiri dari 4 kursi yg saling berhadapan ini, mungkin nanti ramainya di Stasiun Pasar Senen dan Stasiun Jatinegara pikir saya karena KA Kertajaya ini juga berhenti disana untuk menaikkan penumpang. Untuk diperjalanan umi sudah menyiapkan empal goreng satu tupperware kecil tidak lupa dengan nasi satu bungkus untuk diawal perjalanan ini. Tidak lupa juga saya menyiapkan sedikit snack karbo beng-beng dengan beberapa permen yg sudah saya siapkan di tas kecil selempang yg bakal akan selalu menempel dipinggang saya sepanjang perjalanan.</p>
@@ -57,26 +58,22 @@
 7:X
 c:X
 c:C
-0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Sendiri Ke Kalimantan"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Mon Oct 20 2014 18:49:44 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
-11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
-12:"$Sreact.suspense"
-14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
-15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
-16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
-17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
-18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
-:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
-4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
-5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
-8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
-d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
-13:null
-10:true
+0:{"buildId":"ibBGCpWkwXu1NaK9yfW84","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto px-6 py-16","children":[["$","$L2",null,{"href":"/posts","className":"inline-flex items-center gap-2 mb-12 px-6 py-3 rounded-neu-sm bg-neu-bg shadow-neu-extruded-sm hover:-translate-y-1 hover:shadow-neu-extruded hover:text-neu-accent active:translate-y-0.5 active:shadow-neu-inset-sm transition-all duration-300 font-medium text-neu-muted","children":[["$","$L3",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"className":"w-4 h-4"}]," Back to Notes"]}],["$","header",null,{"className":"mb-12 p-8 md:p-12 rounded-neu bg-neu-bg shadow-neu-inset","children":[["$","h1",null,{"className":"font-display font-extrabold text-3xl md:text-5xl text-neu-fg mb-4 leading-tight","children":"Sendiri Ke Kalimantan"}],["$","div",null,{"className":"flex items-center gap-4 text-sm font-medium text-neu-muted","children":["$","time",null,{"dateTime":"Mon Oct 20 2014 18:49:44 GMT+0700 (Western Indonesia Time)","className":"text-neu-accent","children":"Mon Oct 20 2014 18:49:44 GMT+0700 (Western Indonesia Time)"}]}]]}],["$","div",null,{"className":"p-6 md:p-12 rounded-neu bg-neu-bg shadow-neu-extruded overflow-hidden","children":["$","div",null,{"className":"prose prose-lg max-w-none prose-p:text-neu-muted prose-headings:text-neu-fg prose-headings:font-display prose-headings:font-bold prose-a:text-neu-accent hover:prose-a:text-neu-accent-light prose-strong:text-neu-fg prose-blockquote:border-neu-accent prose-blockquote:bg-neu-bg prose-blockquote:shadow-neu-inset-sm prose-blockquote:rounded-r-xl prose-blockquote:py-2 prose-blockquote:px-6 prose-img:rounded-neu-sm prose-img:shadow-neu-extruded","dangerouslySetInnerHTML":{"__html":"$4"}}]}]]}],null,"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"}],"isUpgradeableISRFallback":false,"a":"$@d","rootVaryParams":null,"needsRuntimeRequest":"$@e"}
+f:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"ViewportBoundary"]
+13:I[97367,["/blog/_next/static/chunks/3nou3866c00k-.js"],"MetadataBoundary"]
+14:I[27201,["/blog/_next/static/chunks/3nou3866c00k-.js"],"IconMark"]
+15:I[39756,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+16:I[37457,["/blog/_next/static/chunks/3nou3866c00k-.js"],"default"]
+5:["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]
+8:["$","$1","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhamad Akmal | Product Manager"}],["$","meta","1",{"name":"description","content":"CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L14","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L15",null,{"parallelRouterKey":"children","template":["$","$L16",null,{}]}]]}]
+e:true
+11:null
 7:300
 7:C
-f:0
+d:0
 9:"$undefined"
 b:"$undefined"
-e:"$undefined"
 6:"$undefined"
