@@ -1,0 +1,207 @@
+1:"$Sreact.fragment"
+2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:T425a,<p>Network security adalah keamanan jaringan. Dari arti di situ saya hanya bisa mengetahui sedikit ialah bagaimana mengamankan jaringan agar tidak mudah di bobol oleh orang. Caranya yang saya tau mungkin dengan memberikan password yang memberikan kombinasi digit, upper case latter, non-alphanumeric untuk meminimal kemungkinan perkiraan password yang di buat user tersebut.</p>
+<h5>System Security</h5>
+<p>System Security merupakan istilah komputer yang berarti proses pengumpulan dan mekanisme kerja dimana informasi yang bersifat sensitif dan berharga yang dilindungi dari umum.syarat dari information security</p>
+<blockquote>
+<p><strong>Information security = confidentiality + integrity + availability</strong></p>
+</blockquote>
+<p><em><strong>Confidentiality</strong></em> adalah kerahasiaan , Confidentiality berkaitan erat dengan masalah otentikasi (authentication) terhadap pemilik informasi</p>
+<p><em><strong>Integrity</strong></em> adalah keutuhan data / informasi agar tidak terjadi modifikasi terhadap sumber daya seperti informasi</p>
+<p><em><strong>Availability</strong></em> adalah ketersediaan dari data tersebut.</p>
+<h5>Security Threats</h5>
+<p>Security Threats adalah ancaman terhadap elemen-elemen dari information security yang jika terjadi maka akan menimbulkan kerugian. Serangan terdiri dari 4 elemen yaitu :</p>
+<p><em><strong>Interception</strong></em> adalah situasi dimana pihak yang tidak berwenang dapat mengakses untuk jaringan atau informasi yang tidak ditujukan untuknya</p>
+<p><em><strong>Interruption</strong></em> adalah situasi dimana service atau data tidak tersedia, tidak dapat digunakan, rusak, dll.</p>
+<p><em><strong>Modification</strong></em> adalah perubahan data atau service yang dilakukan oleh pihak yang tidak berhak sehingga data yang ada bukan data asli lagi</p>
+<p><em><strong>Fabrication</strong></em> adalah situasi dimana data atau aktifitas tambahan dihasilkan yang normalnya tidak pernah ada.</p>
+<h5>Offensive Security dan Defensive Security</h5>
+<p><em><strong>Offensive Security</strong></em> berfokus pada pencarian pelaku yang masuk ke dalam system</p>
+<p><em><strong>Defensive Security</strong></em> merupakan pendekatan konvensional yang mengutamakan keamanan dari serangan yang lebih bersifat preventif dan reaktif. Preventif adalah untuk mencegah sistem pada kerusakan yang ditimbulkan dari luar seperti menggunakan firewall dan accesss control. Reaktif adalah untuk menanggulangi jika sistem telah ditembus oleh pihak luar dengan melakukan pengecekan system seperti menggunakan antivirus. Atau menggunakan IDS (Intruder Detection System).</p>
+<h5>Definisi Hacker dan Cracker</h5>
+<p><em><strong>Hacker</strong></em> merupakan seseorang yang ahli dalam ilmu komputer atau IT, mereka yang memberikan sumbangan yang bermanfaat kepada jaringan komputer, membuat program kecil dan memberikannya dengan orang-orang diinternet</p>
+<p><em><strong>Cracker</strong></em> adalah sebutan untuk mereka yang masuk ke sistem orang lain dan cracker lebih bersifat destruktif, biasanya di jaringan komputer, mem-bypass password atau lisensi program computer</p>
+<p><em><strong>Keylogger</strong></em> merupakan suatu perangkat lunak ataupun perangkat keras yang digunakan untuk memantau penekanan tombol keyboard. Pencegahan terhadap keylogger adalah dengan software Anti- keylogger atau dengan menggunakan virtual keyboard.</p>
+<p><em><strong>Brute Force</strong></em> merupakan suatu cara untuk pengambilan password pada sistem seseorang. Pencegahan terhadap bruteforce adalah memberikan batasan login terhadap sistem tersebut misalnya memberikan percobaan login sebanyak 5 kali, capcha pada sistem tersebut, dll.</p>
+<h3>FOOT PRINTING</h3>
+<p>Biasa disebut sebagai <strong>Target Profiling</strong> merupakan fase dimana mengumpulkan segala informasi yang di perlukan untuk melakukan penyerangan terhadap suatu system/target.</p>
+<p>Ada 2 tahap</p>
+<ol>
+<li>Passive —> mencari di koran, majalah, berita mengenai target.</li>
+<li>Active —> langsung di lokasi target, direct attack</li>
+</ol>
+<p><em><strong>Internet Information Queries</strong></em> Dalam pengumpulan informasi dengan mengunakan media internet, salah satunya adalah dengan menggunakan website yang sudah tersedia. Alat yang digunakan adalah konseksi internet dan browser. Berikut cara mengumpulkan datanya</p>
+<ul>
+<li>Dengan mendapatkan informasi dari lowongan pekerjaan dari suatu perusahaan.</li>
+<li>Dumspter Diving.</li>
+<li>Menganalisis baris kode pada website.</li>
+<li>Menggunakan teknik “Google Hacking”</li>
+</ul>
+<p><em><strong>Packet Sniffers</strong></em> adalah aplikasi perangkat lunak yang menggunakan network adapter card dalam mode promiscuous untuk menangkap semua jaringan packet. Pencegahan packet sniffers:</p>
+<ul>
+<li>Otentikasi</li>
+<li>Cryptography</li>
+<li>Antisniffer Tools</li>
+<li>Switched</li>
+</ul>
+<p><em><strong>Port scanning</strong></em> adalah salah satu teknik yang paling populer penyerang gunakan untuk menemukan layanan yang mereka dapat masuk ke dalam. Dengan menggunakan port scans kita dapat mengetahui :</p>
+<ul>
+<li>Semua services</li>
+<li>Semua hosts dan device</li>
+<li>Operating sistem yang dipakai</li>
+<li>Vulnerabilities</li>
+</ul>
+<p>Pencegahan terhadap port scans —> Port scans tidak bisa dicegah tanpa mengorbankan kemampuan jaringan. Selain itu kerusakan dapat dikurangi dengan menggunakan sistem pencegahan penyusupan pada tingkat jaringan dan host.</p>
+<p><em><strong>Ping Sweeps</strong></em> juga dikenal dengan ICMP sweep adalah sebuah teknik dasar scanning dalam jaringan yang digunakan untuk menentukan dari kisaran alamat IP dalam suatu jaringan host.</p>
+<p><em><strong>Traceroute</strong></em> adalah perintah komputer untuk mendiagnosis transmisi paket dari IP sumber ke IP tujuan dengan men-display jalur yang dilewati paket tersebut untuk mencapai tujuannya. Tracert adalah command console di windows untuk melakukan traceroute dimana akan dilakukan pencatatan rute yang dilewati paket untuk mencapai tujuan.</p>
+<h3>MALWARE &#x26; SPYWARE</h3>
+<p><em><strong>Malicious Software (Malware)</strong></em> adalah software yang bertujuan mengganggu operasi computer, mengambil informasi &#x26; mendapat akses ke computer pribadi</p>
+<p><em><strong>Trojan Horse</strong></em> adalah sebuah potongan kode yang bersembunyi didalam program dan menyamar sebagai fungsi yang sama dengan program yang asli. Contoh:</p>
+<ul>
+<li>Keylogger</li>
+<li>Password stealing Trojan</li>
+</ul>
+<p><strong>Cara menghindari Trojan Horse:</strong></p>
+<ul>
+<li>Tidak semua trojan akan terdeteksi sebagai virus, diusahakan untuk meng-update antivirus anda secara berkala</li>
+<li>Jangan pernah mau menerima file dari orang yang tidak dikenal memalui sistem chat messenger.</li>
+<li>Jangan pernah men-download apapun yang ditemukan dari website yang tidak dikenal. Kemungkinan program tersebut sudah ditanamkan trojan.</li>
+</ul>
+<p><em><strong>Virus</strong></em> merupakan program parasite yang tidak (mandiri) , dan program ini dapat menyebarkan diri jika di aktifkan programnya dan Virus memerlukan ‘Host’.</p>
+<p><em><strong>Worm</strong></em> merupakan kebalikan dari virus, worm (mandiri) karena dirancang untuk menyebar pada system yang terinfeksi dan mencari system lain melalui jaringan yang ada.</p>
+<p><em><strong>Botnet</strong></em> (robot internet) adalah program berbahaya (salah satu malware) yang bisa menjadikan komputer target sebagai bot yang melakukan tugas-tugas otomatis melalui internet tanpa disadari target.</p>
+<p><em><strong>Hydra</strong></em> sejatinya adalah botnet tapi hydra memiliki konsep yang sedikit berbeda dengan botnet sehingga bisa dikatakan lebih <em>advance</em>. Ketika hidra dibasmi tapi tidak sampai tuntas maka dapat berkembang dan meyerang dengan skala yang lebih besar walaupun dengan komponen yang tidak utuh.</p>
+<p><em><strong>Spyware</strong></em> adalah istilah khusus untuk mendefinisikan software yang melakukan tindakan tertentu tanpa persetujuan dari pengguna computer, seperti:</p>
+<ul>
+<li>Periklanan</li>
+<li>Mengumpulkan informasi pribadi</li>
+<li>Mengubah konfigurasi komputer</li>
+</ul>
+<p>Spyware sering dikaitkan dengan software yang menampilkan iklan (disebut adware).</p>
+<p><em><strong>Antivirus</strong></em> adalah jenis software yang digunakan untuk mencegah, mendeteksi, dan menghilangkan program-program berbahaya.</p>
+<p><em><strong>Zombie</strong></em> merupakan program yang mengambil alih computer jaringan lain kemudian menggunakannya untuk tidak baik</p>
+<h3>Denial of Service dan DDOS</h3>
+<p><em><strong>Denial of Service</strong></em> merupakan jenis serangan terhadap sebuah computer / server dengan tujuan mencegah pengguna lain mendapatkan akses. DoS dilakukan dengan cara menghabiskan sumber (resource) yang di miliki computer.</p>
+<p><strong>Karakteristik dari DDoS attack adalah :</strong></p>
+<ol>
+<li>Serangan DDoS merupakan serangan besar-besaran dan terkoordinasi pada ketersediaan pelayanan sistem korban</li>
+<li>Layanan yang diserang mereka dinamakan ”Primary Victim”, sementara sistem kompromise digunakan untuk meluncurkan serangan sering disebut “Secondary Victim”.</li>
+<li>Serangan berasal dari beberapa IP address.</li>
+<li>Jika satu IP address digunakan untuk menyerang suatu perusahaan, maka IP tersebut dapat diblok dengan menggunakan firewall. Jika IP tersebut 30000 maka ini sangatlah sulit.</li>
+<li>Pelaku mampu melipatgandakan efektivitas dari Denial of Service secara signifikan dengan memanfaatkan sumber daya dari beberapa komputer tanpa disadari beberapa user yang menggunakan komputer yang berfungsi sebagai serangan platform.</li>
+</ol>
+<p><em><strong>Honeypot</strong></em> adalah suatu system computer yang fleksibel dan dikustomasi menjadi alat keamanan dan di-set up untuk menyerang dan “menjebak” orang yang berusaha melakukan hacking.</p>
+<p>Teknik yang sering digunakan di DDoS dan DoS :</p>
+<ul>
+<li><em><strong>Pings of Death</strong></em>—> Jenis serangan pada <a href="https://id.wikipedia.org/wiki/Komputer">komputer</a> yang melibatkan pengiriman <a href="https://id.wikipedia.org/wiki/Ping">ping</a> yang salah atau berbahaya ke komputer target</li>
+<li><em><strong>Ping Flood</strong></em> —> Jenis serangan dengan mengirimkan banyak paket ICMP echo request(ping) yang memiliki bandwith lebih banyak dari pada target.</li>
+<li><em><strong>Tear Drop</strong></em> —> Serangan yang memanfaatkan fitur yang ada di TCP/IP yaitu pemecahan paket</li>
+<li>**S*YN Attack —> Serangan yang mengirimkan banyak SYN(synchronize) ke server dan tidak membalas ACK (acknowledgement)</li>
+<li><strong>Smurf Attack</strong> —> Serangan  DDoS yang yang mengirimkan pesan ping ICMP reply dalam jumlah yang besar kebanyak komputer</li>
+<li><strong>NetCat/NetCut</strong> —> Sebuah utility tool yang digunakan para hacker yang berkaitan dengan protocol TCP atau UDP</li>
+</ul>
+<h3>Sniffing</h3>
+<p><strong>Sniffing</strong> adalah aktivitas menyadap yang dilakukan dalam jaringan yang sangat sulti untuk di cegah.</p>
+<ul>
+<li>Sniffer —>alat yang digunakan untuk menangkap informasi dalam sebuah jaringan melalui paket-paket  data yang lewat.</li>
+<li>Spoofing —> Teknik yang digunakan untuk memperoleh akses yang tidak sah ke suatu komputer</li>
+</ul>
+<p>Snifing dalam peletakan posisinya dibagi 2 yaitu:</p>
+<p><strong>Passive sniffing</strong> adalah suatu kegiatan penyadapan tanpa merubah data atau paket apapun pada jaringan</p>
+<p><strong>Active sniffing</strong> adalah kegiatan sniffing yang dapat melakukan perubahan paket data dalam jaringan agar bisa melakukan sniffing. Metode active sniffing yang paling umum dilakukan adalah :</p>
+<ul>
+<li><strong>ARP Spoofing Attack</strong> —> Penyerangan Local Area Network</li>
+<li><strong>Mac Flooding</strong> —> Penyerangan packet data ke Switch</li>
+<li><strong>Port Mirrorring</strong> —> Cara sniffing dengan menggunakan switch. Dalam hal ini, penyerang harus dapat mengakses      command-line interface dari switch dan switch juga harus mendukung port-mirroring.</li>
+</ul>
+<p><strong>Cara untuk mendeteksi Sniffing:</strong></p>
+<ol>
+<li>Lakukan pengecekan terhadap mesin mana yang sedang berjalan dalam keadaan yang tidak stabil.</li>
+<li>Jalankan ARPWATCH dan antisipasi jika MAC Address dalam komputer tersebut berubah.</li>
+<li>Jalankan network tool seperti HP OpenView dan IBM Tivoli network health check tool untuk memonitor jaringan dengan pengiriman packet yang aneh.</li>
+</ol>
+<p><strong>Penanggulangan:</strong></p>
+<ol>
+<li>Pembatasan akses fisik ke media jaringan untuk memastikan bahwa sniffer paket tidak dapat diinstal.</li>
+<li>Cara terbaik untuk mengamankan sniffing adalah dengan menggunakan encryption. Hal ini tidak akan mencegah snif tetapi cara tersebut dapat mencegah sniffer tidak dapat mendapatkan informasi tersebut.</li>
+</ol>
+<h3>Encryption</h3>
+<p><strong>Enkripsi</strong> meruapkan proses mengamankan suatu informasi(<em>chiper</em>) dengan membuat informasi tersebut tidak dapat dibaca tanpa pengetahuan khusus.</p>
+<ul>
+<li><em><strong>One-way Encryption</strong></em> —> Pengubahan data ke bentuk lainnya secara satu arah, artinya data yang sudah berubah tidak bisa dikembalikan ke datanya semula</li>
+<li><strong>Two-way Encryption</strong> —> Pengubahan data ke bentuk lainnya secara dua arah, artinya data yang sudah berubah bisa dikembalikan ke data aslinya.</li>
+</ul>
+<p><strong>Dekripsi</strong> merupakan proses mengembalikan ciphertext menjadi plaintext.</p>
+<p><strong>Hashing</strong> merupakan proses trasnformasi digital dari ukuran aslinya menjatu ukuran tertentu terlepas dari beberapa besar ukuran aslinya yang sama seperti aslinya</p>
+<p><strong>Hash Function</strong> merupakan fungsi yang melakukan <em>Hashing</em> tersebut</p>
+<p><strong>Cryptographic hash function</strong> digunakan untuk memverifikasi apakah input data cocok dengan hash value yang disimpan sehingga umum digunakan untuk keperluan keamanan pada teknologi informasi. Proses ini biasa dikenal (Message Digest),</p>
+<p>Sifat dari Cryptographic Hash Function adalah tidak mungkin untuk menghasilkan pesan asli dari   <em>hash value-nya.</em></p>
+<ol>
+<li><strong>Enkripsi Konvensional (Symmetric Encryption)</strong></li>
+</ol>
+<p>Informasi asal yang dapat di mengerti di simbolkan oleh Plain teks, yang kemudian oleh algoritma Enkripsi diterjemahkan menjadi informasi yang tidak dapat untuk dimengerti yang disimbolkan dengan cipher teks.</p>
+<p>Keamanan dari enkripsi konvensional bergantung pada beberapa faktor. Pertama algoritma enkripsi harus cukup kuat sehingga menjadikan sangat sulit untuk mendekripsi cipher teks dengan dasar cipher teks tersebut. Lebih jauh dari itu keamanan dari algoritma enkripsi konvensional bergantung pada kerahasian dari kuncinya bukan algoritmanya.</p>
+<p><strong>Manfaat Algoritma Enkripsi Konvensional:</strong> Kemudahan dalam penggunaan secara luas</p>
+<p><strong>Contoh Enkripsi Konvensional (Symmetric Encryption)</strong></p>
+<ol>
+<li>
+<p>Caesar Cipher (Shift Cipher)</p>
+<p>Enkripsi ini adalah jenis yang paling banyak diketahui dan paling mudah. Tiap karakter pada plain text digantikan oleh karakter lain dari kumpulan karakter yang sudah ditentukan (<em>char sequence</em>), yang posisinya digeser (<em>shifted</em>) beberapa kali ke kanan atau kekiri</p>
+</li>
+<li>
+<p>Simple Substitution Cipher</p>
+<p>Pada simple substitution, tiap karakter di plaintext dengan karakter A sampai Z yang urutannya sudah diubah sesuai keyword tertentu.</p>
+</li>
+<li>
+<p>Route Cipher</p>
+<p>Dalam route cipher, untuk menjaga kerahasiaan data dilakukan penulisan data dalam grid dan merubah posisi tiap karakter dalam grid tersebut.</p>
+<hr>
+</li>
+<li>
+<p><strong>Enkripsi Public key</strong>. Enkripsi ini berbeda dengan konvensional yang memerlukan satu kunci saja dalam membuka dan menutup data tersebut,sedangkan dalam public key pembuat mengunakan public key sedangkan pembuka data mengunakan privat key. Berikut akan ditampilkan berbagai aspek penting dari enkripsi konvensional dan public key.</p>
+</li>
+</ol>
+<p><strong>Enkripsi Konvensional</strong></p>
+<p>Yang dibutuhkan oleh enkripsi konvensional :</p>
+<ol>
+<li>Algoritma yang sama dengan kunci yang sama dapat digunakan untuk proses dekripsi–enkripsi.</li>
+<li>Pengirim dan penerima harus membagi algoritma dan kunci yang sama.</li>
+</ol>
+<p><strong>Enkripsi Public Key</strong></p>
+<p>Yang dibutuhkan oleh enkripsi public key :</p>
+<ol>
+<li>Algoritma yang digunakan untuk enkripsi dan dekripsi dengan sepasang kunci, satu untuk enkripsi satu untuk dekripsi.</li>
+<li>Pengirim dan penerima harus mempunyai sepasang kunci yang cocok.</li>
+</ol>
+<p>Yang dibutuhkan untuk keamanan enkripsi public key dan konvensional:</p>
+<ol>
+<li>Key harus dirahasiakan</li>
+<li>Tidak mungkin atau sangat tidak praktis untuk menerjemahkan informasi yang telah dienkripsi.</li>
+<li>Pengetahuan tentang algoritma dan sample dari kata yang terenkripsi tidak mencukupi untuk menentukan kunci.</li>
+</ol>
+7:X
+c:X
+c:C
+0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Resensi Konsep Network Security"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Mon Mar 21 2016 18:49:41 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
+4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+13:null
+10:true
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"

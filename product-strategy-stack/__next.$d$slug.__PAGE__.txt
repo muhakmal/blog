@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:T1fde,<p>Kata-kata strategy terkadang sering disalah artikan dan seringkali di lebarkan kepada yang bukan mana artinya. Strategy kerap kali di artika "Visi", "Misi", "Gaols", dan "Roadmap" dijadikan satu yang meninggalkan sebuah arti yang tidak memiliki konteks sama sekali. Dan kerap kali product team menemukan ini merupakan ketidak jelasan untuk membuat sebuah perusahaan maju kedepan.</p>
+<p>Sebagai contoh kadang kita kerap mempertanyaka:</p>
+<ul>
+<li>Apakah saya harus memprioritaskan fitur baru atau mengoptimisasikan flow fitur eksisting?</li>
+<li>Apakah saya harus menutup kemungkinan baru, atau memperpanjang kemungkinan yang sudah ada?</li>
+<li>Apakah saya harus membuat fitur ini in-house, atau menggunakan third-party services?</li>
+</ul>
+<p>Dalam menjawab pertanyaan diatas, product leader kerap kali berpikir "Membuat prioritas dari suatu fitur itu sulit", "Pengorbanan ini tidak mungkin dilakukan", "Saya tidak merasa yakin dengan penentuan prioritas ini". Dalam banyak kasus, kesulitan mempriotiaskan low-level execution ini disebabkan oleh high-level problem.</p>
+<blockquote>
+<p>Kesulitan dalam memprioritaskan seringkali merupakan masalah strategim bukan masalah eksekusi.</p>
+</blockquote>
+<p>Kesenjangan dalam strategi mempersulit tim untuk mengeksekusi. Ini mengakibatkan hilangnya peluang. Eksekusi menjadi jauh leih mudah ketika strategi didefinisikan dengan jelasm dikomunikasikan, dan terhubung dengan misi perusahaan dan pekerjaannya sehari-hari.</p>
+<h2>Apa itu Product Strategy Stack</h2>
+<p>Dalam penentuan product startegy stack, perusahaan harus memikirkan hubungan antara misi, strategi, roadmap, dan tujuan sebagai setumpuk konsep yang berbeda:</p>
+<ul>
+<li><strong>Misi Perusahaan</strong> - Target keseluruhan yang dilihat oleh perusahaan dan perubahan yang ingin dihadirkan kedalam target tersebut.</li>
+<li><strong>Strategi Perusahaan</strong> - Rencana logis yang dimiliki untuk mewujudkan misi perusahaan</li>
+<li><strong>Strategi Product</strong> - Rencana logis tentang bagaimana product akan mendorong bagiannya dari strategi perusahaan</li>
+<li><strong>Product Roadmap</strong> - Urutan fitur yang menerapkan strategi product</li>
+<li><strong>Product Goals</strong> - Hasil dari quarter dan daily dari product roadmap yang mengukur seberapa maju kemajuan terhadap strategi product</li>
+</ul>
+<p><img src="featured.png" alt="the product strategy stack" title="the product strategy stack"></p>
+<h2>Product Strategy adalah Jaringan Penghubung</h2>
+<p>Setiap lapisan merupakan prasyarat untuk lapisan berikutnya. Kita tidak dapat memiliki strategi perusahaan tanpa mengetuahu misi perusahaan kita, Kita tidak dapat memiliki tujuan produk tanpa mengetahui strategy product kita. Mengnigat hubungan antara lapisan ini, strategy dari sebuha product memiliki peran penting -- ini adalah jaringan penghubung antara tujuan perusahaan dan pekerjaan inti dari tim product dalam men-deliver sebuah product.</p>
+<h2>Top Down = Definition, Botom Up = Evaluation</h2>
+<p><img src="defining-product-strategy.png" alt="Tops Down = Definisi, Bottoms Up = Evaluasi" title="Tops Down = Definisi, Bottoms Up = Evaluasi"></p>
+<p>Product Strategy Stack adalah sistem yang dapat kita gunakan untuk perencanaan dan pelaksanaan:</p>
+<ul>
+<li>
+<p><strong>Top-Down</strong></p>
+<p>Tim dapat bekerja dari atas tumpukan ke 1) menentukan tumpukan, 2) bekerja pada tingkat yang semakin halus untuk merencanakan eksekusi produk, dan 3) menyelaraskan perusahaan dengan rencana eksekusi tersebut.</p>
+</li>
+<li>
+<p><strong>Bottom-up</strong></p>
+<p>Selain itu, tim dapat bekerja dari bawah hingga 1) mengkomunikasikan status pelaksanaan dan 2) melacak seberapa baik kerja tim produk dalam mendorong tujuan tingkat perusahaan.</p>
+</li>
+</ul>
+<h2>The Product Strategy Stack in Depth</h2>
+<p><img src="frame-4642.jpeg" alt="The Product Strategy Stack in Depth" title="The Product Strategy Stack in Depth"></p>
+<h2>What Bad Product Strategy Stack Feels Like</h2>
+<h4>KESULITAN DALAM MEMPRIORITASKAN</h4>
+<p>Gejala paling umum dari tumpukan strategi yang buruk adalah kesulitan memprioritaskan. Misalnya, tim mungkin kesulitan untuk mengevaluasi trade-off antara mengoptimalkan aliran untuk pengguna baru vs. memenuhi kebutuhan pengguna yang kuat.</p>
+<h4>MISKOMUNIKASI DALAM TIM</h4>
+<p>Kesulitan dalam membuat prioritas sering kali menyebabkan putusnya komunikasi dalam tim. Beberapa rekan tim ingin pergi ke satu arah, dan yang lainnya tidak akan setuju. Tanpa konteks yang tepat, orang akan mengandalkan pendapat masing-masing, daripada menyelaraskan dengan tujuan bersama.</p>
+<h4>UX PROSES YANG AMBURADUL</h4>
+<p>Kurangnya prioritas yang jelas dapat mempengaruhi pengalaman pengguna. Strategi yang jelas mengarah ke UX sederhana. Ketika strateginya tidak jelas, tim mungkin membuat pilihan yang tidak konsisten atau dikompromikan. Seiring waktu, hal ini dapat berdampak buruk. Sejarah teknologi dipenuhi dengan produk-produk yang membengkak yang diganggu oleh para pemula yang lebih beropini dan efisien.</p>
+<h4>KURANGNYA KOORDINASI ANTAR TIM</h4>
+<p>Tanpa strategi menyeluruh yang jelas untuk mengarahkan peta jalan, tim di seluruh perusahaan dapat dengan mudah menjadi tidak sejajar dan memprioritaskan hal-hal yang berbeda. Ini terutama benar ketika tim memprioritaskan hasil berbeda yang masuk akal secara lokal untuk kelompok mereka tetapi tidak memajukan perusahaan. Misalnya, tim penjualan perusahaan dapat menerapkan fitur rumit untuk satu pelanggan, sedangkan tim produk inti difokuskan pada penyederhanaan produk untuk mendukung UKM dengan lebih baik.</p>
+<h4><strong>SATURASI PRODUCT MARKET-FIT</strong></h4>
+<p>Akhirnya, perusahaan mencapai batas kesesuaian produk-pasar mereka ketika strategi didefinisikan dengan buruk atau tidak lengkap. Tim tidak dapat berimprovisasi dengan cara mereka ke <a href="https://oku6bnmn6udxml2sr2qkiwbquq--www-reforge-com.translate.goog/blog/product-work-beyond-product-market-fit">sumber baru yang sesuai dengan pasar produk</a> . Sebaliknya, <a href="https://oku6bnmn6udxml2sr2qkiwbquq--www-reforge-com.translate.goog/product-leadership">pemimpin produk</a> perlu mengantisipasi kejenuhan dan secara proaktif memperluas kesesuaian pasar produk mereka untuk menjangkau audiens baru dan / atau nilai baru.</p>
+<h4>DAMPAK NEGATIF TERHADAP MORAL</h4>
+<p>Seiring waktu, strategi yang didefinisikan dengan buruk sangat membebani tim yang kuat. Ketidakjelasan membuat kerja tim menjadi beban. Mereka mungkin kehilangan kebanggaan dalam mengirimkan produk yang terasa tidak fokus, atau merasa kalah ketika keuntungan yang semakin berkurang. Mereka mungkin merasa bahwa mereka tidak mendapatkan konteks dan sumber daya yang mereka butuhkan dari kepemimpinan. Pada akhirnya, orang yang berkinerja tinggi akan berhenti bekerja jika mereka tidak percaya atau tidak dapat memahami strateginya.</p>
+<h2>Type of Product Strategy Stacks</h2>
+<p><img src="great-vs-good-vs-bad-product-strategy.png" alt="## Type of Product Strategy Stacks  " title="## Type of Product Strategy Stacks  ![](great-vs-good-vs-bad-product-strategy.png)"></p>
+<h2>Clubhouse Stacks Example</h2>
+<p><img src="clubhouse-product-strategy.png" alt="## Clubhouse Stacks Example" title="## Clubhouse Stacks Example"></p>
+<h2>Stacks on Stacks</h2>
+<p><img src="product-vs-marketing-strategy.png" alt="## Stacks on Stacks" title="## Stacks on Stacks"></p>
+<p>Product Startegy Stack hanyalah permulaan. Setiap fungsi dalam perusahaan harus diselaraskan agar perusahaan mencapai potensi penuhnya. Teknologi, <a href="https://oku6bnmn6udxml2sr2qkiwbquq--www-reforge-com.translate.goog/marketing-strategy">pemasaran</a> , operasi, dan fungsi lainnya perlu menentukan strategi fungsional, peta jalan, dan tujuan untuk menaiki strategi perusahaan dan membantu perusahaan mencapai misinya. Kita dapat melihat tingkat keselarasan ini di perusahaan yang sukses seperti Apple, di mana setiap elemen bisnis memperkuat strategi dan misi tunggal. Mencapai tingkat penyelarasan ini tidaklah mudah, tetapi tumpukan strategi dapat membantu.</p>
+<p>Sumber  <a href="https://www.reforge.com/blog/the-product-strategy-stack">The Product Strategy Stack — Reforge</a></p>
+7:X
+c:X
+c:C
+0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Product Strategy Stack"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Fri Mar 12 2021 23:42:54 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
+4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+13:null
+10:true
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"

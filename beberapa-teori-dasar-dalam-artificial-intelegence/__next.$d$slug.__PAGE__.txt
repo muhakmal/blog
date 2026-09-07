@@ -1,0 +1,116 @@
+1:"$Sreact.fragment"
+2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:T1e2a,<h4>Teori MiniMax</h4>
+<p>Algoritma Minimax (juga sering disebut Minmax) adalah sebuah algoritma yang mendasari pola pikir langkah penyelesaian masalah dalam beberapa jenis permainan komputer, seperti t<em>ic-tac-toe</em>, <em>othello</em>, <em>checkers</em>, catur, dll. Pada dasarnya, algoritma Minimax sangat andal untuk menyelesaikan segala masalah dalam pencarian langkah untuk permainan komputer dengan jumlah kemungkinan penyelesaian yang kecil, seperti pada permainan <em>tic-tac-toe</em>. Tetapi, jika algoritma Minimax digunakan pada permainan dengan jumlah kemungkinan penyelesaian yang besar seperti pada permainan catur, algoritma Minimax ini memerlukan waktu yang sangat lama untuk membangun pohon penyelesaian.</p>
+<h4>Dasar Teori Minimax</h4>
+<p>Secara teori, algoritma Minimax didefinisikan sebagai berikut:
+“<em>Untuk setiap permainan satu-lawan satu, ada sebuah nilai yang bernilai V dan strategi yang dipilih oleh tiap pemain, sehingga: (a), Jika diberikan strategi dari pemain ke-2, maka langkah penyelesaian terbaik dari pemain pertama adalah V. Dan (b), jika diberikan strategi dari pemain pertama, maka langkah penyelesaian terbaik dari pemain kedua adalah –V”</em> [6] Singkatnya, pemain pertama memberikan langkah penyelesaian yang bernilai V terhadap permainan pemain kedua, dan sebaliknya, pemain kedua memberikan langkah peyelesaian bernilai –V. Pemikiran inilah yang mendasari asal usul penamaan algoritma Minimax, dimana pemain yang satu berjuang untuk mendapat nilai maksimum,sedangkan lawannya berjuang untuk mendapat nilai minimum.</p>
+<h4>Langkah Membuat Teori Minimax</h4>
+<p>Langkah-langkah membuat algoritma Minimax adalah sebagai berikut:</p>
+<ol>
+<li>Misalkan ada 2 pemain yang terlibat, kita namakan MAX dan MIN.</li>
+<li>Lalu sebuah pohon pencarian dibangkitkan secara <em>depth-first-search</em> dari posisi awal permainan hingga akhir permainan.</li>
+<li>Dari sudut pandang MAX, akan dicari posisi terakhir yang paling menguntungkan bagi MAX.</li>
+</ol>
+<h5>Contoh 1 Algoritma Minimax</h5>
+<pre><code class="language-pseudocode">MinMax (GamePosition game) {
+	return MaxMove (game);
+}
+MaxMove (GamePosition game) {
+if (GameEnded(game)) {
+	return EvalGameState(game);
+}
+else {
+	best_move &#x3C; - {};
+	moves &#x3C;- GenerateMoves(game);
+ForEach moves {
+	move &#x3C;- MinMove(ApplyMove(game));
+if (Value(move) > Value(best_move)) {
+	best_move &#x3C; - move;
+	}
+}
+return best_move;
+	}
+}
+
+</code></pre>
+<h5>Contoh 2 Algoritma Minimax</h5>
+<pre><code class="language-pseudocode">MinMove (GamePosition game) {
+	best_move &#x3C;- {};
+	moves &#x3C;- GenerateMoves(game);
+ForEach moves { 
+	move &#x3C;- MaxMove(ApplyMove(game));
+if (Value(move) >Value(best_move)) {
+	best_move &#x3C; - move;
+	}
+}
+return best_move;
+</code></pre>
+<p>Arti algoritma di atas : Yang terjadi pada algoritma diatas adalah, MAX akan mengambil nilai maksimum dari pohon pencarian yang dibangkitkan pada simpul terakhir. Sebaliknya, MIN akan menangkis serangan MAX dengan mengambil nilai minimum pada posisi akhir permainan, yang akan meminimalisasi serangan MAX.</p>
+<h4>Kelemahan Teori Minimax</h4>
+<p>Dengan membangkitkan pohon pencarian ini, komputerakan selalu mendapatkan penyelesaian terbaik untuksetiap langkahnya. Tetapi, masalah muncul ketika jumlah input yang dimasukkan menjadi banyak. Bayangkan saja, untuk posisi pertama dalam permainan catur dimana hanya terdapat kemungkinan untuk bergerak bagi 8 pion dan 2 kuda, akan terdapat sebanyak 8<em>2 + 2</em>2 = 20 kemungkinan. Hal ini berarti pada simpul awal akan didapatkan 20 sub-simpul sebagai langkah penyelesaian pada aras (<em>level</em>) ke 1. Jika komputer melakukan hal yang sama untuk menganalisis langkah selanjutnya (berarti komputer melakukan pembangkitan pohon untuk simpul pada aras ke 1) maka akan dilakukan 20 pembangkitan dimana pada tiap pembangkita akan dilakukan puluhan pembangkitan lain untuk aras ke 2. Demikian seterusnya hingga algoritma mencapai aras terakhir permainan, skakmat.</p>
+<h5>Contoh Kasus</h5>
+<p><img src="https://i.postimg.cc/G3fw0fJ8/Picture1.png" alt="img"></p>
+<h4>Teori Alpha – Betha Prunning</h4>
+<p>Dalam algoritma minimax, banyak terjadi kejadian dimana terjadi pengecekan sebuah simpul yang seharusnya tidak dicek karena tidak akan mempengaruhi hasil akhir. Untuk menghindari hal yang demikian, telah dibuat suatu algoritma minimax yang lebih optimal, yaitu algortima alpha beta pruning. Hasil algoritma alpha beta pruning sendiri tidak berubah dari algoritma minimax, yang berubah hanya traversalnya yang lebih sedikit. Cara kerja algoritma ini adalah dengan mengecek sebuah simpul n, dan jika pemain memiliki pilihan yang lebih baik pada akar n atau simpul-simpul selanjutnya, maka sebenarnya n tidak pernah dicapai pada waktu permainan. Maka pada n akan dilakukan pruning, yaitu simpul n tidak akan dikembangkan lagi pada pohon.  Algoritma alpha beta pruning memanfaatkan dua nilai, yaitu alpha dan beta. Nilai alpha menunjukkan skor pilihan terbaik yang bisa diambil pemain Max, dan nilai beta menunjukan skor pilihan terbaik yang bisa diambil pemain Min. Pruning dilakukan ketika simpul yang sedang ditinjau pada pemain Max, yaitu n, memiliki skor  yang lebih rendah daripada alpha, maka n tidak perlu ditinjau lagi berikutnya. Hal yang sama dilakukan pada pemain Min memakai nilai beta.</p>
+<h5>Contoh Kasus</h5>
+<p><img src="https://i.postimg.cc/R0T5jVX4/2.png" alt="img"></p>
+<p>Seperti terlihat, nilai skor yang tidak ditinjau (dengan „?‟) tidak mempengaruhi nilai skor pada akar pohon keputusan. Coba lihat node A. Node ini tidak perlu dievaluasi karena pemain Min sudah mengambil keputusan di simpul bernilai 10. Ini disebut dengan beta-cutoff. Kemudian coba lihat node yang belum ditinjau di subpohon bagian kanan. Node-node ini juga tidak perlu dievaluasi karena pemain Max sudah mengambil keputusan di simpul bernilai 10 untuk mencegah pemain Min mengambil keputusan di simpul bernilai 7. Ini disebut dengan alpha-cutoff. Dengan kedua cutoff tadi, terlihat bahwa simpul yang perlu ditinjau dengan alpha beta pruning jauh lebih sedikit daripada jika kita memakai algoritma minimax biasa.</p>
+<h4>Teori Constraint Satisfaction Problem (SCP)</h4>
+<p>Constraint Satisfaction Problem (CSP) merupakan sebuah pendekatan dari problem yang bersifat matematis dengan tujuan menemukan keadaan atau obyek yang memenuhi sejumlah persyaratan atau criteria</p>
+<h5>Contoh Penerapan SCP</h5>
+<ul>
+<li>Backtracking</li>
+<li>Forward checking</li>
+<li>Look Ahead</li>
+<li>Constraint propagation</li>
+<li>Arc and path consistency</li>
+<li>Variable and value ordering</li>
+<li>Hill climbing</li>
+</ul>
+<h5>Contoh Algoritma</h5>
+<p><img src="https://i.postimg.cc/507c27hr/3.png" alt="img"></p>
+<h5>Contoh Kasus</h5>
+<p>A crossword puzzle: We are to complete the puzzle</p>
+<p><img src="https://i.postimg.cc/N0DSdCj0/Screen-Shot-2019-09-14-at-19-42-15.png" alt="img"></p>
+<h4>Latihan</h4>
+<ol>
+<li>
+<p>Selesaikan criptarithmetic Problem berikut dengan algoritma Constrain Satisfaction :</p>
+<p><img src="https://i.postimg.cc/hjGw68X1/Screen-Shot-2019-09-14-at-19-48-03.png" alt="img"></p>
+<p><strong>Jawab</strong></p>
+<p><img src="https://i.postimg.cc/MpyhQpkV/123123123.png" alt="img"></p>
+</li>
+<li>
+<p>Di bawah ini diperlihatkan search tree dari suatu maximizing game. Dengan menggunakan alph beta prunning algoritm, tentukan nilai alpha optimal yang dapat dicapai oleh seorang maximizing player. Jelaskan bagaimana mekanisme cut off dilakukan terhdp cabang yang tidak relevan</p>
+<p><img src="https://i.postimg.cc/C16tgZDT/Screen-Shot-2019-09-14-at-19-43-27.png" alt="img"></p>
+<p><strong>Jawab</strong></p>
+<p><img src="https://i.postimg.cc/MpyhQpkV/123123123.png" alt="img"></p>
+</li>
+</ol>
+7:X
+c:X
+c:C
+0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Beberapa Teori Dasar Dalam Artificial Intelegence"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Sun Mar 15 2015 18:49:37 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
+4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+13:null
+10:true
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"

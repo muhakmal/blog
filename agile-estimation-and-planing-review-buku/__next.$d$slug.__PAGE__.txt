@@ -1,0 +1,181 @@
+1:"$Sreact.fragment"
+2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:T3adc,<p><a href="https://www.tokopedia.com/pustakabahtera/agile-estimating-and-planning-buku">Buku </a>Agile Estimation and Planning di tulis oleh <a href="https://www.mountaingoatsoftware.com/blog">Mike Cohn</a></p>
+<p><em>Planning</em> dan <em>Plan</em> merupakan sesuatu yang berbeda. <em>Yet planning is difficult, plans are often wrong.</em> Terkadang anggota dalam penerapannya hal ini terbagi menjadi; <strong>(1)</strong> Mereka yang tidak sama sekali melakukan planning sedari awal, atau <strong>(2)</strong> Mereka yang menginvestasikan banyak waktu ke dalam plan mereka, dan mereka menjadi (harus) yakin bahwa plan yang mereka sudah buat harus berjalan dengan benar.</p>
+<p>Tulisan diatas di nukil dari beerapa halaman pertama buku Agile Estimation and Planning. Sebelum ssaya berangkat lebih jauh tentang <em>estimating</em> dan <em>planning</em> mungkin yang layak harus di garis bawahi ada motivasi dan tujuan dibalik membuat estimasi yang baik dalam sebuah project adalah tidak lain untuk membuat estimasi yang telah dibuat tersebut berguna dan bermanfaat untuk project yang akan di jalani. Tentu akan banyak ketidakpastian yang akan erat kaitannya dengan estimasi yang akan dibuat, terutama di awal-awal perencanaan sebuah project.</p>
+<p>Sebuah estimasi akan dikatakan berguna untuk sebuah project ketika an;</p>
+<ul>
+<li>Memberikan <em>insight</em> untuk setiap resiko yang terlihat maupun tidak terlihat yang ada di dalam porject.</li>
+<li>Dengan selalu mempelajari setiap hal yang ada di dalam project tersebut, akan dapat mengurangi ketidakpastian yang ada</li>
+<li>Estimasi yang bagus, dapat mengarahkan team untuk membangun kepercayaan yang lebih antar satu sama lain. Dalam hal ini developer dan management.</li>
+<li>Proses estimasi akan mednukung <em>decision making</em> dengan menyediakan <em>insight-insight</em> kedalam perencaan sebuah project, dalam hal ini terkait biaya/<em>cost</em> dan jadwal dari sebuah project.</li>
+</ul>
+<h3>Cone of Uncertainty</h3>
+<p><img src="the-cone-of-uncertainty-narrows-as-the-project-progress.png" alt="the cone of uncertainty narrows as the project progress" title="the cone of uncertainty narrows as the project progress"></p>
+<p><em>Figure on the Book, Agile Estimation and Planning Page 4</em></p>
+<p><img src="cone-of-uncertainty.png" alt="cone of uncertainty" title="cone of uncertainty"></p>
+<p><em>Figure of Cone of Uncertainty : <a href="http://www.agilenutshell.com/cone_of_uncertainty">Source</a></em></p>
+<h3>The Challenges</h3>
+<p>Jadi, apa sebenarnya tantangan terbesar yang dihadapi dalam sebuah perencanaan project?</p>
+<p><strong>Perbedaan antara estimasi dan komitmen seringkali kabur dan tidak jelas</strong>. Perbedaan dua konsep tersebut tentu harus dapat di artikan secara jelas pada perencanaan sebuah project. Seringkali juga yang biasa dilakukan <strong>fitur yang dikerjakan tidak di prioritaskan</strong>, dan hanya dikerjakan berdasarkan urutan acak dan suka-suka. Kalau sebuah project dikerjakan seperti ini, jika ada kemungkinan ketelatan dalam sebuah project, maka bisa saja fitur yang akan di buang dari sebuah project adalah fitur yang sudah selesai dikerjakan dan ini akan menjadi sebuah kerugian bagi stakeholder.</p>
+<p>Namun juga, ketika proses estimasi sudah hadir dan diterapkan pada sebuah perusahaan, terkadang <strong>ketidakpastian juga seringkali di hiraukan</strong>. Hal ini terjadi boleh jadi ketika estimasi awal pada sebuah project dilakukan dengan salah.</p>
+<p><em><strong>Planning is often based on completing activites rather than features.</strong></em> Jika sebuah planning difokuskan hanya untuk menyelesaikan suatu aktifitas tertentu ini merupakan suatu bias yang dapat menjadi alasan utama dari ketelatan tim dalam menyelesaikan suatu fitur. Hal ini dikarenakan suatu aktifitas pasti memiliki dependensi satu sama lain dan pada akhirnya keterlambatan pun tidak dapat di hindarkan.</p>
+<p><img src="parkinson-s_law_book.jpg" alt="parkison law" title="parkison law"></p>
+<p><a href="https://en.wikipedia.org/wiki/Parkinson%27s_law"></a></p>
+<p>Alasan yang lain jika planning suatu fitur hanya berdasarkan penyelesaian dari suatu aktifitas merupakan ide yang buruk adalah <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson Law</a>. Parkison Law merupakan suatu pepatah yang menyatakan</p>
+<blockquote>
+<p> "Work expands so as to fill the time available for its completion"</p>
+</blockquote>
+<p>So, ketika sebuah aktifitas/<em>task</em> sudah terlihat tidak akan selesai lebih awal, itu berarti bisa dapat dipastikan fitur tersebut akan selesai terlambat.</p>
+<p>Dan tantangan yang berikutnya adalah asumsi bahwa <strong>menempatkan banyak orang pada suatu project dan permasalahan dapat menyelesaikan project atau permasalahan tersebut lebih cepat</strong>. Hal tersebut tentu saja tidak, terdapat 2 masalah dalam hal tersebut, yang pertama adalah ketidak mengertian bahwa software development adalah sebuah problem solving activity yang berarti jika kita menambahkan lebih banyak orang kedalam sebuah problem tersebut, hal ini malah menyebabkan permasalahan akan lebih bertambah, dan permasalahan tersebut tidak akan selesai lebih cepat. Kedua, menambah lebih banyak orang kedalam sebuah team, tentu akan berimbas kepada cara tim berkomunikasi, hal ini tentu dapat meningkatkan kompleksitas komunikasi, yang dapat menyebabkan justru sebuah project justru tidak akan bertambah cepat dalam menuju penyelesaianny.</p>
+<h3>Sorting Out The Challenges</h3>
+<p>Untuk menghadapi tantangan diatas, Mark Cohn dalam Agile Estimation and Planning merangkum beberapa hal fundamental untuk sebuah <em>agile project</em> yaitu:</p>
+<ul>
+<li><strong>Work is done in iterations</strong></li>
+<li><strong>Prioritise the feature for a release</strong></li>
+<li><strong>Continuesly update the plans</strong></li>
+<li><strong>Team should have an "All in This Together" approach</strong></li>
+<li><strong>Agile teams should not be larger than 9 people</strong></li>
+</ul>
+<h3>Agile Approach</h3>
+<p><img src="agile-manifesto.png" alt="agile manifesto" title="agile manifesto"></p>
+<p><strong>Pada buku ini di jelaskan bagaimana cara sebuah kerja tim agile, hal tersebut diantaranya</strong></p>
+<ul>
+<li>Work as one team</li>
+<li>Work in short iterations</li>
+<li>Deliver something in every iteration</li>
+<li>Focus on business priorities</li>
+<li>Inspect and Adapt</li>
+</ul>
+<p><img src="planning-onion.png" alt="planning onion" title="planning onion"></p>
+<p>Multiple Level of Planning, a <strong>Planning Onion</strong></p>
+<p><img src="conditions-of-satisfaction.png" alt="Feedback -- Conditions of Satisfactions" title="Feedback -- **Conditions of Satisfactions**"></p>
+<p>Feedback -- <strong>Conditions of Satisfactions</strong></p>
+<p><strong>Ringkasan Agile Approach</strong></p>
+<p>Agile team bekerja bersama dalam sebuah team, dengan mengikut sertakan setiap peran yang akan di isi oleh setiap orang yang akan bekerja sama dalam setiap tim tersebut.</p>
+<p>Agile team bekerja dalam waktu yang singkat, dalam timeboxed iterations yang akan merelease product setiap kali iterasi. Feature yang dikerjakan dan yang akan dikerjakan dipilih berdasarkan prioritas dari bisnis yang berjalan. Hal ini harus dipastikan bahwa fitur yang paling penting harus dikerjakan lebih dulu.</p>
+<p>Projects dan setiap iterasi dari sebuah agile teams, harus dilihat secara langsung untuk menambah kemampuan dan pengetahuan dari sebuah team, daripada hanya sekedar mengerjakan dan menyelesaikan sebuah project atau setiap fitur yang dikerjakan didalam iterasi tersebut. Project harus menghasilkan 2 jenis pengetahuan,</p>
+<ol>
+<li>Pengetahuan tentang product</li>
+<li>Pengetahuan tentang project</li>
+</ol>
+<p>Kedua hal diatas berguna untuk membuat rencana kedepannya untuk mencapai nilai untuk organisasi.</p>
+<p>Agile teams menggunakan 3 level of planning;</p>
+<ol>
+<li>Release planning -> 3 to 6 months ahead of planning</li>
+<li>Iteration planning -> 2 to 4 weeks ahead of planning</li>
+<li>Daily planning -> each day at every standup meeting</li>
+</ol>
+<h3><strong>Estimation</strong></h3>
+<p>Yang paling pertama dan harus jelas sedari awal, sebuah estimase tidak bisa disamakan dengan sebuah komitmen. Target dari sebuah estimasi dalam sebuah project agar estimasi tersebut dapat sebisa mungkin berguna dan akurat. Dengan itu hal ini jika kita terlalu over-optimis terhadap sebuah estimasi, ini akan menjadi hal yang kontra produktif bagi sebuah tim.</p>
+<p><img src="estimation-size.png" alt="estimation size" title="estimation size"></p>
+<p>Sebuah estimasi, tidak dapat berubah kecuali di dalam tim tersebut terdapat perubahan asumsi terkait fitur yang akan dikerjakan, requirement yang berubah, atau dependensi-dependensi yang baru terlihat. Hal ini di hitung harus tidak berdasarkan waktu ataupun sebuah tekanan dari management. Estimasi dalam software engineering akan dilakukan oleh sebuah development team, terimasuk programmer, tester, product owner, yang bertanggung jawab untuk melihat resiko dan sisi lain dari sebuah project atau fitur yang dikerjakan.</p>
+<p><strong>Story Points</strong></p>
+<p><img src="intial-estimase-for-some-swim-stats-stories.png" alt="estimation example" title="estimation example"></p>
+<blockquote>
+<p>In a good shoe, I wear a size six, but a seven feels so good, I buy a size eight</p>
+</blockquote>
+<p>Story points adalah cara mengukur besaran dari sebuah fitur. Singkatnya, dari sebuah user stories, kita ambil satu dan kita diskusikan pada sebuah team berapa story points yang pas berdasrkan effort. Hal ini bisa berdasarkan eksplorasi dari sebuah fitur, development, testing, production pipeline, dan yang lainnya. Cara terbaik untuk melakukan story points sizing adalah menggunakan linear-scale. Story points murni hanya sebuah estimasi dari sebuah besaran sebuah fitur yang akan dikerjakan. Durasi dari sebuah project tidak dapat di estimasi dengan story points. Atau dalam hal ini, story points tidak dapat di konversikan dalam bentuk jam.</p>
+<p><strong>Velocity</strong></p>
+<p>Velocity akan mengukur rate dari sebuah team progress per iterasi. Di akhir dari setiap iterasi sebuah team dapat merefleksikan berapa story points yang dapat di selesaikan, dan dapat mengukur rata-rata story points yang dapat diselesaikan dalam setiap iterasi.</p>
+<p><strong>3 Common Estimation Technique on Estimation</strong></p>
+<ul>
+<li>Expert Opinion</li>
+<li>Analogy</li>
+<li>Disaggregation</li>
+</ul>
+<p>Setiap teknik diatas dapat dilakukan sendiri-sendiri, namun bisa juga dilakukan bersamaan untuk mencapai hasil terbaik dari sebuah estimasi</p>
+<blockquote>
+<p>If you tell people where to go, but now to tell those people how to get there, you'll be amazed at the results</p>
+</blockquote>
+<p>Why We Should Use Story Points</p>
+<ul>
+<li>Story oints help drive cross-functional behaviour.</li>
+<li>Story-point estimates do not decay</li>
+<li>Story poitns are a pure measeure of size, not time</li>
+<li>Estimating in story points typically faster and more accurate</li>
+<li>My ideal days are not your ideal days</li>
+</ul>
+<h3><strong>Planning</strong></h3>
+<p><img src="uncertainty-waterfall-and-agile.png" alt="uncertainty waterfall and agile " title="uncertainty waterfall and agile "></p>
+<p>The difference of uncertainty between Waterfall and Agile. page 83</p>
+<p><strong>Splitting User Stories</strong></p>
+<blockquote>
+<p>These days we do not progrm software module by module; we program software feature by feature</p>
+</blockquote>
+<p>Sebagaimana user stories merupakan sesuatu yang penting dan pertama kali dilihat dalam release plan, ini berarti user stories merupakan sesuatu yang akan di implementasikan segera, user stories seringkali harus di pecah bagiannya. Tugas memecah user stories butuh skill dan pengalaman yang cukup untuk melakukannya, namun seperti hal yang lainnya ketika kita sudah sering melakukannya dengan sering, kita akan terbiasa dengan tugas ini. Ada berbagai macam teknik untuk memecah user stories, diantaranya;</p>
+<ol>
+<li>
+<p>Split large stories along the boundaries of the data supported by the story; example</p>
+<ul>
+<li>as a borrower, i wan to pay off my loan. Note : allow overpayments</li>
+<li>as a borrower, if I accidentally repay too much, I get a refund if it's over $2</li>
+</ul>
+</li>
+<li>
+<p>Split large stories based on the operations that are performed within the story</p>
+<ul>
+<li>as a coach, I can add new swimmers to my team</li>
+<li>as a coach, I can edit information about swimmers already on my team</li>
+<li>as a coach, I can delete swimmers who are no longer on my team</li>
+</ul>
+</li>
+<li>
+<p>Split large stories into separate CRUD operations</p>
+<p>most likely the same with as a coach cases. CRUD is Create Read Update Delete.</p>
+</li>
+<li>
+<p>Consider removing cross-cutting concers (such as security, logging, error handling, and so on) and creating two versions of the story : one with and one without support for the cross-cutting concern.</p>
+</li>
+<li>
+<p>Consider splitting a large story by separating the functional and nonfunctional aspects into separate stories</p>
+</li>
+<li>
+<p>Separate a large story into smaller stories if the smaller stories have different priorities</p>
+</li>
+<li>
+<p>Do not split a story into tasks, instead try to find a way to fire a tracer bullet through the story.</p>
+<p>example : code the user interface, write the middle tier, etc.</p>
+</li>
+<li>
+<p>Avoid making things worse by adding related changes to an appropiately sized feature unless the related changes are of equivalent priority.</p>
+</li>
+</ol>
+<p>Memecah user stories akan sangat berguna apabila satu user story tidak muat dalam satu iterasi.</p>
+<h3>Release Plan</h3>
+<p>Sebuah release plan merupakan high-level plan yang meliputi beberapa iterasi ke depan. Untuk beberapa agile teams, hal ini bisa dalam apa yang akan di release di setiap iterasi dalam 6 bulan kedepan, atau kurang dari itu.</p>
+<p><img src="planning-a-release.png" alt="planning a release" title="planning a release"></p>
+<p>Sebuah release plan tidak harus menggambarkan apa yang akan dikerjakan pada setiap iterasi, level detail yang seperti itu tidak dibutuhkan pada release plan. Merencanakan release plan adalah proses iterasi yang dimulai dengan mengidentifikasi kondisi satisfikasi product owner terhadap project/feature yang dijalankan pada suatu development team. Hal ini biasanya meliputi goals, schedule, scope, dan resources. Ketika release plan sudah dibuat, bukan berarti hal ini akan digantung di dinding dan menjadi acuan dari project yang sedang berjalan, akan tetapi ini harus di update sesuai dengan kondisi team pada setiap iterasi.</p>
+<p><strong>Iteration Planning - Chapter 14</strong></p>
+<p><img src="iteration-planning.png" alt="iteration planning" title="iteration planning"></p>
+<p>--------------------------------------------</p>
+<h3>Buy The Book</h3>
+<p><a href="https://akmal.page.link/buyAgileEnP">https://akmal.page.link/buyAgileEnP</a></p>
+<h3>Read the Book</h3>
+<p><a href="https://akmal.page.link/agileEnP">https://akmal.page.link/agileEnP</a></p>
+7:X
+c:X
+c:C
+0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Agile Estimation and Planing Review Buku"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Sat Jan 23 2021 15:38:56 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
+4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+13:null
+10:true
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"

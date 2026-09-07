@@ -18,7 +18,7 @@ export function getSortedPostsData() {
     return {
       slug,
       title: matterResult.data.title || 'Untitled',
-      date: matterResult.data.date || '',
+      date: matterResult.data.date ? matterResult.data.date.toString() : '',
     };
   }).sort((a, b) => (a.date < b.date ? 1 : -1));
 }
@@ -38,6 +38,6 @@ export async function getPostData(slug: string) {
     slug,
     contentHtml,
     title: matterResult.data.title || 'Untitled',
-    date: matterResult.data.date || '',
+    date: matterResult.data.date ? matterResult.data.date.toString() : '',
   };
 }

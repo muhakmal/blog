@@ -1,0 +1,92 @@
+1:"$Sreact.fragment"
+2:I[22016,["/blog/_next/static/chunks/3fntmmi971322.js","/blog/_next/static/chunks/22i43cg4l4-dq.js"],""]
+3:T21dc,<p><img src="https://i.loli.net/2020/05/17/cMfVjBQmTuSgndx.jpg" alt="resensi buku investing in digital stratups"></p>
+<p>Dalam buku Investing in Digital Startups yang ditulis oleh William Yang mencakup pembahasan praktis dan success story yang ada di dunia startups. Kalau buku biasa Lean Startup, Startupedia, How to build Billion dollar apps, dan yang lainnya membahas startup dari sisi founder, William Yang membahas stratup dari kacamata investor. Yang membuat menarik buku ini adalah diawal dijelaskan secara praktis jenis investasi apa yang ada didunia digital dan isi selanjutnya dari buku ini menjelaskan secara rinci <em>professional practice</em> dari seorang investor bagaimana membangung startup yang <em>every investor wants to invest</em>.</p>
+<h4>Jenis Investasi di Dunia Digial</h4>
+<p>Perusahaan <em>tech giant</em> seperti Gogle, Amazon, Alibaba, Tencent, dan Facebook saat ini mereka menempati tempat termulia di dunia teknologi. Namun, dibalik kesuksesan bensar mereka itu mereka memendam ketakuktan akan datangnya haari pembalasan atau karma. Ketakutan bahwa</p>
+<blockquote>
+<p>Disuatu tempat di antah berantah ada seorang jenius tidak terkenal yang akan mendatangkan technological disruption dan menendang mereka dari pasaran</p>
+</blockquote>
+<p>Atas dasar hal tersebut, jika ada suatu perusahaan baru yang men-<em>disrupt</em> bisnis mereka, mereka akan melakukan investasi kepada perusahaan baru tersebut untuk menghilangkan ancaman bisnis mereka, Bagi mereka menghilangkan ancaman sejak dini lebih murah dan mudah dibandingkan menunggu para startup itu tumbuh menjadi monster yang tidak bisa lagi mereka kalahkan. Dalam dunia digital startup investing hal tersebut disebet dengan istilah <em><strong>Karma Investing</strong></em>.</p>
+<p>Alasa investasi yang kedua selain karma investing adalah <em><strong>Strategic Investing</strong></em>, yakni melipatgandakan kekuatan dari kondisi saat ini dengan melakukan investasi besar-besaran dengan tujuan untuk menjegal kompetitor. Dalam buku ini, William Yang menceritakan kisah Tencent dengan WeChat dan Alipay-nya yang ingin masuk ke pasar Indonesia namun terhalang oleh regulas Bank Indonesia, untuk kemudian Tencent mengambil langkah strategis dengan membeli 40% saham <a href="www.gojek.com">Go-Jek</a> senilai 1,2 Miliar USD yang menjadikannya <em>major shareholder</em> Go-Jek di pertengahan tahun 2017. Alasan Tencent menyuntikan modal yang begitu besar konon dilandasi 2 alasan yaitu;</p>
+<ol>
+<li>Jaringan Go-jek yang luas dan transaksinya yang begitu tinggi, dan fitur product di aplikasi Go-Jek yang sangat menarik dan banyak</li>
+<li>Kepemilikan Go-Pay yang sudah mengantongi izin uang elektronik dari Bank Indonesia. Dan kabarnya hal inilah yang menjadi alasan utama Tencent menyuntikan modal besar ke Go-Jek Group</li>
+</ol>
+<p>Alasa ketiga untuk berinvestasi di dunia digital adalah visi 300 tahun ke depan yang dipopulerkan oleh Masayoshi Son, CEO dari SoftBank sekaligus menjadi orang terkaya di Jepang. Idenya adalah tidak ada masalah jika perusahaan yang disuntikan modal terus merugi, intinya adalah ketika semua pemain lama tumbang, maka nilai perusahaan akan menjadi 100 kali lipat.</p>
+<blockquote>
+<p>Orang melihat 10 tahun ke depan. Saya melihat 300 tahun ke depan. - Masayoshi Son</p>
+</blockquote>
+<p>Alasan terakhir kenapa berinvestasi di dunia teknolgi adalah : <em><strong>Flipping</strong></em>. Flipping secara sederhana dapat diartikan beli murah dan jual mahal. Artinya startup yang harus dicari untuk di investasikan adalah startup yang berpotensi, dan setelah di suntikan dana berkembang pesat, untuk kemudian dapat di nikmati capital gainnya. Investing tipe ini biasa dimainkan oleh <em>Angel Investor</em> atau <em>Venture Capitalist</em> berikut merupakan siklus Investasi.</p>
+<p><img src="https://i.loli.net/2020/05/16/j4gpMYI26TOX9V8.jpg" alt="pola dan jenis jenis investasi"></p>
+<h4>Memilih Medan Perang</h4>
+<p>Dalam bagian ini William Yang menjelaskan terdapat lima medan pernag dalam perburuan <em>startup</em> yang dibagi atas dua kelas yaitu <em>Angel Stage</em> (1-3) dan <em>Growth Stage</em> (4-5) yang semuanya disusun berdasrakan beratnya risiko yang akan ditanggung. Kelima medan perang tersebut adalah.</p>
+<ol>
+<li>Pre seed</li>
+<li>Seed</li>
+<li>Early Stage</li>
+<li>Series A, B, C, D, ...</li>
+<li>Go public atau diakusisi raksasa</li>
+</ol>
+<p>Pada tahap <strong>Angel Stage</strong> bisnis startup masih belum berjalan dengan benar, dan lebih pada menjual ide dan utopia tanpa bukti nyata. yang mana risiko kegagalan startup pada tahap ini lebih tinggi. Oleh karena itu investor pada tahap ini disebut Angel (malaikat).</p>
+<p><img src="https://i.loli.net/2020/05/16/KnRfGFiNylkt6uZ.jpg" alt="angel investor stage"></p>
+<p><strong>Growth Stage</strong> adalah posis dimana bisnis startup sudah terlihat pola dan model bisnisnya, sehingga bisa di projeksikan Return of Investmentnya. Pada tahap ini, bisnis startup sudah dapat dianlisis oleh pakar.</p>
+<p><img src="https://i.loli.net/2020/05/16/9hbHg7cxUOLXk5S.jpg" alt="growth stage investor"></p>
+<h4>Taipan Mindset</h4>
+<blockquote>
+<p>Banyak orang hebat hanya tahu teknik untuk menang. Tapi jarang dari mereka yang tahu teknik untuk kalah. -Sun Tzu</p>
+</blockquote>
+<p>Taipan merupakan bahasa hokkien untuk konglomerat, yang mana jika kita ingin menjadi Taipan terdapat 5C yang harus dijalani yaitu <em><strong>cuan, cengli, cincai, cia, cau</strong></em></p>
+<p><img src="https://i.loli.net/2020/05/16/iybrAJ2fSeIXna3.jpg" alt="taipan mindset 5c"></p>
+<p><em><strong>Cuan</strong></em> : kalau tidak dapat meyakinkan diri sendiri bahwa bisnis yang anda kerjakan mennguntungkan, maka janganlah berinvestasi.</p>
+<p><em><strong>Cengli</strong></em> : jika tidak bisa meyakinkan diri bahwa bisnis masuk akan untuk dapat beroperasional, sebaiknya jangan dilanjutkan.</p>
+<p><em><strong>Cincai</strong></em> : jangan terlalu keras dan perfeksionis, karena tidak ada yang sempurna di dunia ini. Berilah toleransi terhadap kegagalan selama tidak melenceng keluar terlalu jauh dari jalur.</p>
+<p><em><strong>Cia</strong></em> : ingat untuk selalu selamatkan modal dan keungutngan kalau ada kesempatan. karena kita tidak pernah tahu apa yang terjadi di kemudian hari</p>
+<p><em><strong>Cau</strong></em> : segala sesuatu ada zamannya.jika gagal segeralah cau dan mulai sesuatu yang baru. jangan biarkan keadaan terupuruk terlalu dalam.</p>
+<h4>Perjalanan Para Investor Go-Jek</h4>
+<p><img src="https://i.loli.net/2020/05/16/6MlDckOjd3EJ4Rn.jpg" alt="perjalanan investor gojek"></p>
+<p>Gambar diatas memperlihatkan perjalanan Go-Jek dari pendanaan sendiri sampai dengan di invest oleh Google. Inimembuktikan bahwa kita harus bijak memilih calon investor lanjutan.</p>
+<h4>Beberapa Catatan Portofolio dan Startup Business Canvas</h4>
+<h5>Contoh Startup Business Canvas</h5>
+<p><img src="https://i.loli.net/2020/05/16/bpNTBAJ4xkcU7hI.jpg" alt="food gorila startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/IKHLuGjyDCxtden.jpg" alt="farmland startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/evTdsoJMCxZPhgH.jpg" alt="edumax startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/MsDp2btL3eBfloP.jpg" alt="barista startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/nbouR48lDVGOr1v.jpg" alt="bababa startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/rbDqkOyi8hgPuoY.jpg" alt="ojek nasional startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/8icfwO4uzZ72hjT.jpg" alt="petani fund startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/swXmvQWCt53eYZa.jpg" alt="interpay startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/JSR9n6UW7fkedYB.jpg" alt="warungku startup bisnis canvas"></p>
+<p><img src="https://i.loli.net/2020/05/16/Cj4hNtTzpGDrYI3.jpg" alt="pos now startup bisnis canvas"></p>
+<h5>Analisa Rangkuman Pertimbangan Busines Canvas Startup</h5>
+<p><img src="https://i.loli.net/2020/05/16/i8nPq6A79syTHwB.jpg" alt="4 Analisa Rangkuman Pertimbangan Busines Canvas Startup"></p>
+<p><img src="https://i.loli.net/2020/05/16/M28ufwtjCBlb6VA.jpg" alt="3 Analisa Rangkuman Pertimbangan Busines Canvas Startup"></p>
+<p><img src="https://i.loli.net/2020/05/16/cDdGVfQ2WUTkuB6.jpg" alt="2 Analisa Rangkuman Pertimbangan Busines Canvas Startup"></p>
+<p><img src="https://i.loli.net/2020/05/16/onzmvwk7yhABet1.jpg" alt="1 Analisa Rangkuman Pertimbangan Busines Canvas Startup"></p>
+<p><a href="https://www.goodreads.com/book/show/41586456-investing-in-digital-startups">Sumber : <em>Investing In Digital Startups oleh William Yang</em></a></p>
+7:X
+c:X
+c:C
+0:{"buildId":"4X4m6c8P4d4HqqxFxlmI0","data":[{"rsc":["$","$1","c",{"children":[["$","article",null,{"className":"max-w-3xl mx-auto py-16 px-4","children":[["$","$L2",null,{"href":"/","className":"text-blue-600 hover:underline mb-8 block","children":"← Back to home"}],["$","h1",null,{"className":"text-4xl font-bold mb-2","children":"Resensi Buku Investing in Digital Startups oleh William Yang"}],["$","div",null,{"className":"text-gray-500 mb-8","children":"Sat May 16 2020 01:13:00 GMT+0700 (Western Indonesia Time)"}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$3"},"className":"prose lg:prose-xl"}]]}],["$L4"],"$L5"]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$7","varyParams":null},{"rsc":"$La","isPartial":"$@b","staleTime":"$7","varyParams":"$c"},{"rsc":"$Ld","isPartial":"$@e","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@f","rootVaryParams":null,"needsRuntimeRequest":"$@10"}
+11:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"ViewportBoundary"]
+15:I[97367,["/blog/_next/static/chunks/3fntmmi971322.js"],"MetadataBoundary"]
+16:I[27201,["/blog/_next/static/chunks/3fntmmi971322.js"],"IconMark"]
+17:I[39756,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+18:I[37457,["/blog/_next/static/chunks/3fntmmi971322.js"],"default"]
+:HL["/blog/_next/static/chunks/0nb90t0hv_j-k.css","style"]
+4:["$","script","script-0",{"src":"/blog/_next/static/chunks/22i43cg4l4-dq.js","async":true}]
+5:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
+8:["$","$1","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Muhakmal Blog"}],["$","meta","1",{"name":"description","content":"Ruang berbagi pemikiran dan pembelajaran tentang teknologi, pengembangan perangkat lunak, dan pengalaman UI/UX."}],["$","link","2",{"rel":"icon","href":"/blog/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L16","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+a:["$","$1","c",{"children":[null,["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}]}]]}]
+d:["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/blog/_next/static/chunks/0nb90t0hv_j-k.css","precedence":"next"}],["$","script","script-0",{"src":"/blog/_next/static/chunks/3fntmmi971322.js","async":true}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]
+13:null
+10:true
+7:300
+7:C
+f:0
+9:"$undefined"
+b:"$undefined"
+e:"$undefined"
+6:"$undefined"
