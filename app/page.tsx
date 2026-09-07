@@ -9,7 +9,7 @@ export default function Home() {
       <ul>
         {allPostsData.map(({ slug, title, date }) => (
           <li key={slug} className="mb-4">
-            <Link href={`/blog/${slug}`} className="text-xl font-semibold text-blue-600 hover:underline">{title}</Link>
+            <Link href={`/${slug}`} className="text-xl font-semibold text-blue-600 hover:underline">{title}</Link>
             <p className="text-sm text-gray-500">{date}</p>
           </li>
         ))}
