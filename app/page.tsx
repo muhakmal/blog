@@ -69,6 +69,26 @@ export default function Home() {
 
         {/* Education & Recent Posts */}
         <div className="flex flex-col gap-12">
+          {/* Skills */}
+          <div className="flex flex-col gap-8">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 flex items-center justify-center rounded-neu-inner shadow-neu-inset bg-neu-bg text-neu-accent">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 className="font-display font-bold text-3xl text-neu-fg">Skills & Expertise</h3>
+            </div>
+            <div className="p-6 rounded-neu bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover transition-all duration-300">
+              <ul className="flex flex-col gap-3">
+                {profileData.skills.map((skill, idx) => (
+                  <li key={idx} className="flex items-start gap-2 text-sm text-neu-muted leading-relaxed">
+                    <span className="text-neu-accent mt-1">•</span>
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
           {/* Education */}
           <div className="flex flex-col gap-8">
             <div className="flex items-center gap-4">

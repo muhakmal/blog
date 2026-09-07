@@ -1,59 +1,66 @@
 export const profileData = {
   name: "Muhamad Akmal",
-  role: "Product Manager & Life Connoisseur",
-  bio: "Akmal here. I'm a longlife learner. while exploring knowledge and traveling the universe is my hobbies I love reading Romans and Self Management books. Besides, I'm familiar with SDLC especially product management. So, next time you meet me lets do a coffee and talk about stuff.",
-  avatar: "/media/icon.png", // Fallback to current icon, they can change this later
-  email: "muhamadakmal@outlook.co.id",
+  role: "Product Manager",
+  bio: "Product Manager with 6+ years of experience in the payment, fintech, and digital services industry. Proven track record in managing product lifecycles, developing and integrating payment solutions, and enabling data-driven decision-making. Skilled in data analytics (Python, SQL, Metabase) and managing high-volume transaction data (3M+ transactions daily) to ensure operational efficiency, compliance, and business growth.",
+  avatar: "/media/icon.png", 
+  email: "muhamad.akmal@outlook.co.id",
   social: [
     { name: "LinkedIn", url: "https://linkedin.com/in/muhakmal", icon: "Linkedin" },
     { name: "GitHub", url: "https://github.com/muhakmal", icon: "Github" },
     { name: "Twitter", url: "https://twitter.com/ayeakmal", icon: "Twitter" },
-    { name: "Email", url: "mailto:muhamadakmal@outlook.co.id", icon: "Mail" },
+    { name: "Email", url: "mailto:muhamad.akmal@outlook.co.id", icon: "Mail" },
   ],
   experience: [
     {
       title: "Product Manager - Merchant & Payment",
-      company: "PT. Flash Mobile",
+      company: "PT FM Digital Solution (Flash Mobile)",
       companyUrl: "https://flashmobile.co.id",
-      dateStart: "2021-06",
+      dateStart: "June 2021",
       dateEnd: "Present",
-      description: "Flash Mobile is a Payment Gateway and Biller Aggregator company from MNC Group. My current responsibilities are managing backlog, outcomes and outputs in Payment area from Product standpoint, and to help Flash Mobile management transforming its way of work to becoming more lean in agile."
+      description: "Responsible for product development, merchant integration, and seamless payment services across the Motion ecosystem.\n• Managed and prioritized product backlog for merchant & payment solutions.\n• Defined and delivered major payment services (QRIS, Virtual Accounts, Card Acquiring, Transfer/Disbursement, Dashboards).\n• Oversaw daily data operations of 3M+ transactions ensuring accuracy and compliance.\n• Conducted data analysis (Python, SQL, Excel) and automated daily reports, reducing manual effort by 70%."
     },
     {
       title: "Product Development",
-      company: "PT. Astra Digital Arta, ASTRAPAY",
+      company: "PT Astra Digital Arta (AstraPay)",
       companyUrl: "https://astrapay.com",
-      dateStart: "2019-10",
-      dateEnd: "2021-06",
-      description: "Direct asistant to Director of Product, leading product development team, and establish product development spec & flow for new ASTRA Group E-Money Company.\n- Creating product management workflow process for collaboration need with engineering team.\n- In charge of managing and prioritizing product features roadmap with stakeholder."
+      dateStart: "October 2019",
+      dateEnd: "June 2021",
+      description: "Joined as one of the first Product Owners, responsible for establishing product development processes and early product delivery.\n• Established product development lifecycle and tools (JIRA, Confluence, GitLab).\n• Defined and delivered fintech solutions: QRIS, RTOL Transfer, Switching Disbursement Services.\n• Developed push notification service using Firebase & MoEngage.\n• Designed and launched a CMS to enable dynamic homepage updates."
     },
     {
       title: "Associate Product Owner",
-      company: "PT. MetraPlasa (BLANJA.com)",
+      company: "PT MetraPlasa (BLANJA)",
       companyUrl: "https://www.blanja.com",
-      dateStart: "2018-08",
-      dateEnd: "2019-09",
-      description: "Managing product backlog for a squad in tribe non-transaction managing discovery related area.\n- Handling backlog lifecycle using scrum.\n- Groom and prioritize the work in the backlog.\n- Defining product backlog and create actionable user stories."
+      dateStart: "August 2018",
+      dateEnd: "September 2019",
+      description: "• Managed product backlog for a squad under the non-transaction tribe, focused on discovery-related features.\n• Applied Scrum methodology to manage backlog lifecycle and sprint delivery.\n• Analyzed systems for new feature development and production support.\n• Translated business requirements into detailed acceptance criteria for developers."
     },
     {
-      title: "UX Researcher Internship",
-      company: "PT. MetraPlasa (BLANJA.com)",
+      title: "UX Research Intern",
+      company: "PT MetraPlasa (BLANJA)",
       companyUrl: "https://www.blanja.com",
-      dateStart: "2017-07",
-      dateEnd: "2017-12",
-      description: "Assist existing UI and UX Designer evaluate UI and UX Flow at e-commerce Blanja.com using common method. Task attached including:\n- Heuristic Evaluation\n- Conduct Usability Testing\n- Wireframing & Prototyping"
+      dateStart: "July 2017",
+      dateEnd: "December 2017",
+      description: "• Supported UI/UX designers in evaluating platform usability through heuristic evaluations and usability testing.\n• Conducted user testing in collaboration with Telkom DDS.\n• Delivered actionable insights that informed redesigns for BLANJA PDP."
     }
   ],
   education: [
     {
-      course: "S.Kom in Computer Science",
+      course: "Bachelor in Computer Science",
       institution: "BINUS University",
-      year: "2017"
+      year: "2013 - 2018"
     },
     {
-      course: "Vocation Student in Multimedia and IT",
-      institution: "SMK Negeri 51 Jakarta",
-      year: "2013"
+      course: "IT & Multimedia Vocation",
+      institution: "SMK 51 Jakarta",
+      year: "2010 - 2013"
     }
+  ],
+  skills: [
+    "Product & Project Management: SDLC, Agile/Scrum, Product Roadmapping",
+    "Data Analytics & Tools: Python (pandas), SQL, Metabase, Microsoft Excel",
+    "System & Technical Analysis: API integration, Compliance, Payment Systems",
+    "Design & Process: Wireframing, User Journeys, Process Flows",
+    "Fintech Payments: QRIS, Virtual Account, Card Acquiring, Digital Wallets"
   ]
 };
