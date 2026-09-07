@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Muhamad Akmal | Product Manager",
+  title: "muhamadakmal",
   description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
 };
 
