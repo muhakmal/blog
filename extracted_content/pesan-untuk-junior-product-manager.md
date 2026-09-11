@@ -1,32 +1,13 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/pesan-untuk-junior-product-manager"
-
-title: "Pesan Untuk Junior Product Manager"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [junior product manager, scrum]
-categories: [Product Development, Jurnal]
-date: 2019-08-06T10:29:23+07:00
-lastmod: 2019-08-06T10:29:23+07:00
-featured: false
+title: Pesan Untuk Junior Product Manager
+tags:
+  - junior product manager
+  - scrum
+categories:
+  - Product Development
+  - Jurnal
+date: 2019-08-06T03:29:23.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 I've just get a quite kind of writing on medium that remind me as a Junior Product Manager. Tulisan yang menurut saya sangat relate dengan keadaan diri saya sekarang sebagai seorang yang baru kurang lebih satu tahun di dunia product development. Ada beberapa *keypoints* yang dapat saya ambil dari tulisan yang di lansir oleh The Startup ini.

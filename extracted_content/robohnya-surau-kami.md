@@ -1,13 +1,7 @@
 ---
 title: Robohnya Surau Kami
-subtitle: Robohnya Surau Kami adalah salah satu cerita pendek dalam buku anekdot
-  kumpulan cerita pendek A.A Navis atau Angku Navis yang diberi judul Robohnya
-  Surau Kami juga.
 date: 2020-11-14T05:17:20.746Z
 draft: false
-featured: true
-authors:
-  - Muhamad Akmal
 tags:
   - angku navis
   - robohnya surau kami
@@ -18,7 +12,7 @@ tags:
 categories:
   - Buku
   - Jurnal
-  - ""
+  - ''
 image:
   filename: featured.png
   focal_point: Smart

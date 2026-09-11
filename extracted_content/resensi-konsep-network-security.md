@@ -1,32 +1,12 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/resensi-konsep-network-security"
-
-title: "Resensi Konsep Network Security"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [slide kuliah, binus]
-categories: [Network Security]
-date: 2016-03-21T18:49:41+07:00
-lastmod: 2016-03-22T18:49:41+07:00
-featured: false
+title: Resensi Konsep Network Security
+tags:
+  - slide kuliah
+  - binus
+categories:
+  - Network Security
+date: 2016-03-21T11:49:41.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 Network security adalah keamanan jaringan. Dari arti di situ saya hanya bisa mengetahui sedikit ialah bagaimana mengamankan jaringan agar tidak mudah di bobol oleh orang. Caranya yang saya tau mungkin dengan memberikan password yang memberikan kombinasi digit, upper case latter, non-alphanumeric untuk meminimal kemungkinan perkiraan password yang di buat user tersebut.

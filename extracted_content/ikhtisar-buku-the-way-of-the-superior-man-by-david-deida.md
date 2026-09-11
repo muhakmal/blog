@@ -1,32 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/ikhtisar-buku-the-way-of-the-superior-man-by-david-deida"
-
-title: "Ikhtisar Buku The Way of The Superior Man by David Deida"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [books summary, david deida, the way of the superior men, self developments]
-categories: [Buku]
-date: 2019-07-29T09:28:49+07:00
-lastmod: 2019-07-29T09:28:49+07:00
-featured: false
+title: Ikhtisar Buku The Way of The Superior Man by David Deida
+tags:
+  - books summary
+  - david deida
+  - the way of the superior men
+  - self developments
+categories:
+  - Buku
+date: 2019-07-29T02:28:49.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 #### Tentang Penulis

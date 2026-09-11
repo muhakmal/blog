@@ -1,33 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/siklus-pdca---plan-do-check-action"
-
-
-title: "Siklus PDCA (Plan Do Check Act), Repeat"
-subtitle: "Melalu implementasi Basic Mentality, budaya perusahaan mulai ditanamkan."
-summary: "Mentalitas dasar yang baik, diyakini mampu membawa ke arah kemajuan dan bahkan mampu memperkuat perusahaan dikala memasuki masa-masa krisis. Astra, sebagai induk perusahaan besar terbukti mampu melewati masa-masa tersebut hingga bisa menjadi perusahaan yang disegani."
-authors: [Muhamad Akmal]
-tags: [astra international, ams basic mentality, astra management system, quality control circle]
-categories: [Jurnal]
-date: 2019-12-14T18:49:44+07:00
-lastmod: 2019-12-14T18:49:44+07:00
-featured: true
+title: 'Siklus PDCA (Plan Do Check Act), Repeat'
+tags:
+  - astra international
+  - ams basic mentality
+  - astra management system
+  - quality control circle
+categories:
+  - Jurnal
+date: 2019-12-14T11:49:44.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: "siklus PDCA"
-  focal_point: ""
-  preview_only: true
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 PDCA merupakan abbreviation dari
 

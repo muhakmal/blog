@@ -1,32 +1,13 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/astra-management-system"
-
-title: "Astra Management System"
-subtitle: "Prinsip dasar korporat Astra melalui quality control astra management system"
-summary: "AMS adalah system management yang melibatkan seluruh karyawan untuk mengelola dan meningkatkan kualitas proses bisnis melalui proses alignment antara strategi dan eksekusi, improvement dan innovation yang berkesinambungan demi tercapainya kepuasan pelanggan dan peningkatan daya saing."
-authors: [Muhamad Akmal]
-tags: [astra international, prinsip dasar korporat, astra management system]
-categories: [Jurnal]
-date: 2019-09-14T18:49:44+07:00
-lastmod: 2019-09-14T18:49:44+07:00
-featured: true
+title: Astra Management System
+tags:
+  - astra international
+  - prinsip dasar korporat
+  - astra management system
+categories:
+  - Jurnal
+date: 2019-09-14T11:49:44.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: "logo astra international"
-  focal_point: ""
-  preview_only: true
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 Sebagai bagian dari [Astra](https://astra.co.id), kita perlu terus memberdayakan AMS (astra management system) untuk menyelaraskan visi, strategi, dan seluruh aktivitas yang kita jalankan. Dengan menerapkan ams secara konsisten, akan membawa kita kepada kondisi excellet, strategic, maupun operasional, yang berujung pada semakin membaiknya nilai kita di mata pelanggan.
 

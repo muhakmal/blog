@@ -1,11 +1,7 @@
 ---
 title: Pembuka dan Pembebas
 date: 2021-02-03T02:38:37.518Z
-summary: ""
 draft: true
-featured: false
-authors:
-  - Muhamad Akmal
 tags:
   - nama
   - anak pertama

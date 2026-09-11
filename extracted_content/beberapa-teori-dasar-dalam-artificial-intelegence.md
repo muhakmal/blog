@@ -1,32 +1,13 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/beberapa-teori-dasar-dalam-artificial-intelegence"
-
-title: "Beberapa Teori Dasar Dalam Artificial Intelegence"
-subtitle: "MiniMax, Alpha-Beta Prunning, Satisfaction Constrain Problem"
-summary: ""
-authors: [Muhamad Akmal]
-tags: [minimax, alpha-beta prunning,teori satisfaction constrain problem]
-categories: [Artificial Intelegence]
-date: 2015-03-15T18:49:37+07:00
-lastmod: 2016-09-14T18:49:37+07:00
-featured: false
+title: Beberapa Teori Dasar Dalam Artificial Intelegence
+tags:
+  - minimax
+  - alpha-beta prunning
+  - teori satisfaction constrain problem
+categories:
+  - Artificial Intelegence
+date: 2015-03-15T11:49:37.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: true
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 #### Teori MiniMax

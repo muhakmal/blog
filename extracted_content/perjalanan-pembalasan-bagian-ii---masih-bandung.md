@@ -1,32 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/perjalanan-pembalasan-bagian-ii---masih-bandung"
-
-title: "Perjalanan Pembalasan Bagian II - Bandung"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [perjalanan, bandung, solo travel]
-categories: [Perjalanan, Jurnal]
-date: 2018-05-15T18:49:44+07:00
-lastmod: 2018-05-20T18:49:44+07:00
-featured: false
+title: Perjalanan Pembalasan Bagian II - Bandung
+tags:
+  - perjalanan
+  - bandung
+  - solo travel
+categories:
+  - Perjalanan
+  - Jurnal
+date: 2018-05-15T11:49:44.000Z
 draft: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 Tulisan ini merupakan lanjutan dari tulisan bagian [Perjalanan Pembalasan Bagian I - Bandung](https://muhamadakmal.id/blog/perjalanan-pembalasan-bagian-i-bandung/), 
 
@@ -45,3 +27,21 @@ Unit kemahasiswaan di setiap universitas sudah umum mempunyai sekretariat yang b
 Pada awalnya kunjungan saya ke Bandung hanya untuk singgah sembari silaturahmi dengan teman lama, sebetulnya saya sudah memesan tiket perjalanan kereta ke tujuan kota berikutnya pada tanggal 25 Januari 2018 namun dikarenakan [perjalanan yang sangat memakan waktu](https://muhamadakmal.id/blog/perjalanan-pembalasan-bagian-i-bandung/) saya baru tiba di kota Bandung pukul 18.30, sedangkan rangkaian kereta Kahuripan 182 sudah mulai melangsirkan rangkaiannya sejak pukul 17.30 dan Petugas Perjalanan Kereta Api sudah harus memberikan semboyan 35 untuk rangkaian kereta Kahuripan 182 pada pukul 18.10 dan mengetahui sekitar pukul 18.00 tepat bus yang saya tumpangi baru memasuki area Pasteur saya pasrah dan membiarkan tempat duduk di kereta Kahuripan 182 ditempatkan oleh orang lain.
 
 Asto merupakan kawan baik kenalan saya yang juga merupakan teman Manggar, Asto merupakan bekas ketua organisasi pecinta alam Gemarawana yang sempat saya temui bersama Manggar di Jakarta dalam perjalanannya yang setelah itu, kami berkawan baik. Malam pertama saya habiskan di Sekretariat Gemarawana malam kedua saya menghabiskan waktu bersama Asto menjelajahi kota Bandung 
+
+Malam itu, kami duduk di warung kopi sederhana di sudut jalan Braga, ditemani udara Bandung yang dingin namun menenangkan. Asto bercerita banyak tentang kehidupannya pasca lulus, tentang idealisme yang pelan-pelan mulai terkikis realita dunia kerja, dan tentang bagaimana ia merindukan masa-masa bebas menjadi mahasiswa. 
+
+### Sisi Lain Kota Bandung
+
+Keesokan harinya, saya tidak membuat rencana yang muluk-muluk. Saya memutuskan untuk menyusuri jalanan kota tanpa peta, membiarkan kaki melangkah ke mana pun ia mau. Dari Cihampelas hingga jalan-jalan kecil di Dago Atas, Bandung selalu menawarkan sudut-sudut estetis yang memanjakan mata dan lensa kamera saya.
+
+Perjalanan tanpa arah ini justru memberikan saya banyak waktu untuk berpikir. Berpikir tentang apa yang sebenarnya saya cari dari "perjalanan pembalasan" ini. Apakah sekadar pelarian dari tekanan skripsi yang sempat tertunda? Atau sebuah pencarian jati diri?
+
+Di sebuah taman kota, saya duduk memperhatikan sekelompok pemusik jalanan yang bermain dengan penuh penjiwaan. Tidak ada panggung megah, tidak ada sorotan lampu, tapi mereka terlihat sangat bahagia. Di saat itulah saya menyadari bahwa kebahagiaan dan ketenangan tidak selalu datang dari pencapaian-pencapaian besar seperti lulus tepat waktu atau mendapatkan pekerjaan bergengsi. Terkadang, ia hadir dari hal-hal sederhana yang sering kita abaikan.
+
+### Menuju Titik Akhir
+
+Hari keempat di Bandung menandakan akhir dari babak kedua perjalanan ini. Saya mengemasi barang-barang kembali ke dalam carrier. Manggar dan Asto mengantar saya hingga ke stasiun. Tidak ada ucapan perpisahan yang berlebihan, hanya pelukan singkat ala laki-laki dan janji untuk bertemu lagi di lain waktu, mungkin di kota lain, atau mungkin di puncak gunung yang lain.
+
+Kereta mulai bergerak meninggalkan stasiun Bandung. Dari balik jendela, saya melihat kota ini perlahan menjauh, menyisakan kenangan tentang persahabatan, perenungan, dan pelajaran berharga tentang bagaimana berdamai dengan kegagalan masa lalu.
+
+Pembalasan ini bukan tentang membalas dendam pada waktu yang hilang, melainkan tentang membalas diri sendiri dengan memberikan ruang untuk bernapas, merenung, dan kembali melangkah dengan jiwa yang lebih tenang. Tujuan berikutnya sudah menanti di depan mata.

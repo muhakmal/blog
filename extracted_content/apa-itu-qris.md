@@ -1,11 +1,7 @@
 ---
 title: Regulasi Terkait QRIS
-subtitle: QRIS, dibahas dari sudut pandang regulasi
 date: 2020-10-19T01:29:21.768Z
 draft: false
-featured: true
-authors:
-  - Muhamad Akmal
 tags:
   - QRIS
   - inklusif keuangan
@@ -14,8 +10,6 @@ categories:
   - Product Development
   - Programming
   - Jurnal
-projects:
-  - ""
 image:
   filename: iconqris.png
   focal_point: Smart

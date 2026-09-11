@@ -1,17 +1,7 @@
 ---
-aliases: "/blog/sendiri-ke-kalimantan"
-
-summary: Jakarta-Kalimantan sendirian, dengan ngabisin waktu 3 hari 2 malam yang
-  penuh tantangan disetiap langkahnya. semoga bisa bermanfaat untuk netizen yang
-  baca ini. **Tuhan Bersama Orang Berani!**
 draft: true
-authors:
-  - Muhamad Akmal
-lastmod: 2014-10-21T18:49:44+07:00
 title: Sendiri Ke Kalimantan
-subtitle: ""
-date: 2014-10-20T18:49:44+07:00
-featured: false
+date: 2014-10-20T11:49:44.000Z
 tags:
   - perjalanan
   - kalimantan
@@ -19,10 +9,9 @@ tags:
 categories:
   - Perjalanan
   - Jurnal
-projects: []
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: true
   filename: featured.png
 ---

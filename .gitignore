@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Build output files
+*.html
+*.txt
+!README.md
+!AGENTS.md
+!CLAUDE.md
+/build_log.txt
+/OneSignalSDK*.js
+/extracted_content/__next.*.txt

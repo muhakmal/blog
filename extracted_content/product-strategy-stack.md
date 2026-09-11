@@ -1,12 +1,7 @@
 ---
 title: Product Strategy Stack
-subtitle: Kesulitan dalam memprioritaskan seringkali merupakan masalah strategi,
-  bukan masalah eksekusi.
 date: 2021-03-12T16:42:54.433Z
 draft: false
-featured: false
-authors:
-  - Muhamad Akmal
 tags:
   - Jurnal
   - Product

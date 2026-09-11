@@ -1,32 +1,15 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/simple-caesar-cipher-in-c-sharp"
-
-title: "Simple Caesar Cipher in C#"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [caesar cipher, programming, C Sharp, security]
-categories: [Programming, Network Security]
-date: 2017-06-09T18:49:01+07:00
-lastmod: 2018-06-14T18:49:01+07:00
-featured: false
+title: Simple Caesar Cipher in C#
+tags:
+  - caesar cipher
+  - programming
+  - C Sharp
+  - security
+categories:
+  - Programming
+  - Network Security
+date: 2017-06-09T11:49:01.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 Postingan ini merupakan bagian dari tugas Network Security. Membuat program simpel encrypt dan decrypt Program Caesar Cipher dengan bahasa pemrograman C#
 

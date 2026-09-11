@@ -1,20 +1,14 @@
 ---
-aliases: "/blog/buat-blog-sederhana-dengan-jamstack"
-
-title: "Buat Blog Sederhana Dengan JAMstack"
-subtitle: ""
-summary: "selayaknya wordpress based website, website yang dibangun diatas teknologi JAMstack bisa multipurpose"
-authors: [Muhamad Akmal]
-tags: [JAMstack, frontend, blog]
-categories: [Jurnal, Programming]
-date: 2020-05-11T01:09:40+07:00
-lastmod: 2020-05-11T09:42:44+07:00
-featured: true
+title: Buat Blog Sederhana Dengan JAMstack
+tags:
+  - JAMstack
+  - frontend
+  - blog
+categories:
+  - Jurnal
+  - Programming
+date: 2020-05-10T18:09:40.000Z
 draft: false
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
 ---
 ![JAMstack Overview](https://i.loli.net/2020/05/11/61H7bsNSkF5pJ9L.png)
 

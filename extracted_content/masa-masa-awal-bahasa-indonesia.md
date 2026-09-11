@@ -1,19 +1,14 @@
 ---
-aliases: "/blog/masa-masa-awal-bahasa-indonesia"
-
-title: "Masa Masa Awal Bahasa Indonesia"
-subtitle: "Tanggal lahir bahasa Indonesia adalah 2 Mei 1926 dan bulan bahasa jatuh pada bulan Mei."
-summary: "Buku Masa-Masa Awal Bahasa Indonesia garapan Prof. Dr. KPH. H.E. Harimurti Kridalaksana menceritakan kita bagaimana proses kelahiran sebuah bahasa persatuan yang kita pakai di negara yang kita cintai ini. Dari buku kecil yang ia tulis ini Prof. Harimurti memberikan kita sebuah gagasan bagaimana sebuah bahasa bisa lahir dan menciptakan persatuan, dan bagaimana sebuah bahasa tersebut terbentuk ditinjau dari aspek ilmiah."
-authors: [Muhamad Akmal]
-tags: [resensi buku, bahasa indonesia, sejarah]
-categories: [Buku, Jurnal]
-date: 2020-05-17T01:03:00+07:00
-featured: false
+title: Masa Masa Awal Bahasa Indonesia
+tags:
+  - resensi buku
+  - bahasa indonesia
+  - sejarah
+categories:
+  - Buku
+  - Jurnal
+date: 2020-05-16T18:03:00.000Z
 draft: false
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
 ---
 ![resensi buku masa-masa awal bahasa indonesia](https://i.loli.net/2020/05/17/s75jwOJHgAPbNv4.png)
 

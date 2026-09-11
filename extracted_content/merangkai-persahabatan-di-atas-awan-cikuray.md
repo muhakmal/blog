@@ -1,32 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/merangkai-persahabatan-di-atas-awan-cikuray"
-
-title: "Merangkai Persahabatan di Atas Awan Cikuray"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [perjalanan, mapala, gunung cikuray]
-categories: [Perjalanan, Jurnal]
-date: 2014-05-23T18:49:44+07:00
-lastmod: 2014-05-22T18:49:44+07:00
-featured: false
+title: Merangkai Persahabatan di Atas Awan Cikuray
+tags:
+  - perjalanan
+  - mapala
+  - gunung cikuray
+categories:
+  - Perjalanan
+  - Jurnal
+date: 2014-05-23T11:49:44.000Z
 draft: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 16 Februari 2014 merupakan waktu yang ditunggu-tunggu dalam bulan februari ini, karena hari itu gw dan sahabat-sahabat gw di SWANARAPALA (mahasiswa bina nusantara pecinta alam) akan mendaki gunung bareng. setelah resmi ngedapetin slayer dan resmi jadi anggota muda SWANARAPALA, ini merupakan momen pertama yang akan dijalanin dengan angkatan baru kita yang dinamain Rana Mandala oleh para anggota tetap senior.
@@ -53,3 +35,29 @@ Pagi hari, beberapa diantara kami sudah bangun lebih awal untuk menikmati sunris
 
 ![IMG_7156](https://muhakmal.files.wordpress.com/2014/03/img_7156.jpg)
 
+
+Pendakian Gunung Cikuray selalu menyisakan cerita tersendiri. Bukan hanya tentang seberapa tinggi puncaknya yang mencapai 2.821 mdpl, atau seberapa terjal jalurnya yang nyaris tanpa bonus, melainkan tentang siapa yang menemani langkah kita dari basecamp hingga ke puncak.
+
+Bagi saya, perjalanan kali ini adalah sebuah pembuktian tentang arti persahabatan sejati yang diuji oleh lelah, dingin, dan ego. Kami tergabung dalam satu tim yang berisi kawan-kawan sehobi dari masa-masa kuliah. Persiapan fisik dan mental sudah dilakukan jauh-jauh hari, mengingat Cikuray bukanlah gunung yang bisa diremehkan.
+
+### Titik Awal: Perjalanan Menuju Garut
+
+Kami berkumpul di terminal malam itu, membawa keril yang sarat dengan perbekalan. Udara malam yang mulai dingin tidak menyurutkan semangat kami. Sepanjang perjalanan di dalam bus menuju Garut, tawa dan canda terus menemani, seolah menutupi rasa gugup akan medan yang akan kami hadapi esok hari.
+
+Tiba di Stasiun Pemancar, titik awal pendakian, kami disambut oleh udara pagi yang segar namun menusuk tulang. Hamparan kebun teh yang hijau seolah menjadi karpet selamat datang sebelum kami memasuki kanopi hutan rapat khas Cikuray.
+
+### Ujian Ego di Jalur Terjal
+
+Tidak butuh waktu lama bagi Cikuray untuk menunjukkan taringnya. Baru beberapa pos berlalu, kemiringan jalur mulai menguji stamina kami. Beberapa dari kami mulai tertinggal, sementara yang lain memaksa untuk terus maju demi mengejar waktu. Di sinilah ego mulai berbenturan. 
+
+"Kita jalan sama-sama, sampai di atas juga harus sama-sama," ucap salah satu kawan mengingatkan. Kalimat itu seolah menampar kami yang sempat lupa bahwa esensi dari pendakian bersama adalah kebersamaan itu sendiri, bukan sekadar ego mencapai puncak lebih dulu.
+
+Kami pun mengatur ulang ritme. Yang kuat berada di depan dan belakang sebagai *sweeper*, memastikan tidak ada yang tertinggal. 
+
+### Puncak dan Samudera Awan
+
+Setelah melewati perjuangan berjam-jam, menembus dingin malam dan lelah yang mendera, kami akhirnya menjejakkan kaki di Puncak Cikuray bertepatan dengan semburat jingga di ufuk timur. Lelah seketika sirna melihat lautan awan yang terhampar luas di hadapan kami. Matahari terbit dengan perlahan, menghangatkan tubuh kami yang menggigil.
+
+Kami saling berpelukan, merayakan keberhasilan kecil ini. Di atas awan Cikuray, kami tidak hanya menaklukkan puncak gunung, tapi juga berhasil menaklukkan ego kami masing-masing. Persahabatan kami diuji dan ditempa menjadi lebih kuat oleh kerasnya alam. 
+
+Sebuah perjalanan yang akan selalu menjadi cerita manis untuk dikenang di masa tua kelak.

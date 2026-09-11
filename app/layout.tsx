@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { ThemeProvider } from "next-themes";
 
 const plusJakarta = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta",
@@ -18,21 +19,25 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
-  title: "muhamadakmal",
+  title: "muhakmal.",
   description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
   openGraph: {
-    title: "muhamadakmal",
+    title: "muhakmal.",
     description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
     url: "/",
-    siteName: "muhamadakmal",
-    locale: "en_US",
+    siteName: "muhakmal.",
+    locale: "id_ID",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "muhamadakmal",
+    title: "muhakmal.",
     description: "CV & Blog of Muhamad Akmal, Product Manager & Life Connoisseur.",
   },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 export default function RootLayout({
@@ -41,16 +46,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${plusJakarta.variable} ${dmSans.variable} h-full antialiased bg-neu-bg text-neu-fg`}
-    >
-      <body className="min-h-full flex flex-col font-body">
-        <Header />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+    <html lang="id" suppressHydrationWarning className={`${plusJakarta.variable} ${dmSans.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col font-body bg-neu-bg text-neu-fg transition-colors duration-300">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <Header />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

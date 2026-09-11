@@ -1,32 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-aliases: "/blog/perjalanan-pembalasan-bagian-i---bandung"
-
-title: "Perjalanan Pembalasan Bagian I - Bandung"
-subtitle: ""
-summary: ""
-authors: [Muhamad Akmal]
-tags: [perjalanan, bandung, solo travel]
-categories: [Perjalanan, Jurnal]
-date: 2018-03-15T18:49:44+07:00
-lastmod: 2018-03-20T18:49:44+07:00
-featured: false
+title: Perjalanan Pembalasan Bagian I - Bandung
+tags:
+  - perjalanan
+  - bandung
+  - solo travel
+categories:
+  - Perjalanan
+  - Jurnal
+date: 2018-03-15T11:49:44.000Z
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 > Dan akhirnya, telah datang waktunya. Waktu dimana raga menuruti apa kata jiwa yang selama ini dibelenggu oleh angan untuk menyelesaikan.

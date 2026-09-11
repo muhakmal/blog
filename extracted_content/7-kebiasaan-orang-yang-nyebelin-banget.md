@@ -1,16 +1,7 @@
 ---
 title: 7 Kebiasaan Orang Yang Nyebelin Banget
-subtitle: Menjadi tidak egois, *considerate*/memikirkan kepentingan dan perasaan
-  orang lain (bahkan orang yang tidak kenal), menghargai fasilitas umum, adalah
-  bahan-bahan baku sederhana untuk menjadi orang yang tidak menyebalkan.
-  Karenanya, kita semua bisa menjadi manusia yang tidak terlalu menyebalkan.
-  -hlm.201
 date: 2020-05-20T13:44:12.076Z
-summary: Baca judul buku ini ngingetin buku legendaris Stephen Covey yang berjudul [7 Habits of Highly Effective People](https://www.goodreads.com/book/show/36072_The_7_Habits_of_Highly_Effective_People). Kabarnya memang Henry Manampiring sendiri memang terinspirasi dari buku tersebut, hanya saja untuk dibuku ini di balut lebih ringan dan menyenangkan untuk dibaca.
 draft: false
-featured: false
-authors:
-  - Muhamad Akmal
 tags:
   - resensi buku
   - 7 habit
@@ -22,8 +13,6 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-
-aliases: "7-kebiasaan-orang-yang-nyebelin-banget"
 ---
 ![Resensi Buku 7 Kebiasaan Orang Yang Nyeblin Banget (7 Habits of Highly Annoying People)](https://i.loli.net/2020/05/26/5TgYOGisdCarRzv.jpg)
 

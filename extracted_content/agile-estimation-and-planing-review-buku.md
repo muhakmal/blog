@@ -1,12 +1,7 @@
 ---
 title: Agile Estimation and Planing Review Buku
-subtitle: Planning is Everything, Plans are Nothing
 date: 2021-01-23T08:38:56.613Z
-summary: ""
 draft: false
-featured: true
-authors:
-  - Muhamad Akmal
 tags:
   - review buku
   - agile

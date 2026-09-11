@@ -1,19 +1,14 @@
 ---
-aliases: "/blog/resensi-buku-investing-in-digital-startups-oleh-william-yang"
-
-title: "Resensi Buku Investing in Digital Startups oleh William Yang"
-subtitle: "Orang melihat 10 tahun ke depan. Saya melihat 300 tahun ke depan."
-summary: "Dalam buku Investing in Digital Startups yang ditulis oleh William Yang mencakup pembahasan praktis dan success story yang ada di dunia startups."
-authors: [Muhamad Akmal]
-tags: [resensi buku, investing, startup]
-categories: [Buku, Jurnal]
-date: 2020-05-16T01:13:00+07:00
-featured: true
+title: Resensi Buku Investing in Digital Startups oleh William Yang
+tags:
+  - resensi buku
+  - investing
+  - startup
+categories:
+  - Buku
+  - Jurnal
+date: 2020-05-15T18:13:00.000Z
 draft: false
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
 ---
 ![resensi buku investing in digital stratups](https://i.loli.net/2020/05/17/cMfVjBQmTuSgndx.jpg)
 
