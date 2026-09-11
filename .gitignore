@@ -40,12 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Build output files
-*.html
-*.txt
-!README.md
-!AGENTS.md
-!CLAUDE.md
+# Old manual deploys copied out/ into the repo root; GitHub Actions deploys out/ now.
+/*.html
+/*.txt
+/_next/
 /build_log.txt
 /OneSignalSDK*.js
 /extracted_content/__next.*.txt
+
+# Local Claude Code launch config
+/.claude/

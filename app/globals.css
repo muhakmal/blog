@@ -1,18 +1,20 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-:root {
-  --background: #E0E5EC;
-  --foreground: #3D4852;
-}
+/* next-themes toggles a `.dark` class; make `dark:` follow it instead of the OS setting. */
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  /* Light palette — muted/accent tuned for WCAG AA (≥4.5:1) on the base background. */
   --color-neu-bg: #E0E5EC;
   --color-neu-fg: #3D4852;
-  --color-neu-muted: #6B7280;
-  --color-neu-accent: #6C63FF;
-  --color-neu-accent-light: #8B84FF;
+  --color-neu-muted: #56606E;
+  --color-neu-accent: #5046E5;
+  --color-neu-accent-light: #6C63FF;
+  --color-neu-on-accent: #FFFFFF;
   --color-neu-success: #38B2AC;
+  /* Hairline edge so cards stay visible without relying on shadows alone. */
+  --color-neu-edge: rgba(255, 255, 255, 0.55);
 
   --font-display: var(--font-plus-jakarta);
   --font-body: var(--font-dm-sans);
@@ -23,10 +25,28 @@
   --shadow-neu-inset: inset 6px 6px 10px rgba(163, 177, 198, 0.6), inset -6px -6px 10px rgba(255, 255, 255, 0.5);
   --shadow-neu-inset-deep: inset 10px 10px 20px rgba(163, 177, 198, 0.7), inset -10px -10px 20px rgba(255, 255, 255, 0.6);
   --shadow-neu-inset-sm: inset 3px 3px 6px rgba(163, 177, 198, 0.6), inset -3px -3px 6px rgba(255, 255, 255, 0.5);
+  --shadow-neu-accent: 5px 5px 10px rgba(80, 70, 229, 0.35), -5px -5px 10px rgba(255, 255, 255, 0.4);
+  --shadow-neu-accent-hover: 7px 7px 15px rgba(80, 70, 229, 0.45), -7px -7px 15px rgba(255, 255, 255, 0.4);
 
   --radius-neu: 32px;
   --radius-neu-sm: 16px;
   --radius-neu-inner: 12px;
+
+  --animate-drawer-in: drawer-in 0.25s ease-out both;
+  --animate-fade-in: fade-in 0.3s ease-out both;
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes drawer-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.95); }
+  to { opacity: 1; transform: none; }
 }
 
 /* Dark Mode Overrides */
@@ -36,6 +56,8 @@
   --color-neu-muted: #A6ADC8;
   --color-neu-accent: #89B4FA;
   --color-neu-accent-light: #B4BEFE;
+  --color-neu-on-accent: #1E2030;
+  --color-neu-edge: rgba(255, 255, 255, 0.06);
 
   --shadow-neu-extruded: 9px 9px 16px rgba(0, 0, 0, 0.4), -9px -9px 16px rgba(255, 255, 255, 0.05);
   --shadow-neu-extruded-hover: 12px 12px 20px rgba(0, 0, 0, 0.5), -12px -12px 20px rgba(255, 255, 255, 0.08);
@@ -43,10 +65,14 @@
   --shadow-neu-inset: inset 6px 6px 10px rgba(0, 0, 0, 0.4), inset -6px -6px 10px rgba(255, 255, 255, 0.05);
   --shadow-neu-inset-deep: inset 10px 10px 20px rgba(0, 0, 0, 0.5), inset -10px -10px 20px rgba(255, 255, 255, 0.08);
   --shadow-neu-inset-sm: inset 3px 3px 6px rgba(0, 0, 0, 0.4), inset -3px -3px 6px rgba(255, 255, 255, 0.05);
+  --shadow-neu-accent: 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(255, 255, 255, 0.05);
+  --shadow-neu-accent-hover: 7px 7px 15px rgba(0, 0, 0, 0.5), -7px -7px 15px rgba(255, 255, 255, 0.08);
 }
 
 html {
   scroll-behavior: smooth;
+  /* Keep anchor targets clear of the sticky header. */
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -58,10 +84,111 @@ body {
 
 ::selection {
   background-color: var(--color-neu-accent);
-  color: white;
+  color: var(--color-neu-on-accent);
 }
 
-/* Custom Prose Styling for Journaling Feel */
+/* One consistent, visible focus ring for keyboard users. */
+:focus-visible {
+  outline: 3px solid var(--color-neu-accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ---------- Motion ---------- */
+
+/* Cards and sections fade up as they enter the viewport (no JS needed). */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+}
+
+/* Reading progress driven by page scroll where supported; JS fallback otherwise. */
+@supports (animation-timeline: scroll()) {
+  .reading-progress {
+    transform: scaleX(0);
+    animation: grow-x linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+@keyframes grow-x {
+  to { transform: scaleX(1); }
+}
+
+/* Keep the header still while pages cross-fade during navigation. */
+::view-transition-group(site-header) {
+  animation: none;
+  z-index: 100;
+}
+::view-transition-old(site-header) {
+  display: none;
+}
+::view-transition-new(site-header) {
+  animation: none;
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+
+/* ---------- Article content ---------- */
+
+/* Drive every typography color from the theme tokens so light/dark both stay readable. */
+.prose {
+  --tw-prose-body: var(--color-neu-fg);
+  --tw-prose-headings: var(--color-neu-fg);
+  --tw-prose-lead: var(--color-neu-fg);
+  --tw-prose-links: var(--color-neu-accent);
+  --tw-prose-bold: var(--color-neu-fg);
+  --tw-prose-counters: var(--color-neu-muted);
+  --tw-prose-bullets: var(--color-neu-muted);
+  --tw-prose-hr: color-mix(in srgb, var(--color-neu-muted) 30%, transparent);
+  --tw-prose-quotes: var(--color-neu-fg);
+  --tw-prose-quote-borders: var(--color-neu-accent);
+  --tw-prose-captions: var(--color-neu-muted);
+  --tw-prose-code: var(--color-neu-accent);
+  --tw-prose-th-borders: color-mix(in srgb, var(--color-neu-muted) 40%, transparent);
+  --tw-prose-td-borders: color-mix(in srgb, var(--color-neu-muted) 20%, transparent);
+}
+
+.prose :where(h2, h3, h4) {
+  position: relative;
+}
+
+.prose .heading-anchor {
+  margin-left: 0.5rem;
+  color: var(--color-neu-accent);
+  border-bottom: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.prose :where(h2, h3, h4):hover .heading-anchor {
+  opacity: 0.7;
+}
+
 .prose blockquote {
   font-style: italic;
   border-left-width: 4px;
@@ -94,8 +221,9 @@ body {
 }
 
 .prose pre {
-  background-color: #1a1b26;
-  color: #a9b1d6;
+  position: relative;
+  background-color: #22272e;
+  color: #adbac7;
   border-radius: var(--radius-neu-sm);
   box-shadow: var(--shadow-neu-inset);
   padding: 1.5rem;
@@ -110,6 +238,40 @@ body {
   padding: 0;
 }
 
+.code-block {
+  position: relative;
+}
+
+.copy-code-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #adbac7;
+  background: rgba(255, 255, 255, 0.08);
+  opacity: 0;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.code-block:hover .copy-code-button,
+.copy-code-button:focus-visible,
+.copy-code-button[data-copied="true"] {
+  opacity: 1;
+}
+
+.copy-code-button:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+@media (hover: none) {
+  .copy-code-button {
+    opacity: 1;
+  }
+}
+
 .prose img {
   border-radius: var(--radius-neu-sm);
   box-shadow: var(--shadow-neu-extruded);
@@ -117,13 +279,39 @@ body {
   margin-right: auto;
 }
 
-.prose a {
-  text-decoration: none;
-  border-bottom: 2px solid var(--color-neu-accent-light);
-  transition: all 0.2s;
+/* Shown in place of images whose file is missing (see ArticleEnhancements). */
+.prose .image-missing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 6rem;
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-neu-sm);
+  box-shadow: var(--shadow-neu-inset-sm);
+  color: var(--color-neu-muted);
+  font-size: 0.875rem;
+  font-style: italic;
+  text-align: center;
 }
 
-.prose a:hover {
+.prose .table-wrapper {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.prose .table-wrapper table {
+  margin: 0;
+}
+
+.prose a:not(.heading-anchor) {
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-neu-accent-light);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.prose a:not(.heading-anchor):hover {
   border-bottom-color: var(--color-neu-accent);
   color: var(--color-neu-accent);
 }

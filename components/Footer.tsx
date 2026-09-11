@@ -1,6 +1,6 @@
 import { profileData } from "../data/profile";
-import { Mail } from "lucide-react";
-import Link from "next/link";
+import { Mail, Rss } from "lucide-react";
+import { assetPath } from "../lib/site";
 
 const GithubIcon = () => (
   <svg aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
@@ -18,30 +18,42 @@ const iconMap: Record<string, React.ReactNode> = {
   Linkedin: <LinkedinIcon />,
   Github: <GithubIcon />,
   Twitter: <TwitterIcon />,
-  Mail: <Mail className="w-6 h-6" />,
+  Mail: <Mail className="w-6 h-6" aria-hidden />,
 };
+
+const iconLinkClass =
+  "flex items-center justify-center w-12 h-12 rounded-neu-sm bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover active:translate-y-0.5 active:shadow-neu-inset-sm transition-all duration-300 text-neu-fg hover:text-neu-accent";
 
 export default function Footer() {
   return (
     <footer className="w-full py-12 mt-16 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-[0_-5px_10px_rgba(163,177,198,0.2)] dark:shadow-[0_-5px_10px_rgba(0,0,0,0.2)]">
       <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-neu-muted font-bold tracking-wide">
         <span>© {new Date().getFullYear()} {profileData.name}. All rights reserved.</span>
-        <span className="hidden md:inline">•</span>
-        <a href="/admin/index.html" target="_blank" className="hover:text-neu-accent transition-colors">Admin CMS</a>
+        <span aria-hidden className="hidden md:inline">•</span>
+        {/* Static file outside the Next router, so the basePath must be added by hand. */}
+        <a href={assetPath("/admin/index.html")} className="hover:text-neu-accent transition-colors">
+          Admin CMS
+        </a>
       </div>
       <div className="flex gap-4">
-        {profileData.social.map((s) => (
-          <a
-            key={s.name}
-            href={s.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={s.name}
-            className="flex items-center justify-center w-12 h-12 rounded-neu-sm bg-neu-bg shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover active:translate-y-0.5 active:shadow-neu-inset-sm transition-all duration-300 text-neu-fg hover:text-neu-accent"
-          >
-            {iconMap[s.icon] || <span />}
-          </a>
-        ))}
+        {profileData.social.map((s) => {
+          const external = s.url.startsWith("http");
+          return (
+            <a
+              key={s.name}
+              href={s.url}
+              {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              aria-label={s.name}
+              title={s.name}
+              className={iconLinkClass}
+            >
+              {iconMap[s.icon] || <span />}
+            </a>
+          );
+        })}
+        <a href={assetPath("/feed.xml")} aria-label="RSS feed" title="RSS feed" className={iconLinkClass}>
+          <Rss className="w-6 h-6" aria-hidden />
+        </a>
       </div>
     </footer>
   );

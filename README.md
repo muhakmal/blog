@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# muhakmal. — CV & Blog
 
-## Getting Started
+Personal resume and blog of Muhamad Akmal, built with Next.js (static export) and served from
+GitHub Pages at <https://muhakmal.github.io/blog/>.
 
-First, run the development server:
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000/blog
+npm run lint
+npm run build   # static site in out/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Draft posts (`draft: true`) are visible in `npm run dev` with a "Draft" badge, but are not exported.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Posts are Markdown files in `extracted_content/` (front matter: `title`, `date`, `draft`, `excerpt`, `categories`, `tags`).
+- Images go in `public/media/` and are referenced as `/blog/media/<file>`. Relative image paths in a
+  post resolve to `public/media/<post-slug>/<file>`.
+- Resume data lives in `data/profile.ts`.
 
-## Learn More
+## Admin (CMS)
 
-To learn more about Next.js, take a look at the following resources:
+`/blog/admin/` runs [Sveltia CMS](https://github.com/sveltia/sveltia-cms) (Decap-compatible, config in
+`public/admin/config.yml`). It commits straight to `main`, which triggers a redeploy.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sign in with **Sign In Using Access Token**: create a GitHub
+[fine-grained token](https://github.com/settings/personal-access-tokens/new) scoped to
+`muhakmal/blog` with **Contents: Read and write**. Locally you can also pick
+**Work with Local Repository** (Chrome/Edge) to edit the working copy without a token.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+`.github/workflows/deploy.yml` builds and publishes `out/` on every push to `main`.
+GitHub Pages must be set to **Settings → Pages → Source: GitHub Actions**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Outputs include `/blog/feed.xml` (RSS) and `/blog/sitemap.xml`.

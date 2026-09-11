@@ -1,22 +1,38 @@
+# CMS config (Sveltia CMS, Decap-compatible). Served at /blog/admin/config.yml.
 backend:
   name: github
   repo: muhakmal/blog
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main # Commits here trigger the "Deploy to GitHub Pages" workflow.
 
-media_folder: "public/media" # Media files will be stored in the repo under public/media
-public_folder: "/blog/media" # The src attribute for uploaded media will begin with /blog/media
+site_url: https://muhakmal.github.io/blog
+display_url: https://muhakmal.github.io/blog
+logo_url: /blog/icon.png
+
+media_folder: public/media # Uploaded files are committed here...
+public_folder: /blog/media # ...and referenced in posts with this prefix.
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/posts
-    label: "Blog Posts" # Used in the UI
-    folder: "extracted_content" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template
-    fields: # The fields for each document
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Categories", name: "categories", widget: "list", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "Ringkasan singkat untuk preview di listing"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  - name: posts
+    label: Blog Posts
+    label_singular: Post
+    description: Tulisan blog. Post dengan Draft aktif tidak ikut dipublikasikan.
+    folder: extracted_content
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [date, title]
+    preview_path: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish Date, name: date, widget: datetime }
+      - { label: Draft, name: draft, widget: boolean, default: false, required: false }
+      - label: Excerpt
+        name: excerpt
+        widget: text
+        required: false
+        hint: Ringkasan singkat untuk kartu di daftar tulisan. Kosongkan untuk memakai paragraf pertama.
+      - { label: Categories, name: categories, widget: list, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Body, name: body, widget: markdown }
