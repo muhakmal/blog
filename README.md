@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✍️ Akmal's Blog — Personal Developer Blog & Publication Engine
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-16.x-black.svg?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.x-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-First, run the development server:
+A clean, minimalist personal blog and technical writing publication engine built with **Next.js 16**, **React 19**, **Tailwind CSS v4**, and a high-performance **Remark Markdown** pipeline.
 
+---
+
+## 🇬🇧 English
+
+### Overview
+This repository powers my personal developer blog and knowledge-sharing platform. Designed with performance and readability in mind, it transforms local Markdown and HTML documents into beautifully styled, typography-optimized technical articles and book summaries.
+
+### Key Features
+- ⚡ **Next.js 16 App Router & React 19**: Built on the latest server components architecture for fast loading and near-instant navigation.
+- 🎨 **Tailwind CSS v4 & Typography**: Crisp, distraction-free reading experience enhanced by `@tailwindcss/typography`.
+- 📝 **Remark & Unified Markdown Pipeline**: Parses frontmatter with `gray-matter` and renders HTML via `remark`, `remark-html`, and `remark-parse`.
+- 📱 **Fully Responsive Design**: Optimized for smartphones, tablets, and desktop displays.
+- 🚀 **SEO & Static Site Generation (SSG)**: Fast static generation for optimal search engine indexing and performance on Vercel.
+
+### Tech Stack
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **UI Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Content Pipeline**: [Unified](https://unifiedjs.com/), [Remark](https://github.com/remarkjs/remark), [Gray-Matter](https://github.com/jonschlinkert/gray-matter)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+### Getting Started
+
+#### Prerequisites
+- Node.js 18.17 or higher
+- npm, yarn, or pnpm
+
+#### Installation & Development
 ```bash
+# 1. Clone the repository
+git clone https://github.com/muhakmal/blog.git
+cd blog
+
+# 2. Install dependencies
+npm install
+
+# 3. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Building for Production
+```bash
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🇮🇩 Bahasa Indonesia
 
-To learn more about Next.js, take a look at the following resources:
+### Ikhtisar
+Repositori ini adalah mesin publikasi blog dan platform berbagi pengetahuan teknis pribadi. Dirancang dengan fokus pada performa dan kenyamanan membaca, blog ini memproses dokumen Markdown dan HTML lokal menjadi artikel teknis serta ringkasan buku berpenampilan modern dan rapi.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fitur Utama
+- ⚡ **Next.js 16 App Router & React 19**: Arsitektur server components terbaru untuk loading halaman yang cepat dan navigasi mulus.
+- 🎨 **Tailwind CSS v4 & Typography**: Pengalaman membaca yang nyaman dan bebas distraksi dengan dukungan `@tailwindcss/typography`.
+- 📝 **Pipeline Markdown Remark & Unified**: Parsing metadata frontmatter dengan `gray-matter` dan rendering HTML berkecepatan tinggi.
+- 📱 **Desain Responsif Penuh**: Tampilan optimal di perangkat smartphone, tablet, maupun layar desktop.
+- 🚀 **Optimasi SEO & Static Site Generation**: Build statis yang cepat untuk indeksasi mesin pencari dan hosting di Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Teknologi yang Digunakan
+- **Framework**: Next.js 16 (App Router)
+- **Frontend**: React 19 & TypeScript 5
+- **Styling**: Tailwind CSS v4 & Lucide Icons
+- **Markdown Processor**: Unified, Remark-HTML, Gray-Matter
+- **Platform Hosting**: Vercel
 
-## Deploy on Vercel
+### Panduan Penggunaan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Menjalankan Secara Lokal
+```bash
+# Install seluruh dependency
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Jalankan server pengembangan
+npm run dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000) pada browser Anda.
+
+#### Build Produksi
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+<p align="center">Made with ❤️ by <a href="https://github.com/muhakmal">@muhakmal</a></p>
