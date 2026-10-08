@@ -14,6 +14,13 @@
       using a GitHub fine-grained token (Contents: Read and write on muhakmal/blog).
       To edit a local clone instead, use "Work with Local Repository" (Chrome/Edge).
     -->
-    <script src="https://unpkg.com/@sveltia/cms@0.209.2/dist/sveltia-cms.js"></script>
+    <!-- Pinned version + Subresource Integrity: the browser refuses the file if unpkg ever serves
+         different bytes. When upgrading, update the version and recompute the hash:
+         curl -sL <url> | openssl dgst -sha384 -binary | openssl base64 -A -->
+    <script
+      src="https://unpkg.com/@sveltia/cms@0.209.2/dist/sveltia-cms.js"
+      integrity="sha384-VIyPnckA2e8p2GtAhzan+3HaOpxvMP+s/8IhhlLLBMrmALvoDSAKe446Rky3CZ2H"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

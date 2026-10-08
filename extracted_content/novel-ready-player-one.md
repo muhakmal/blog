@@ -9,7 +9,7 @@ categories:
 date: 2020-05-30T07:03:00.000Z
 draft: false
 ---
-![novel ready player one](https://i.loli.net/2020/05/30/M2cLqEdUYrHalx4.jpg)
+![novel ready player one](m2clqeduyrhalx4.jpg)
 
 Pada tahun 2004, *reality is surely and ugly place to have* Krisi energi, *climate change* kemiskinan, kelaparan; semua hal tersebut berkeliaran disekitar kita. Satu-satunya yang benar-benar merasa hidup adalah Wade Watts tokoh fiktif central dalam novel Ready Player One karya Ernest Cline. Wade mengabdikan hidupnya untuk mempelajari teka-teki yang tersembunyi dibalik OASIS, sebuah game virtual reality yang menjanjikan kekuatan dan kekayaan besar bagi siapa pun yang dapat membuka teka-teki kunci mereka.
 

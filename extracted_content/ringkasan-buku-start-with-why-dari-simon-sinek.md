@@ -12,7 +12,7 @@ draft: false
 
 Puasa sejenak membaca buku fiksi, saya memulai untuk mencoba membaca buku dengan kategori *self-improve*. Berikut merupakan ringkasan dari buku START WITH WHY dari Simon Sinek.
 
-![Freshsales_start_with_why_summary](https://blog-assets.freshworks.com/freshsales-crm/wp-content/uploads/2018/08/71QUhm-AnIL-199x300.jpg)
+![Freshsales_start_with_why_summary](71quhm-anil-199x300.jpg)
 
 
 
@@ -36,7 +36,7 @@ Terlepas dari jenis manipulasi, penting untuk memahami ini adalah solusi jangka 
 
 Sineks mengambarkan "Start With Why" dengan sebuah lingkaran yang ia sebut the Golden Circlen. Ada tiga bagian dari The Golden Circle tersebut. Yaitu ***Why - How - What***
 
-![freshsales_start_with_why_summary_golden_circle](https://blog-assets.freshworks.com/freshsales-crm/wp-content/uploads/2018/08/Screen-Shot-2018-08-31-at-11.46.12-PM.png)
+![freshsales_start_with_why_summary_golden_circle](screen-shot-2018-08-31-at-11-46-12-pm.png)
 
 **WHY** - Sedikit orang atau perusahaan tau dan dapat dengan jelas mengartikulasikan *kenapa* mereka melakukan hal yang mereka lakukan. Hal ini bukan merupakan tentang membuat sebuah perusahaan mendapatkan profit dari apa yang mereka lakukan, itu merupakan hasilnya. *WHY* adalah tentang sebuah tujuan. Mengapa perusahaan tersebut ada? Mengapa seseorang keluar dari tempat tidur di pagi hari untuk bekerja? dan mengapa mereka harus peduli dengan apa yang mereka lakuka?
 
@@ -52,7 +52,7 @@ Simon Sinek mengutip contoh dari Apple. menurut pendapatnya, Apple secara teknis
 
 Hasrat untuk memiliki merupakan sesuatu yang kodrat untuk menusia. Hasrat inilah yang mendorong kita untuk mengejar orang lain yang memiliki kesamaan tujuan dengan kita. Dan The Golde Circle yang digambarkan Simon Sinek dapat dianggap sama dengan bagaimana cara otak kita beroperasi.
 
-![Freshsales_start_with_why_summary_brain](https://blog-assets.freshworks.com/freshsales-crm/wp-content/uploads/2018/08/Screen-Shot-2018-08-31-at-11.48.49-PM.png)
+![Freshsales_start_with_why_summary_brain](screen-shot-2018-08-31-at-11-48-49-pm.png)
 
 **Neocortex** - Neocortex manusia bekerja pada lebvel WHAT. Bagian neocortex pada otaklah yang bertanggun jawab atas semua pemikiran, bahasa, dan rasionalitas kita dalam berfikir. Hal ini memungkinkan kita untuk melihat melalui sejumlah besar fakta dan angka. Tapi tidak dengan perilaku.
 
@@ -90,7 +90,7 @@ Kepercayaan mulai muncul ketika kita melihat bahwa orang-orang dan organisasi di
 
 Bagaimana kita membedakan antara sebuah tren dan sebuah ide yang dapat mengubah segalanya?
 
-![freshsales_start_with_why_summary_law](https://blog-assets.freshworks.com/freshsales-crm/wp-content/uploads/2018/08/Screen-Shot-2018-08-31-at-10.03.53-PM.png)
+![freshsales_start_with_why_summary_law](screen-shot-2018-08-31-at-10-03-53-pm.png)
 
 Hukum difusi inovasi yang disampaikan oleh Everett M. Rogres berkaitan dengan kurva loncengn dari adopsi produk. Kurva ini menguraikan presentase pasar yang mengadopsi produk kita, dimulai dengan Inovator (2,5%), diikuti oleh Early Adopters (13,5%), Early Majority (34%), Late Majority ( 34%), dan Laggards (16%).
 

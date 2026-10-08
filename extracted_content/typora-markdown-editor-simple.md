@@ -10,7 +10,7 @@ date: 2020-05-09T18:19:44.000Z
 draft: false
 ---
 Typora, editor markdown simple yang bisa upload image langsung ke hosting sm.ms. Untuk Windows dan Macintosh settingannya agak berbeda. Bisa di cek di halaman dokumentasi typora.
-![Typora, Markdown Editor Simple Multifungsi](https://i.loli.net/2020/05/10/WcwOtlD2XMCnL5x.png)
+![Typora, Markdown Editor Simple Multifungsi](wcwotld2xmcnl5x.png)
 - Klik disini untuk download Typora https://typora.io/
 - Halaman dokumentasi Typora https://support.typora.io/Upload-Image/
 - GitHub PicGo Core for Typora https://github.com/typora/PicGo-Core

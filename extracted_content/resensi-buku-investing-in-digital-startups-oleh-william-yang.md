@@ -10,7 +10,7 @@ categories:
 date: 2020-05-15T18:13:00.000Z
 draft: false
 ---
-![resensi buku investing in digital stratups](https://i.loli.net/2020/05/17/cMfVjBQmTuSgndx.jpg)
+![resensi buku investing in digital stratups](cmfvjbqmtusgndx.jpg)
 
 Dalam buku Investing in Digital Startups yang ditulis oleh William Yang mencakup pembahasan praktis dan success story yang ada di dunia startups. Kalau buku biasa Lean Startup, Startupedia, How to build Billion dollar apps, dan yang lainnya membahas startup dari sisi founder, William Yang membahas stratup dari kacamata investor. Yang membuat menarik buku ini adalah diawal dijelaskan secara praktis jenis investasi apa yang ada didunia digital dan isi selanjutnya dari buku ini menjelaskan secara rinci *professional practice* dari seorang investor bagaimana membangung startup yang *every investor wants to invest*.
 
@@ -33,7 +33,7 @@ Alasa ketiga untuk berinvestasi di dunia digital adalah visi 300 tahun ke depan 
 
 Alasan terakhir kenapa berinvestasi di dunia teknolgi adalah : ***Flipping***. Flipping secara sederhana dapat diartikan beli murah dan jual mahal. Artinya startup yang harus dicari untuk di investasikan adalah startup yang berpotensi, dan setelah di suntikan dana berkembang pesat, untuk kemudian dapat di nikmati capital gainnya. Investing tipe ini biasa dimainkan oleh *Angel Investor* atau *Venture Capitalist* berikut merupakan siklus Investasi.
 
- ![pola dan jenis jenis investasi](https://i.loli.net/2020/05/16/j4gpMYI26TOX9V8.jpg)
+ ![pola dan jenis jenis investasi](j4gpmyi26tox9v8.jpg)
 
 #### Memilih Medan Perang
 
@@ -47,11 +47,11 @@ Dalam bagian ini William Yang menjelaskan terdapat lima medan pernag dalam perbu
 
 Pada tahap **Angel Stage** bisnis startup masih belum berjalan dengan benar, dan lebih pada menjual ide dan utopia tanpa bukti nyata. yang mana risiko kegagalan startup pada tahap ini lebih tinggi. Oleh karena itu investor pada tahap ini disebut Angel (malaikat).
 
-![angel investor stage](https://i.loli.net/2020/05/16/KnRfGFiNylkt6uZ.jpg)
+![angel investor stage](knrfgfinylkt6uz.jpg)
 
 **Growth Stage** adalah posis dimana bisnis startup sudah terlihat pola dan model bisnisnya, sehingga bisa di projeksikan Return of Investmentnya. Pada tahap ini, bisnis startup sudah dapat dianlisis oleh pakar.
 
-![growth stage investor](https://i.loli.net/2020/05/16/9hbHg7cxUOLXk5S.jpg)
+![growth stage investor](9hbhg7cxuolxk5s.jpg)
 
 #### Taipan Mindset
 
@@ -59,7 +59,7 @@ Pada tahap **Angel Stage** bisnis startup masih belum berjalan dengan benar, dan
 
 Taipan merupakan bahasa hokkien untuk konglomerat, yang mana jika kita ingin menjadi Taipan terdapat 5C yang harus dijalani yaitu ***cuan, cengli, cincai, cia, cau***
 
-![taipan mindset 5c](https://i.loli.net/2020/05/16/iybrAJ2fSeIXna3.jpg)
+![taipan mindset 5c](iybraj2fseixna3.jpg)
 
 ***Cuan*** : kalau tidak dapat meyakinkan diri sendiri bahwa bisnis yang anda kerjakan mennguntungkan, maka janganlah berinvestasi.
 
@@ -73,7 +73,7 @@ Taipan merupakan bahasa hokkien untuk konglomerat, yang mana jika kita ingin men
 
 #### Perjalanan Para Investor Go-Jek
 
-![perjalanan investor gojek](https://i.loli.net/2020/05/16/6MlDckOjd3EJ4Rn.jpg)
+![perjalanan investor gojek](6mldckojd3ej4rn.jpg)
 
 Gambar diatas memperlihatkan perjalanan Go-Jek dari pendanaan sendiri sampai dengan di invest oleh Google. Inimembuktikan bahwa kita harus bijak memilih calon investor lanjutan.
 
@@ -81,34 +81,34 @@ Gambar diatas memperlihatkan perjalanan Go-Jek dari pendanaan sendiri sampai den
 
 ##### Contoh Startup Business Canvas
 
-![food gorila startup bisnis canvas](https://i.loli.net/2020/05/16/bpNTBAJ4xkcU7hI.jpg)
+![food gorila startup bisnis canvas](bpntbaj4xkcu7hi.jpg)
 
-![farmland startup bisnis canvas](https://i.loli.net/2020/05/16/IKHLuGjyDCxtden.jpg)
+![farmland startup bisnis canvas](ikhlugjydcxtden.jpg)
 
-![edumax startup bisnis canvas](https://i.loli.net/2020/05/16/evTdsoJMCxZPhgH.jpg)
+![edumax startup bisnis canvas](evtdsojmcxzphgh.jpg)
 
-![barista startup bisnis canvas](https://i.loli.net/2020/05/16/MsDp2btL3eBfloP.jpg)
+![barista startup bisnis canvas](msdp2btl3ebflop.jpg)
 
-![bababa startup bisnis canvas](https://i.loli.net/2020/05/16/nbouR48lDVGOr1v.jpg)
+![bababa startup bisnis canvas](nbour48ldvgor1v.jpg)
 
-![ojek nasional startup bisnis canvas](https://i.loli.net/2020/05/16/rbDqkOyi8hgPuoY.jpg)
+![ojek nasional startup bisnis canvas](rbdqkoyi8hgpuoy.jpg)
 
-![petani fund startup bisnis canvas](https://i.loli.net/2020/05/16/8icfwO4uzZ72hjT.jpg)
+![petani fund startup bisnis canvas](8icfwo4uzz72hjt.jpg)
 
-![interpay startup bisnis canvas](https://i.loli.net/2020/05/16/swXmvQWCt53eYZa.jpg)
+![interpay startup bisnis canvas](swxmvqwct53eyza.jpg)
 
-![warungku startup bisnis canvas](https://i.loli.net/2020/05/16/JSR9n6UW7fkedYB.jpg)
+![warungku startup bisnis canvas](jsr9n6uw7fkedyb.jpg)
 
-![pos now startup bisnis canvas](https://i.loli.net/2020/05/16/Cj4hNtTzpGDrYI3.jpg)
+![pos now startup bisnis canvas](cj4hnttzpgdryi3.jpg)
 
 ##### Analisa Rangkuman Pertimbangan Busines Canvas Startup
 
-![4 Analisa Rangkuman Pertimbangan Busines Canvas Startup](https://i.loli.net/2020/05/16/i8nPq6A79syTHwB.jpg)
+![4 Analisa Rangkuman Pertimbangan Busines Canvas Startup](i8npq6a79sythwb.jpg)
 
-![3 Analisa Rangkuman Pertimbangan Busines Canvas Startup](https://i.loli.net/2020/05/16/M28ufwtjCBlb6VA.jpg)
+![3 Analisa Rangkuman Pertimbangan Busines Canvas Startup](m28ufwtjcblb6va.jpg)
 
-![2 Analisa Rangkuman Pertimbangan Busines Canvas Startup](https://i.loli.net/2020/05/16/cDdGVfQ2WUTkuB6.jpg)
+![2 Analisa Rangkuman Pertimbangan Busines Canvas Startup](cddgvfq2wutkub6.jpg)
 
-![1 Analisa Rangkuman Pertimbangan Busines Canvas Startup](https://i.loli.net/2020/05/16/onzmvwk7yhABet1.jpg)
+![1 Analisa Rangkuman Pertimbangan Busines Canvas Startup](onzmvwk7yhabet1.jpg)
 
 [Sumber : *Investing In Digital Startups oleh William Yang*](https://www.goodreads.com/book/show/41586456-investing-in-digital-startups)

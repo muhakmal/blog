@@ -33,6 +33,16 @@ collections:
         widget: text
         required: false
         hint: Ringkasan singkat untuk kartu di daftar tulisan. Kosongkan untuk memakai paragraf pertama.
+      - label: Cover Image
+        name: cover
+        widget: image
+        required: false
+        hint: Gambar sampul (idealnya 1200×630) untuk kartu tulisan, header artikel, dan pratinjau saat dibagikan.
+      - label: Last Updated
+        name: updated
+        widget: datetime
+        required: false
+        hint: Isi kalau tulisan direvisi besar. Kosongkan untuk memakai tanggal commit terakhir.
       - { label: Categories, name: categories, widget: list, required: false }
       - { label: Tags, name: tags, widget: list, required: false }
       - { label: Body, name: body, widget: markdown }

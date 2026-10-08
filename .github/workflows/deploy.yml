@@ -21,12 +21,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history: each post's "last updated" date comes from git.
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
       - run: npm run lint
+      # Broken images and internal links show up as warnings on the run (not a failure).
+      - run: npm run check:content -- --external
       - run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://muhakmal.github.io/blog

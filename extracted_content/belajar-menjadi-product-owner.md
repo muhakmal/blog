@@ -10,7 +10,7 @@ categories:
 date: 2020-05-20T15:16:00.000Z
 draft: false
 ---
-![product owner product success](https://i.loli.net/2020/05/20/sI4ELzVrFPMnkOX.png)
+![product owner product success](si4elzvrfpmnkox.png)
 
 Tugas seorang Product Owner dalam framework scrum sebagaimana [Scrum Guide](https://www.scrumguides.org) adalah memaksimalkan nilai dari product yang dikerjakan oleh Development Team. bagaimana hal ini bisa tersampaikan dapat sangat bergantung kepada bagaimana penerapan Scrum pada suatu organisasi perusahaan, Scrum Teams, dan masing-masing individual (Product Owner)
 

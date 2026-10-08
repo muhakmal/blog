@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
 
@@ -11,13 +11,17 @@ const navLinks = [
   { name: "Blog", href: "/posts" },
 ];
 
-// Post pages live at /<slug>, so anything other than the home page belongs to "Blog".
-function isActive(pathname: string | null, href: string) {
+// "Resume" is only the home page; the post list, posts, tags and categories belong to "Blog".
+// Anything else (e.g. a 404) highlights neither.
+function isActive(pathname: string | null, href: string, postSlugs: Set<string>) {
   if (!pathname) return false;
-  return href === "/" ? pathname === "/" : pathname !== "/";
+  const path = pathname.replace(/\/+$/, "") || "/";
+  if (href === "/") return path === "/";
+  return /^\/(posts|tag|kategori)(\/|$)/.test(path) || postSlugs.has(path.slice(1));
 }
 
-export default function Header() {
+export default function Header({ postSlugs }: { postSlugs: string[] }) {
+  const slugSet = useMemo(() => new Set(postSlugs), [postSlugs]);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
   const [lastPathname, setLastPathname] = useState(pathname);
@@ -46,7 +50,14 @@ export default function Header() {
     };
     document.addEventListener("keydown", onKeyDown);
 
+    // The drawer is mobile-only: close it (and release the page) once the viewport reaches md.
+    const desktop = window.matchMedia("(min-width: 768px)");
+    const onViewportChange = () => desktop.matches && setIsMenuOpen(false);
+    onViewportChange();
+    desktop.addEventListener("change", onViewportChange);
+
     return () => {
+      desktop.removeEventListener("change", onViewportChange);
       page.forEach((el) => el && (el.inert = false));
       document.body.style.overflow = "";
       document.removeEventListener("keydown", onKeyDown);
@@ -57,7 +68,7 @@ export default function Header() {
     <>
       <header
         style={{ viewTransitionName: "site-header" }}
-        className="sticky top-0 z-50 w-full bg-neu-bg/90 backdrop-blur-md py-4 px-6 md:px-12 flex justify-between items-center shadow-[0_5px_10px_rgba(0,0,0,0.05)] dark:shadow-[0_5px_10px_rgba(0,0,0,0.2)]"
+        className="print:hidden sticky top-0 z-50 w-full bg-neu-bg/90 backdrop-blur-md py-4 px-6 md:px-12 flex justify-between items-center shadow-[0_5px_10px_rgba(0,0,0,0.05)] dark:shadow-[0_5px_10px_rgba(0,0,0,0.2)]"
       >
         <Link href="/" className="font-display font-extrabold text-2xl tracking-tighter text-neu-fg hover:text-neu-accent transition-colors">
           muhakmal.
@@ -66,7 +77,7 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-8">
           <nav aria-label="Navigasi utama" className="flex gap-6 items-center">
             {navLinks.map((link) => {
-              const active = isActive(pathname, link.href);
+              const active = isActive(pathname, link.href, slugSet);
               return (
                 <Link
                   key={link.name}
@@ -107,7 +118,7 @@ export default function Header() {
       >
         <nav aria-label="Navigasi utama" className="flex flex-col gap-6">
           {navLinks.map((link) => {
-            const active = isActive(pathname, link.href);
+            const active = isActive(pathname, link.href, slugSet);
             return (
               <Link
                 key={link.name}

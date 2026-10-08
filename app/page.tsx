@@ -1,7 +1,7 @@
 import { profileData } from "../data/profile";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
-import { Briefcase, GraduationCap, BookOpen, Layers, ArrowRight, Mail } from "lucide-react";
+import { Briefcase, GraduationCap, BookOpen, Layers, ArrowRight, Mail, FileText } from "lucide-react";
 import PostCard from "../components/PostCard";
 
 const SectionHeading = ({ id, icon, children }: { id: string; icon: React.ReactNode; children: React.ReactNode }) => (
@@ -38,9 +38,7 @@ export default async function Home() {
             Hi, I&apos;m Akmal.
           </h1>
           <p className="font-display font-bold text-2xl md:text-3xl text-neu-accent">{profileData.role}</p>
-          <p className="text-neu-muted text-lg md:text-xl leading-relaxed max-w-2xl">
-            Building digital products and exploring the intersection of technology, business, and human behavior.
-          </p>
+          <p className="text-neu-muted text-base md:text-lg leading-relaxed max-w-2xl">{profileData.bio}</p>
 
           <ul aria-label="Social links" className="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
             {profileData.social.map((s) => (
@@ -68,6 +66,12 @@ export default async function Home() {
               className="flex items-center gap-2 px-8 py-4 bg-neu-bg text-neu-fg font-bold rounded-neu-sm border border-neu-edge shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover active:translate-y-0.5 active:shadow-neu-inset-sm motion-reduce:hover:translate-y-0 transition-all duration-300"
             >
               Read Blog
+            </Link>
+            <Link
+              href="/cv"
+              className="flex items-center gap-2 px-8 py-4 bg-neu-bg text-neu-fg font-bold rounded-neu-sm border border-neu-edge shadow-neu-extruded hover:-translate-y-1 hover:shadow-neu-extruded-hover active:translate-y-0.5 active:shadow-neu-inset-sm motion-reduce:hover:translate-y-0 transition-all duration-300"
+            >
+              <FileText className="w-5 h-5" aria-hidden /> CV (PDF)
             </Link>
           </div>
         </div>

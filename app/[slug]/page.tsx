@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ViewTransition } from 'react';
 import { ArrowLeft, Clock, ChevronLeft, ChevronRight, Folder } from 'lucide-react';
 import { getPostData, getSortedPostsData, getAdjacentPosts, getRelatedPosts } from '../../lib/posts';
-import { SITE_NAME, absoluteUrl, formatDate } from '../../lib/site';
+import { SITE_NAME, absoluteAssetUrl, absoluteUrl, formatDate, slugify } from '../../lib/site';
 import { profileData } from '../../data/profile';
 import ReadingProgressBar from '../../components/ReadingProgressBar';
 import TableOfContents from '../../components/TableOfContents';
@@ -26,6 +26,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
   if (!postData) return { title: 'Tulisan tidak ditemukan' };
 
   const url = absoluteUrl(`/${slug}`);
+  const image = postData.cover ? absoluteAssetUrl(postData.cover) : absoluteUrl(`/${slug}/og.png`);
   return {
     title: postData.title,
     description: postData.excerpt,
@@ -37,13 +38,16 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       siteName: SITE_NAME,
       type: 'article',
       publishedTime: postData.date,
+      modifiedTime: postData.updated,
       authors: [profileData.name],
       tags: postData.tags,
+      images: [{ url: image, width: 1200, height: 630, alt: postData.title }],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: postData.title,
       description: postData.excerpt,
+      images: [image],
     },
   };
 }
@@ -66,11 +70,15 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
     headline: postData.title,
     description: postData.excerpt,
     datePublished: postData.date,
+    dateModified: postData.updated || postData.date,
+    image: postData.cover ? absoluteAssetUrl(postData.cover) : absoluteUrl(`/${slug}/og.png`),
     inLanguage: 'id-ID',
     url,
     mainEntityOfPage: url,
     keywords: postData.tags.join(', '),
+    articleSection: postData.categories,
     author: { '@type': 'Person', name: profileData.name, url: absoluteUrl('/') },
+    publisher: { '@type': 'Person', name: profileData.name, url: absoluteUrl('/') },
   };
 
   return (
@@ -97,7 +105,7 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
                 {postData.categories.map((category, i) => (
                   <span key={category} className="text-xs font-bold tracking-wider uppercase">
                     <Link
-                      href={`/posts?kategori=${encodeURIComponent(category)}`}
+                      href={`/kategori/${slugify(category)}`}
                       className="text-neu-accent hover:underline underline-offset-4"
                     >
                       {category}
@@ -129,6 +137,16 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
             </div>
           </header>
 
+          {postData.cover && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={postData.cover}
+              alt=""
+              decoding="async"
+              className="mb-12 w-full aspect-[1200/630] object-cover rounded-neu shadow-neu-extruded"
+            />
+          )}
+
           <TableOfContents headings={postData.headings} variant="inline" />
 
           <div className="p-6 md:p-12 rounded-neu bg-neu-bg border border-neu-edge shadow-neu-extruded overflow-hidden">
@@ -150,7 +168,7 @@ export default async function Post(props: { params: Promise<{ slug: string }> })
             <ul aria-label="Tag" className="mt-8 flex flex-wrap gap-3">
               {postData.tags.map((tag) => (
                 <li key={tag}>
-                  <Link href={`/posts?tag=${encodeURIComponent(tag)}`} className={`inline-block ${pillClass}`}>
+                  <Link href={`/tag/${slugify(tag)}`} className={`inline-block ${pillClass}`}>
                     #{tag}
                   </Link>
                 </li>

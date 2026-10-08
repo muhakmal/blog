@@ -2,12 +2,14 @@ import PostCard from "./PostCard";
 import type { PostSummary } from "../lib/posts";
 
 // Posts grouped under a heading per year (newest first), or a flat grid.
-export default function PostList({ posts, grouped }: { posts: PostSummary[]; grouped: boolean }) {
+type Props = { posts: PostSummary[]; grouped: boolean; highlight?: string[] };
+
+export default function PostList({ posts, grouped, highlight }: Props) {
   if (!grouped) {
     return (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {posts.map((post) => (
-          <PostCard key={post.slug} post={post} />
+          <PostCard key={post.slug} post={post} highlight={highlight} />
         ))}
       </div>
     );
@@ -30,7 +32,7 @@ export default function PostList({ posts, grouped }: { posts: PostSummary[]; gro
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {yearPosts.map((post) => (
-              <PostCard key={post.slug} post={post} />
+              <PostCard key={post.slug} post={post} highlight={highlight} />
             ))}
           </div>
         </section>

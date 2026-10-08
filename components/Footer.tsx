@@ -26,14 +26,9 @@ const iconLinkClass =
 
 export default function Footer() {
   return (
-    <footer className="w-full py-12 mt-16 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-[0_-5px_10px_rgba(163,177,198,0.2)] dark:shadow-[0_-5px_10px_rgba(0,0,0,0.2)]">
+    <footer className="print:hidden w-full py-12 mt-16 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 shadow-[0_-5px_10px_rgba(163,177,198,0.2)] dark:shadow-[0_-5px_10px_rgba(0,0,0,0.2)]">
       <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-neu-muted font-bold tracking-wide">
         <span>© {new Date().getFullYear()} {profileData.name}. All rights reserved.</span>
-        <span aria-hidden className="hidden md:inline">•</span>
-        {/* Static file outside the Next router, so the basePath must be added by hand. */}
-        <a href={assetPath("/admin/index.html")} className="hover:text-neu-accent transition-colors">
-          Admin CMS
-        </a>
       </div>
       <div className="flex gap-4">
         {profileData.social.map((s) => {

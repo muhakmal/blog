@@ -87,6 +87,14 @@ body {
   color: var(--color-neu-on-accent);
 }
 
+/* Print (used by /cv "Save as PDF"): plain white page. */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
+
 /* One consistent, visible focus ring for keyboard users. */
 :focus-visible {
   outline: 3px solid var(--color-neu-accent);
@@ -105,18 +113,6 @@ body {
       animation-range: entry 0% entry 60%;
     }
   }
-}
-
-/* Reading progress driven by page scroll where supported; JS fallback otherwise. */
-@supports (animation-timeline: scroll()) {
-  .reading-progress {
-    transform: scaleX(0);
-    animation: grow-x linear both;
-    animation-timeline: scroll(root block);
-  }
-}
-@keyframes grow-x {
-  to { transform: scaleX(1); }
 }
 
 /* Keep the header still while pages cross-fade during navigation. */
@@ -151,6 +147,11 @@ body {
   ::view-transition-new(*) {
     animation: none !important;
   }
+}
+
+/* Set by an inline script on /posts until the URL filters are applied (see PostsExplorer). */
+html[data-pending-filter] [data-post-results] {
+  visibility: hidden;
 }
 
 /* ---------- Article content ---------- */

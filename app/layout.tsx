@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { ThemeProvider } from "next-themes";
+import { getSortedPostsData } from "../lib/posts";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -38,12 +39,14 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "id_ID",
     type: "website",
+    images: [{ url: absoluteUrl("/og.png"), width: 1200, height: 630, alt: SITE_NAME }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     creator: "@ayeakmal",
+    images: [absoluteUrl("/og.png")],
   },
   robots: {
     index: true,
@@ -66,7 +69,7 @@ export default function RootLayout({
           >
             Langsung ke konten
           </a>
-          <Header />
+          <Header postSlugs={getSortedPostsData().map((post) => post.slug)} />
           <main id="main" tabIndex={-1} className="flex-grow focus:outline-none">
             {children}
           </main>

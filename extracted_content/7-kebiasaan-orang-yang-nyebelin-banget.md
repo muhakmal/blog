@@ -14,7 +14,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-![Resensi Buku 7 Kebiasaan Orang Yang Nyeblin Banget (7 Habits of Highly Annoying People)](https://i.loli.net/2020/05/26/5TgYOGisdCarRzv.jpg)
+![Resensi Buku 7 Kebiasaan Orang Yang Nyeblin Banget (7 Habits of Highly Annoying People)](5tgyogisdcarrzv.jpg)
 
 Buku ini 7 kebiasaan orang dari 7 tempat yang berbeda. sekilas mungkin buku ini terlihat receh namun perlu diketahui Henry Manampiring dalam prosesnya menulis buku ini melalui survey dan riset serius dengan melibatkan pengikutnya di [Twitter](https://twitter.com/newsplatter).
 

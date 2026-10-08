@@ -10,7 +10,7 @@ categories:
 date: 2020-05-16T18:03:00.000Z
 draft: false
 ---
-![resensi buku masa-masa awal bahasa indonesia](https://i.loli.net/2020/05/17/s75jwOJHgAPbNv4.png)
+![resensi buku masa-masa awal bahasa indonesia](s75jwojhgapbnv4.png)
 
 Buku Masa-Masa Awal Bahasa Indonesia garapan Prof. Dr. KPH. H.E. Harimurti Kridalaksana menceritakan kita bagaimana proses kelahiran sebuah bahasa persatuan yang kita pakai di negara yang kita cintai ini. Dari buku kecil yang ia tulis ini Prof. Harimurti memberikan kita sebuah gagasan bagaimana sebuah bahasa bisa lahir dan menciptakan persatuan, dan bagaimana sebuah bahasa tersebut terbentuk ditinjau dari aspek ilmiah.
 
@@ -57,7 +57,7 @@ Tuntutan penguasaan bahasa Belanda semakin meningkat dari bangsa Indonesia. Hal 
 
 #### Kenapa Bahasa Indonesia, Bukan Bahasa Melayu?
 
-![Perbedaan Bahasa Melayu dan Bahasa Indonesia](https://i.loli.net/2020/05/17/afkdpGFWUSDtZO5.png)
+![Perbedaan Bahasa Melayu dan Bahasa Indonesia](afkdpgfwusdtzo5.png)
 
 Pertama-tama, tentulah jawaban yang berlatarbelakangkan sejarah. Sudah sejak lama, entah kapan persisnya, Bahasa Melayu sudah menjadi bahasa perantara pelbagai kelompok masyarakat di Asia Tenggara ini, khususnya di wilayah yang kemudian menjadi negara Republik Indonesia
 
@@ -71,23 +71,23 @@ Kelima, mengapa para perintis kemerdekaan dan peserta Kongres Pemuda itu tidak m
 
 #### Beberapa Bukti Evolusi Bahasa Indonesia Pada Masa Awal Bahasa Indonesia (1900-1940)
 
-![Surat Kabar Bianglala tahun 1867](https://i.loli.net/2020/05/17/vVHCkuq16diO4ms.png)
+![Surat Kabar Bianglala tahun 1867](vvhckuq16dio4ms.png)
 
-![Surat Kabar Bianglala tahun 1867](https://i.loli.net/2020/05/17/Ko9QJyMuehfNFls.png)
+![Surat Kabar Bianglala tahun 1867](ko9qjymuehfnfls.png)
 
-![Iklan di koran jadul berbahasa indonesia](https://i.loli.net/2020/05/17/T7nkb1j8LvePJyA.png)
+![Iklan di koran jadul berbahasa indonesia](t7nkb1j8lvepjya.png)
 
 ![Iklan di koran jadul berbahasa indonesia](https://i.loli.net/2020/05/17/Nf3pyYZEzSPmdU2.png)
 
-![Iklan di koran jadul berbahasa indonesia](https://i.loli.net/2020/05/17/drSwsP518hZMkgj.png)
+![Iklan di koran jadul berbahasa indonesia](drswsp518hzmkgj.png)
 
-![Iklan di koran jadul berbahasa indonesia](https://i.loli.net/2020/05/17/9DyOz2EF3ANtUv5.png)
+![Iklan di koran jadul berbahasa indonesia](9dyoz2ef3antuv5.png)
 
-![Iklan di koran jadul berbahasa indonesia](https://i.loli.net/2020/05/17/HzkIrScVPapMwhA.png)
+![Iklan di koran jadul berbahasa indonesia](hzkirscvpapmwha.png)
 
-![KUHP belanda tahun 1940-an ](https://i.loli.net/2020/05/17/27xVjIlYCv9WdcP.png)
+![KUHP belanda tahun 1940-an ](27xvjilycv9wdcp.png)
 
-![image-20200517023004901](https://i.loli.net/2020/05/17/L2dQZEn3X8qh6vr.png)
+![image-20200517023004901](l2dqzen3x8qh6vr.png)
 
 
 [Sumber : *Masa-Masa Awal Bahasa Indonesia - Harimurti Kridalaksana*](https://www.goodreads.com/book/show/50251655-masa-masa-awal-bahasa-indonesia)

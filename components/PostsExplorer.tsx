@@ -3,11 +3,13 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { Search, X } from "lucide-react";
 import PostList from "./PostList";
-import type { SearchablePost } from "../lib/posts";
+import type { SearchablePost, Taxonomy } from "../lib/posts";
+import { buildSearchEntry, matchesAll, toSearchTerms } from "../lib/search";
+import { slugify } from "../lib/site";
 
 type Props = {
   posts: SearchablePost[];
-  categories: { name: string; count: number }[];
+  categories: Taxonomy[];
 };
 
 // Filters live in the query string so filtered views can be shared and bookmarked.
@@ -43,8 +45,10 @@ export default function PostsExplorer({ posts, categories }: Props) {
   const search = useSyncExternalStore(subscribeToUrl, () => window.location.search, () => "");
   const searchParams = new URLSearchParams(search);
   const urlQuery = searchParams.get("q") ?? "";
-  const category = searchParams.get("kategori") ?? "";
-  const tag = searchParams.get("tag") ?? "";
+  // Both slugs and display names (older links) are accepted: compare by slug.
+  const category = slugify(searchParams.get("kategori") ?? "");
+  const tag = slugify(searchParams.get("tag") ?? "");
+  const tagName = posts.flatMap((post) => post.tags).find((t) => slugify(t) === tag) ?? tag;
 
   // The input keeps its own state for snappy typing; re-sync when the URL changes elsewhere (back/forward).
   const [query, setQuery] = useState(urlQuery);
@@ -68,28 +72,34 @@ export default function PostsExplorer({ posts, categories }: Props) {
     return () => document.removeEventListener("keydown", onKeyDown);
   }, []);
 
-  const haystacks = useMemo(
+  // The page hides the results until the URL filters are applied (see app/posts/page.tsx).
+  useEffect(() => {
+    if (search === window.location.search) delete document.documentElement.dataset.pendingFilter;
+  }, [search]);
+
+  const index = useMemo(
     () =>
       new Map(
         posts.map((post) => [
           post.slug,
-          [post.title, post.excerpt, post.tags.join(" "), post.categories.join(" "), post.searchText]
-            .join(" ")
-            .toLowerCase(),
+          buildSearchEntry([post.title, post.excerpt, ...post.tags, ...post.categories, post.searchText]),
         ])
       ),
     [posts]
   );
 
-  const filtered = useMemo(() => {
-    const terms = deferredQuery.toLowerCase().split(/\s+/).filter(Boolean);
-    return posts.filter((post) => {
-      if (category && !post.categories.includes(category)) return false;
-      if (tag && !post.tags.some((t) => t.toLowerCase() === tag.toLowerCase())) return false;
-      const haystack = haystacks.get(post.slug) ?? "";
-      return terms.every((term) => haystack.includes(term));
-    });
-  }, [posts, haystacks, deferredQuery, category, tag]);
+  const terms = useMemo(() => toSearchTerms(deferredQuery), [deferredQuery]);
+
+  const filtered = useMemo(
+    () =>
+      posts.filter((post) => {
+        if (category && !post.categories.some((c) => slugify(c) === category)) return false;
+        if (tag && !post.tags.some((t) => slugify(t) === tag)) return false;
+        const entry = index.get(post.slug);
+        return !entry || matchesAll(entry, terms);
+      }),
+    [posts, index, terms, category, tag]
+  );
 
   const isFiltering = Boolean(deferredQuery.trim() || category || tag);
 
@@ -150,11 +160,11 @@ export default function PostsExplorer({ posts, categories }: Props) {
           </button>
           {categories.map((cat) => (
             <button
-              key={cat.name}
+              key={cat.slug}
               type="button"
-              aria-pressed={category === cat.name}
-              onClick={() => updateUrl({ kategori: category === cat.name ? "" : cat.name })}
-              className={`${chipBase} ${category === cat.name ? chipActive : chipIdle}`}
+              aria-pressed={category === cat.slug}
+              onClick={() => updateUrl({ kategori: category === cat.slug ? "" : cat.slug })}
+              className={`${chipBase} ${category === cat.slug ? chipActive : chipIdle}`}
             >
               {cat.name} <span className="opacity-70">({cat.count})</span>
             </button>
@@ -168,7 +178,7 @@ export default function PostsExplorer({ posts, categories }: Props) {
               onClick={() => updateUrl({ tag: "" })}
               className={`${chipBase} ${chipActive} inline-flex items-center gap-2`}
             >
-              Tag: #{tag} <X className="w-4 h-4" aria-hidden />
+              Tag: #{tagName} <X className="w-4 h-4" aria-hidden />
               <span className="sr-only">(hapus filter tag)</span>
             </button>
           </div>
@@ -179,10 +189,11 @@ export default function PostsExplorer({ posts, categories }: Props) {
         {isFiltering ? `Menampilkan ${filtered.length} dari ${posts.length} tulisan` : `${posts.length} tulisan`}
       </p>
 
+      <div data-post-results>
       {filtered.length > 0 ? (
         <>
           {isFiltering && <h2 className="sr-only">Hasil pencarian</h2>}
-          <PostList posts={filtered} grouped={!isFiltering} />
+          <PostList posts={filtered} grouped={!isFiltering} highlight={terms} />
         </>
       ) : (
         <div className="flex flex-col items-center gap-4 text-center py-12 text-neu-muted font-medium">
@@ -192,6 +203,7 @@ export default function PostsExplorer({ posts, categories }: Props) {
           </button>
         </div>
       )}
+      </div>
     </>
   );
 }

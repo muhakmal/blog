@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import { execFileSync } from 'child_process';
+import { cache } from 'react';
 import matter from 'gray-matter';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
@@ -13,9 +15,11 @@ import readingTime from 'reading-time';
 import { visit, SKIP } from 'unist-util-visit';
 import { toString } from 'hast-util-to-string';
 import type { Root, Element } from 'hast';
-import { BASE_PATH, SITE_URL } from './site';
+import { BASE_PATH, SITE_TIME_ZONE, SITE_URL, slugify } from './site';
+import { normalizeText } from './search';
 
 const postsDirectory = path.join(process.cwd(), 'extracted_content');
+const publicDirectory = path.join(process.cwd(), 'public');
 
 // Drafts are visible in `next dev` so they can be previewed, but never exported.
 const SHOW_DRAFTS = process.env.NODE_ENV !== 'production';
@@ -23,12 +27,17 @@ const SHOW_DRAFTS = process.env.NODE_ENV !== 'production';
 export type PostSummary = {
   slug: string;
   title: string;
+  // Publish date as "YYYY-MM-DD" in local (WIB) time.
   date: string;
+  // Last content change, "YYYY-MM-DD": front matter `updated`, else the last git edit.
+  updated: string;
   excerpt: string;
   categories: string[];
   tags: string[];
   readingTime: string;
   draft: boolean;
+  // URL of the cover image, only set when the file really exists.
+  cover: string;
 };
 
 export type Heading = {
@@ -48,7 +57,10 @@ export type SearchablePost = PostSummary & {
   searchText: string;
 };
 
+export type Taxonomy = { name: string; slug: string; count: number };
+
 type ParsedPost = PostSummary & {
+  timestamp: number;
   content: string;
   hasCustomExcerpt: boolean;
 };
@@ -79,10 +91,22 @@ function toStringList(value: unknown): string[] {
   return value.map((v) => String(v ?? '').trim()).filter(Boolean);
 }
 
-function toIsoDate(value: unknown) {
-  if (!value) return '';
+function toDate(value: unknown) {
+  if (!value) return null;
   const date = new Date(value as string);
-  return Number.isNaN(date.getTime()) ? '' : date.toISOString().split('T')[0];
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+// Calendar date in WIB, so a post published at 06:00 WIB is not dated the previous day (UTC).
+const localDateFormat = new Intl.DateTimeFormat('en-CA', {
+  timeZone: SITE_TIME_ZONE,
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+});
+
+function toLocalIsoDate(date: Date | null) {
+  return date ? localDateFormat.format(date) : '';
 }
 
 function formatReadingTime(content: string) {
@@ -90,22 +114,79 @@ function formatReadingTime(content: string) {
   return `${minutes} menit baca`;
 }
 
+// Maps a site URL ("/blog/media/x.png") to its file in public/, or null for other URLs.
+function publicFileFor(src: string) {
+  if (!src.startsWith(`${BASE_PATH}/`)) return null;
+  const relative = decodeURI(src.slice(BASE_PATH.length).split(/[?#]/)[0]);
+  return path.join(publicDirectory, relative);
+}
+
+function isExternal(src: string) {
+  return /^([a-z]+:)?\/\//i.test(src) || src.startsWith('data:');
+}
+
+// Relative image paths come from the old Hugo page bundles and live in public/media/<slug>/.
+function resolveImageSrc(src: string, slug: string) {
+  if (isExternal(src) || src.startsWith('/')) return src;
+  return `${BASE_PATH}/media/${slug}/${src}`;
+}
+
+function localImageExists(src: string) {
+  const file = publicFileFor(src);
+  return file !== null && fs.existsSync(file);
+}
+
+// Cover image: `cover` (CMS field) or the legacy Hugo `image.filename`, if the file exists.
+function resolveCover(data: Record<string, unknown>, slug: string) {
+  const candidates: string[] = [];
+  if (typeof data.cover === 'string' && data.cover.trim()) {
+    candidates.push(resolveImageSrc(data.cover.trim(), slug));
+  }
+  const legacy = (data.image as { filename?: unknown } | null | undefined)?.filename;
+  if (typeof legacy === 'string' && legacy.trim()) {
+    const name = legacy.trim();
+    const names = path.extname(name) ? [name] : ['jpg', 'jpeg', 'png', 'webp'].map((ext) => `${name}.${ext}`);
+    candidates.push(...names.map((n) => resolveImageSrc(n, slug)));
+  }
+  return candidates.find((src) => isExternal(src) || localImageExists(src)) ?? '';
+}
+
+// Date of the last commit that modified (not added) the file, "" outside a git checkout.
+function gitLastModified(file: string) {
+  try {
+    const output = execFileSync('git', ['log', '-1', '--diff-filter=M', '--format=%cI', '--', file], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+    return toDate(output);
+  } catch {
+    return null;
+  }
+}
+
 function parsePostFile(fileName: string): ParsedPost {
   const slug = fileName.replace(/\.md$/, '');
-  const fileContents = fs.readFileSync(path.join(postsDirectory, fileName), 'utf8');
+  const filePath = path.join(postsDirectory, fileName);
+  const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
   const customExcerpt = typeof data.excerpt === 'string' ? data.excerpt.trim() : '';
+  const published = toDate(data.date);
+  const modified = toDate(data.updated) ?? gitLastModified(filePath);
+  const updated = modified && published && modified > published ? modified : published;
 
   return {
     slug,
     title: data.title || 'Untitled',
-    date: toIsoDate(data.date),
+    date: toLocalIsoDate(published),
+    updated: toLocalIsoDate(updated),
+    timestamp: published?.getTime() ?? 0,
     excerpt: customExcerpt || generateExcerpt(content),
     hasCustomExcerpt: Boolean(customExcerpt),
     categories: toStringList(data.categories),
     tags: toStringList(data.tags),
     readingTime: formatReadingTime(content),
     draft: data.draft === true,
+    cover: resolveCover(data, slug),
     content,
   };
 }
@@ -121,15 +202,16 @@ function getParsedPosts(): ParsedPost[] {
     .filter((file) => file.endsWith('.md') && file !== '_index.md')
     .map(parsePostFile)
     .filter((post) => SHOW_DRAFTS || !post.draft)
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+    // Newest first by full timestamp; slug keeps same-moment posts in a stable order.
+    .sort((a, b) => b.timestamp - a.timestamp || a.slug.localeCompare(b.slug));
 
   cachedPosts = posts;
   return posts;
 }
 
 function toSummary(post: ParsedPost): PostSummary {
-  const { slug, title, date, excerpt, categories, tags, readingTime, draft } = post;
-  return { slug, title, date, excerpt, categories, tags, readingTime, draft };
+  const { slug, title, date, updated, excerpt, categories, tags, readingTime, draft, cover } = post;
+  return { slug, title, date, updated, excerpt, categories, tags, readingTime, draft, cover };
 }
 
 export function getSortedPostsData(): PostSummary[] {
@@ -140,8 +222,7 @@ export function getSortedPostsData(): PostSummary[] {
 export function getSearchablePosts(): SearchablePost[] {
   return getParsedPosts().map((post) => {
     const words = new Set(
-      toPlainText(post.content)
-        .toLowerCase()
+      normalizeText(toPlainText(post.content))
         .split(/[^\p{L}\p{N}]+/u)
         .filter((word) => word.length > 2)
     );
@@ -149,28 +230,58 @@ export function getSearchablePosts(): SearchablePost[] {
   });
 }
 
-export function getAllCategories() {
-  const counts = new Map<string, number>();
+// Groups tags or categories by slug, so "QRIS" and "qris" share one page.
+function collectTaxonomy(pick: (post: ParsedPost) => string[]): Taxonomy[] {
+  const bySlug = new Map<string, Taxonomy>();
   for (const post of getParsedPosts()) {
-    for (const category of post.categories) {
-      counts.set(category, (counts.get(category) ?? 0) + 1);
+    const seen = new Set<string>();
+    for (const name of pick(post)) {
+      const slug = slugify(name);
+      if (!slug || seen.has(slug)) continue;
+      seen.add(slug);
+      const entry = bySlug.get(slug) ?? { name, slug, count: 0 };
+      entry.count += 1;
+      bySlug.set(slug, entry);
     }
   }
-  return Array.from(counts, ([name, count]) => ({ name, count })).sort(
-    (a, b) => b.count - a.count || a.name.localeCompare(b.name)
-  );
+  return Array.from(bySlug.values()).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 }
 
-// Rewrites relative image paths, marks external links, wraps tables and collects h2/h3 for the TOC.
+export function getAllCategories() {
+  return collectTaxonomy((post) => post.categories);
+}
+
+export function getAllTags() {
+  return collectTaxonomy((post) => post.tags);
+}
+
+export function getPostsByCategory(slug: string) {
+  return getSortedPostsData().filter((post) => post.categories.some((c) => slugify(c) === slug));
+}
+
+export function getPostsByTag(slug: string) {
+  return getSortedPostsData().filter((post) => post.tags.some((t) => slugify(t) === slug));
+}
+
+// Rewrites image paths (swapping missing local files for a placeholder), marks external
+// links, wraps tables and collects h2/h3 for the TOC.
 function rehypePostEnhancements({ slug, headings }: { slug: string; headings: Heading[] }) {
   return (tree: Root) => {
     visit(tree, 'element', (node: Element, index, parent) => {
       if (node.tagName === 'img') {
-        const src = String(node.properties.src ?? '');
-        if (src && !/^([a-z]+:)?\/\//i.test(src) && !src.startsWith('/') && !src.startsWith('data:')) {
-          // Images from the old Hugo page bundles live in public/media/<slug>/.
-          node.properties.src = `${BASE_PATH}/media/${slug}/${src}`;
+        const src = resolveImageSrc(String(node.properties.src ?? ''), slug);
+        if (!isExternal(src) && !localImageExists(src) && parent && index !== undefined) {
+          const alt = String(node.properties.alt ?? '').trim();
+          const label = alt ? `Gambar tidak tersedia: ${alt}` : 'Gambar tidak tersedia';
+          parent.children[index] = {
+            type: 'element',
+            tagName: 'span',
+            properties: { className: ['image-missing'], role: 'img', ariaLabel: label },
+            children: [{ type: 'text', value: label }],
+          };
+          return SKIP;
         }
+        node.properties.src = src;
         node.properties.loading = 'lazy';
         node.properties.decoding = 'async';
       }
@@ -204,7 +315,8 @@ function rehypePostEnhancements({ slug, headings }: { slug: string; headings: He
   };
 }
 
-export async function getPostData(slug: string): Promise<PostData | null> {
+// Cached per build so generateMetadata, the page and the image route share one render.
+export const getPostData = cache(async (slug: string): Promise<PostData | null> => {
   const post = getParsedPosts().find((p) => p.slug === slug);
   if (!post) return null;
 
@@ -230,7 +342,7 @@ export async function getPostData(slug: string): Promise<PostData | null> {
     contentHtml: processedContent.toString(),
     headings,
   };
-}
+});
 
 // Posts are sorted newest first: "newer" is the previous index, "older" the next one.
 export function getAdjacentPosts(slug: string) {
@@ -250,13 +362,15 @@ export function getRelatedPosts(slug: string, limit = 3): PostSummary[] {
   const current = posts.find((post) => post.slug === slug);
   if (!current) return [];
 
+  const tagSlugs = new Set(current.tags.map(slugify));
+  const categorySlugs = new Set(current.categories.map(slugify));
   return posts
     .filter((post) => post.slug !== slug)
     .map((post) => ({
       post,
       score:
-        post.tags.filter((tag) => current.tags.includes(tag)).length * 2 +
-        post.categories.filter((cat) => current.categories.includes(cat)).length,
+        post.tags.filter((tag) => tagSlugs.has(slugify(tag))).length * 2 +
+        post.categories.filter((cat) => categorySlugs.has(slugify(cat))).length,
     }))
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score)

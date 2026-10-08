@@ -19,11 +19,11 @@ DNS over HTTPS adalah fitur yang relatif baru yang dirancang untuk meningkatkan 
 
 1. Buka ```about:config``` di Browser Firefox. Firefox harus diatas versi 60.x.
 
-   ![dns over https firefox 1](https://i.loli.net/2020/05/20/psmCYMNfzTRoVIX.png)
+   ![dns over https firefox 1](psmcymnfztrovix.png)
 
 2. Confirm warning page yang di tampilkan
 
-   ![dns over https firefox 2](https://i.loli.net/2020/05/20/kAnLxXP6gTbaQV1.png)
+   ![dns over https firefox 2](kanlxxp6gtbaqv1.png)
 
 3. Cari network.trr.mode pada config
 

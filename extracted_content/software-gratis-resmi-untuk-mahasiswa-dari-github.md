@@ -13,7 +13,7 @@ GitHub Student Developer Starter Pack. Paket dari GitHub untuk mahasiswa/student
 
 Mulai dari domain, IDE, sampai dengan tools buat deploy bisa dapetin didapetin disini. 
 
-![Software Gratis Resmi Untuk Mahasiswa dari GitHub](https://i.loli.net/2020/05/10/TgfvGYhkr9SaDd3.png)
+![Software Gratis Resmi Untuk Mahasiswa dari GitHub](tgfvgyhkr9sadd3.png)
 
 Btw ini bukan hanya untuk student, untuk teacher juga ada programnya. Langsung aja visit dan registrasiin email kampus di 
 
